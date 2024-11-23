@@ -32,10 +32,10 @@ To achieve this goal, I am actively conduct research on **robot manipulation**, 
 
 ## News and Updates
 
-- **Oct 2024：**Awarded the AI Talent Program Scholarship from USTC.
-- **Jul 2024：**Started research programme at HKUST, advised by Prof. Long Chen.
+- **Oct. 2024：**Awarded the AI Talent Program Scholarship from USTC.
+- **Jul. 2024：**Started research programme at HKUST, advised by Prof. Long Chen.
 - **Oct. 2023：** Awarded the Shenzhen Stock Exchange Scholarship.
-- **Jul 2023：** Led by Cong Liang, our team achieved 1st Place and the First Prize in the ACM REACT 2023 Multimodal Challenge!
+- **Jul. 2023：** Led by Cong Liang, our team achieved 1st Place and the First Prize in the ACM REACT 2023 Multimodal Challenge!
 
 <br>
 

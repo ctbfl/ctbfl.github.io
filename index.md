@@ -4,7 +4,7 @@ layout: page
 
 # About Me
 
-<img src="https://junshanhuang.com/interesting_image_HJS_square.jpg" class="floatpic">
+<img src="https://junshanhuang.com/images/Interesting_image_HJS_square.jpg" class="floatpic">
 
 Here is **Junshan Huang (黄俊善)**.<br>
 

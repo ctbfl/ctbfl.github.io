@@ -18,11 +18,9 @@ If you are interested in any aspect of me, I am always open to discussions and c
 
 **<font color="#990000">I am actively seeking a PhD position for 2025 Fall admission. If you have any information, please contact me!</font>**
 
-All my research is aimed at the ultimate goal of building robots that can assist people and enhance their quality of life.
+My ultimate goal is to build robots that can assist people and enhance their quality of life.
 
-And a more specific goal is to first build a robot that can automate the kitchen!
-
-This will include:
+And a more specific goal is to first build a robot that can automate the kitchen! Thus form three tasks that I want to solve.
 
 - **Prepare the food ingredients.**
 - **Cook the meal.**
@@ -36,6 +34,7 @@ To achieve this goal, I am actively conduct research on **robot manipulation**, 
 
 - **Oct 2024：**Awarded the AI Talent Program Scholarship from USTC.
 - **Jul 2024：**Started research programme at HKUST, advised by Prof. Long Chen.
+- **Oct. 2023：** Awarded the Shenzhen Stock Exchange Scholarship.
 - **Jul 2023：** Led by Cong Liang, our team achieved 1st Place and the First Prize in the ACM REACT 2023 Multimodal Challenge!
 
 <br>

@@ -4,44 +4,54 @@ permalink: /publications/index.html
 title: Publications
 ---
 
-> (†: equal contribution, ~: corresponding author)
-
 ## Conference Paper
 
-- [Securing Billion Bluetooth Low Energy Devices Using Cyber-Physical Analysis and Deep Learning Techniques](https://www.researchgate.net/publication/384046364/)<br>**Hanlin Cai**†, Yuchen Fang†, Jiacheng Huang, Honglin Liao, Meng Yuan, Zhezhuang Xu~<br>The 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2024), Undergraduate Consortium.<br>Barcelona, Spain. August, 2024.<br>
+- [UniFaRN: Unified Transformer for Facial Reaction Generation | Proceedings of the 31st ACM International Conference on Multimedia](https://dl.acm.org/doi/10.1145/3581783.3612854)<br>Cong Liang, Jiahe Wang, Haofan Zhang, Bing Tang, **Junshan Huang**, Shangfei Wang, Xiaoping Chen<br>The 31st ACM International Conference on Multimedia (ACMMM 2023), <br>October, 2023.<br>
 
-- [Poster: Hybrid Detection Mechanism for Spoofing Attacks in Bluetooth Low Energy Networks](https://dl.acm.org/doi/abs/10.1145/3643832.3661434)<br>**Hanlin Cai**, Yuchen Fang, Jiacheng Huang, Meng Yuan, Zhezhuang Xu<br>The 22nd ACM International Conference on Mobile Systems, Applications, and Services (MobiSys 2024), Poster Session.<br>Tokyo, Japan. June, 2024.
-
-  <br>
+  
 
 ---
 
 ## Ongoing Project
 
-- Intelligent Communication Systems for Internet of Everything (Supervised by [Prof. Özgür Akan](https://www.eng.cam.ac.uk/profiles/oba21))
+- Open Vocabulary Scene Graph Generation (Supervised by [Prof. Long Chen](https://zjuchenlong.github.io/))
 
-To match the ubiquitous connectivity and heterogeneous networking characteristics of the universe, IoE also integrates new IoXs into its framework. **Internet of Nano Things (IoNT)**, for example, is poised to increase the resolution of cyber-physical interfaces and bring connectivity into uncharted territories, e.g., inside the human body, with the networks of smart biological agents. **Internet of People and Senses (IoPS)**, as another example, refers to the conceptual transfer of information and even skills between humans besides the nonverbal communication of senses, e.g., olfaction and gustation. We aim to design and implement new intelligent communication techniques for the **Internet of Everything**.
+- Language Driven 6 DoF Grasping Detection (Supervised by [Prof. Tianzhu Zhang](http://staff.ustc.edu.cn/~tzzhang/))
 
-<br>
-
----
-
-## Degree Thesis
-
-- [Hybrid Detection Mechanism for Spoofing Attacks in Bluetooth Low Energy Networks](https://caihanlin.com/mypaper/thesis/UG-thesis.pdf)<br>**Hanlin Cai** (Advisor: Zhezhuang Xu). **Best Bachelor Thesis Award** (Top 1/300).<br>Proposal paper has been accepted by AAAI 2024<br>Expect to submit a long paper to KDD 2024.
-
-- [Industrial Inspection System based on Intelligent IoT and Bionic Quadruped Robot](https://caihanlin.com/mypaper/thesis/IP-report.pdf)<br>**Hanlin Cai** (Advisor: Zhezhuang Xu, Yuxiong Xia). Junior-year Intern Program.<br>Industrial Placement at China Huading Tech and IIoT Lab<br>
-
-  <br>
+  
 
 ---
 
 ## Early Project
 
-- [Proposal: Securing Billion Bluetooth Devices leveraging Learning-based Techniques](https://ojs.aaai.org/index.php/AAAI/article/view/30544)<br>*Final year project (FYP).*<br>**Hanlin Cai** (Advisors: Zhezhuang Xu, Tozammel Hossain)<br>The 38th Annual AAAI Conference on Artificial Intelligence (AAAI 2024), Undergraduate Consortium.<br>Vancouver, Canada. February, 2024.
+- **Acceleration of N-Body Problems.** <br>
 
-- Optimizing Traffic Sign Detection System Using Deep Residual Neural Networks Combined with Analytic Hierarchy Process Model<br>*Junior-year course design.*<br>**Hanlin Cai**, Zheng Li, Jiaqi Hu, Wei Hong Lim, Sew Sun Tiang, Mastaneh Mokayef, Chin Hong Wong<br>The 28th International Conference on Artificial Life and Robotics.<br>Beppu, Japan. February, 2023.<br>Recommended for expanding publication in the Journal of Advances in Artificial Life Robotics (EI Compendex).
+  Accelerate the N-Body simulation up to 2.2x compared to NVIDIA's default algorithm. 
 
-- An IoT Garbage Monitoring System for Effective Garbage Management<br>*First-year course design.*<br>**Hanlin Cai**, Jiaqi Hu, Zheng Li, Wei Hong Lim, Mastaneh Mokayef, Chin Hong Wong<br>The 4th International Conference on Computer Engineering, Network and Intelligent Multimedia<br>Surabaya, Indonesia. November, 2022 (EI Compendex).<br>
+  [Code](https://github.com/ctbfl/N_body_problem) | [Demo Video](https://www.bilibili.com/video/BV1CyByYNEMC/) | [Manuscript](https://junshanhuang.com/projects/n_body/algorithm_manuscript.pdf) | [Slides](https://junshanhuang.com/projects/n_body/slides.pdf)
 
-  <br>
+  ![demo](https://junshanhuang.com/projects/n_body/demo.png)
+
+- **Emotional Companion Robot.** <br>
+
+  Simple paper robot that could provide physical and emotional companion to you.
+
+  [Code](https://github.com/ctbfl/paper_robot)
+
+  ![demo](https://junshanhuang.com/projects/paper_robot/demo.png)
+
+- **Robot for a curling game competition.** <br>
+
+  A robot that can fetch the curling and push it to get score.
+
+  ![demo](https://junshanhuang.com/projects/robogame/demo.png)
+
+- ***Bomberman -- The power of books*** (independent game) <br>
+
+  An adventure game with intriguing characters, formidable enemies, and unique mechanisms. Use bombs and harness the power of books, overcome all obstacles, and save the campus!
+
+  [Demo Video](https://space.bilibili.com/398516133) | [Game Download]("https://junshanhuang.com/bomber_game/Bomberman--The power of booksV1.0.2(for windows).zip)
+
+  ![demo](https://junshanhuang.com/projects/bomber_game/demo.png)
+
+  

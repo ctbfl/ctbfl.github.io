@@ -30,7 +30,7 @@ title: Publications
 
 
 <div style="display: flex; align-items: center; margin: 20px 0;"> 
-    <img src="https://junshanhuang.com/projects/bomber_game/demo.png" alt="Project Image" style="width: 150px; height: 150px; object-fit: cover; border-radius: 8px; margin-right: 20px;">      
+    <img src="https://junshanhuang.com/projects/n_body/demo.png" alt="Project Image" style="width: 150px; height: 150px; object-fit: cover; border-radius: 8px; margin-right: 20px;">      
     <div>     
         <h3 style="margin: 0; font-size: 1.5em;">Parallel Computing Acceleration for N-Body Simulation</h3>
         <p style="margin: 10px 0; color: #555;">Accelerate the N-Body simulation up to 2.2x compared to NVIDIA's default algorithm. </p>     

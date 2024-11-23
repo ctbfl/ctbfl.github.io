@@ -27,7 +27,7 @@ title: Publications
 
 ## Early Project
 
-<div style="display: flex; align-items: flex-start; margin: 20px 0;">
+<div style="display: flex; align-items: center; margin: 20px 0;">
     <!-- Image Section -->
     <img src="https://junshanhuang.com/projects/n_body/demo.png" alt="Project Image" 
          style="width: 150px; height: 150px; object-fit: cover; border-radius: 8px; margin-right: 20px;">
@@ -53,12 +53,10 @@ title: Publications
 	</div>
 </div>
 
-
-<div style="display: flex; align-items: flex-start; margin: 20px 0;">
+<div style="display: flex; align-items: center; margin: 20px 0;">
     <!-- Image Section -->
     <img src="https://junshanhuang.com/projects/paper_robot/demo.png" alt="Project Image" 
          style="width: 150px; height: 150px; object-fit: cover; border-radius: 8px; margin-right: 20px;">
-    
     <!-- Text Section -->
     <div>
         <h3 style="margin: 0; font-size: 1.5em; font-weight: bold; color: #333;">Emotional Companion Robot</h3>
@@ -73,7 +71,8 @@ title: Publications
         </p>
     </div>
 </div>
-<div style="display: flex; align-items: flex-start; margin: 20px 0;">
+
+<div style="display: flex; align-items:center; margin: 20px 0;">
     <!-- Image Section -->
     <img src="https://junshanhuang.com/projects/robogame/demo.png" alt="Project Image" 
          style="width: 150px; height: 150px; object-fit: cover; border-radius: 8px; margin-right: 20px;">
@@ -87,7 +86,7 @@ title: Publications
     </div>
 </div>
 
-<div style="display: flex; align-items: flex-start; margin: 20px 0;">
+<div style="display: flex; align-items: center; margin: 20px 0;">
     <!-- Image Section -->
     <img src="https://junshanhuang.com/projects/bomber_game/demo.png" alt="Project Image" 
          style="width: 150px; height: 150px; object-fit: cover; border-radius: 8px; margin-right: 20px;">
@@ -102,7 +101,7 @@ title: Publications
         </p>
         <!-- Links Section -->
         <p style="margin: 5px 0;">
-            <a href="https://space.bilibili.com/398516133" 
+            <a href="https://www.bilibili.com/video/BV12zB2YjEDz" 
                style="color: blue; text-decoration: none; font-weight: bold;">Demo Video</a>
             <span style="margin: 0 5px;">|</span>
             <a href="https://junshanhuang.com/bomber_game/Bomberman--The%20power%20of%20booksV1.0.2(for%20windows).zip" 

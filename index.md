@@ -18,15 +18,18 @@ If you are interested in any aspect of me, I am always open to discussions and c
 
 **<font color="#990000">I am actively seeking a PhD position for 2025 Fall admission. If you have any information, please contact me!</font>**
 
-My ultimate goal is to build robots that can assist people and enhance their quality of life.
+My ultimate goal is to build **home service robots** that can serve people and enhance their quality of life.
 
-And a more specific goal is to first build a robot that can automate the kitchen! Thus form three tasks that I want to solve.
+The kitchen, as a microcosm of the broader domestic environment, serves as an ideal starting point
+for this endeavor.
 
-- **Prepare the food ingredients.**
-- **Cook the meal.**
-- **Clean the kitchen and dining room after eating.**
+Specifically, the operations within the kitchen can be categorized into three primary domain.
 
-To achieve this goal, I am actively conduct research on **robot manipulation**,  **multi-modal understanding**, **3D vision**, etc.
+- **Ingredient Preparation:** Transforming raw materials into ready-to-cook components.
+- **Food Production:**  Assisting in or executing the cooking process.
+- **Post-Meal Processing:** Handling tasks such as dishwashing, cleaning, and waste disposal, maintaining kitchen hygiene and usability
+
+Under this context, my research interest lies in **robot manipulation**, **long-term planning**, **multi-modal understanding**, **3D vision**, etc. Any aspect that would help with these tasks will interest me.   
 
 ---
 

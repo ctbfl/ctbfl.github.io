@@ -8,7 +8,7 @@ layout: page
 
 Here is **Junshan Huang (黄俊善)**.<br>
 
-I am a undergraduate student in the Department of Information Science at the University of Science and Technology of China (USTC). I also spent a wonderful summer research program at the Hong Kong University of Science and Technology (HKUST) in the LONG Group, working with [Prof. Long Chen](https://zjuchenlong.github.io/).
+I am a undergraduate student in the Department of Information Science at the University of Science and Technology of China (USTC). I also spent a wonderful time at the Hong Kong University of Science and Technology (HKUST) in the LONG Group, working with [Prof. Long Chen](https://zjuchenlong.github.io/).
 
 If you are interested in any aspect of me, I am always open to discussions and collaborations. Feel free to reach out to me at - huangjunshan [at] mail.ustc.edu.cn
 
@@ -18,7 +18,7 @@ If you are interested in any aspect of me, I am always open to discussions and c
 
 **<font color="#990000">I am actively seeking a PhD position for 2025 Fall admission. If you have any information, please contact me!</font>**
 
-My ultimate goal is to build **home service robots** that can serve people and enhance their quality of life.
+My ultimate goal is to build low cost **home service robots** that can serve people and enhance their quality of life.
 
 The kitchen, as a microcosm of the broader domestic environment, serves as an ideal starting point
 for this endeavor.
@@ -29,7 +29,7 @@ Specifically, the operations within the kitchen can be categorized into three pr
 - **Food Production:**  Assisting in or executing the cooking process.
 - **Post-Meal Processing:** Handling tasks such as dishwashing, cleaning, and waste disposal, maintaining kitchen hygiene and usability
 
-Under this context, my research interest lies in **computer vision**, **robot manipulation**, **long-term planning**, **multi-modal understanding**, etc. Any aspect that would help with these tasks will interest me.   
+Under this context, any aspect that would help with these tasks will interest me, like **computer vision**, **robot manipulation**, **long-term planning**, **multi-modal understanding**, etc. 
 
 ---
 

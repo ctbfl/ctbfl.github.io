@@ -23,13 +23,13 @@ My ultimate goal is to build **home service robots** that can serve people and e
 The kitchen, as a microcosm of the broader domestic environment, serves as an ideal starting point
 for this endeavor.
 
-Specifically, the operations within the kitchen can be categorized into three primary domain.
+Specifically, the operations within the kitchen can be categorized into three primary tasks.
 
 - **Ingredient Preparation:** Transforming raw materials into ready-to-cook components.
 - **Food Production:**  Assisting in or executing the cooking process.
 - **Post-Meal Processing:** Handling tasks such as dishwashing, cleaning, and waste disposal, maintaining kitchen hygiene and usability
 
-Under this context, my research interest lies in **robot manipulation**, **long-term planning**, **multi-modal understanding**, **3D vision**, etc. Any aspect that would help with these tasks will interest me.   
+Under this context, my research interest lies in **computer vision**, **robot manipulation**, **long-term planning**, **multi-modal understanding**, etc. Any aspect that would help with these tasks will interest me.   
 
 ---
 

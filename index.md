@@ -37,7 +37,7 @@ Under this context, any aspect that would help with these tasks will interest me
 I've created a [Bilibili channel📺](https://space.bilibili.com/398516133) to share insights on embodied AI and document my journey towards fully automated kitchen. Subscribe me please🥹!
 
 
-- **Jan 30, 2025:**  Tutorial on Action Chunking Transformer (ALOHA) <span style="color: red; font-weight: bold;">🔥NEW!!</span>
+- **Jan 30, 2025:**  [Tutorial on Action Chunking Transformer (ALOHA)](https://www.bilibili.com/video/BV1xGF3eeEjB) <span style="color: red; font-weight: bold;">🔥NEW!!</span>
 
 <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113913404329546&bvid=BV1xGF3eeEjB&cid=28145092797&p=1" 
     style="width: 80vw; height: calc(80vw * 0.5625); max-width: 800px; max-height: 450px;" 

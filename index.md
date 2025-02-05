@@ -39,7 +39,11 @@ I've created a [Bilibili channel📺](https://space.bilibili.com/398516133) to s
 
 - **Jan 30, 2025:**  Tutorial on Action Chunking Transformer (ALOHA) <span style="color: red; font-weight: bold;">🔥NEW!!</span>
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113913404329546&bvid=BV1xGF3eeEjB&cid=28145092797&p=1" width="800" height="450" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113913404329546&bvid=BV1xGF3eeEjB&cid=28145092797&p=1" 
+    style="width: 80vw; height: calc(80vw * 0.5625); max-width: 800px; max-height: 450px;" 
+    scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+
 
 ---
 

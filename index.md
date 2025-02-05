@@ -32,6 +32,16 @@ Specifically, the operations within the kitchen can be categorized into three pr
 Under this context, any aspect that would help with these tasks will interest me, like **computer vision**, **robot manipulation**, **long-term planning**, **multi-modal understanding**, etc. 
 
 ---
+## Video Update
+
+I've created a [Bilibili channel📺](https://space.bilibili.com/398516133) to share insights on embodied AI and document my journey towards fully automated kitchen. Subscribe me please🥹!
+
+<span style="color: red; font-weight: bold;">NEW🔥</span>
+Tutorial on Action Chunking Transformer (ALOHA)
+
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113913404329546&bvid=BV1xGF3eeEjB&cid=28145092797&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+---
 
 ## News and Updates
 
@@ -39,6 +49,7 @@ Under this context, any aspect that would help with these tasks will interest me
 - **Jul. 2024：**Started research programme at HKUST, advised by Prof. Long Chen.
 - **Oct. 2023：** Awarded the Shenzhen Stock Exchange Scholarship.
 - **Jul. 2023：** Led by Cong Liang, our team achieved 1st Place and the First Prize in the ACM REACT 2023 Multimodal Challenge!
+
 
 <br>
 

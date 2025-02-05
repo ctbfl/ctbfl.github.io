@@ -14,16 +14,6 @@ title: Publications
   
   October, 2023
 
----
-
-## Ongoing Project
-
-- Open Vocabulary Scene Graph Generation (Supervised by [Prof. Long Chen](https://zjuchenlong.github.io/))
-
-- Language Driven 6 DoF Grasping Detection (Supervised by [Prof. Tianzhu Zhang](http://staff.ustc.edu.cn/~tzzhang/))
-
-
----
 
 ## Early Project
 

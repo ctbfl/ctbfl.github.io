@@ -5,12 +5,30 @@ title: Publications
 ---
 
 <style>
+/* 整个 Publications 页面单独包一层，避免污染别的页面 */
+.pub-page {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* 这一页里的 h2 都统一重置一下，覆盖主题可能的奇怪定位 */
+.pub-page h2 {
+  margin: 1.5em 0 0.75em;
+  font-size: 2rem;
+  font-weight: 700;
+  position: static !important;
+  line-height: 1.2;
+}
+
+/* 每一篇 paper 的块 */
 .paper-block {
   display: flex;
   align-items: flex-start;
   margin: 24px 0;
   gap: 20px;
 }
+
+/* 论文缩略图 */
 .paper-img {
   width: 180px;
   height: 120px;
@@ -18,17 +36,21 @@ title: Publications
   border-radius: 8px;
   border: 1px solid #ddd;
 }
+
+/* 标题 + 文字部分 */
 .paper-title {
   font-size: 1.25em;
   margin: 0;
   font-weight: bold;
   color: #333;
 }
+
 .paper-info {
   margin: 6px 0;
   color: #777;
   font-size: 0.95em;
 }
+
 .paper-links a {
   color: #0066cc;
   font-weight: 600;
@@ -39,6 +61,8 @@ title: Publications
 .paper-links a:hover {
   text-decoration: underline;
 }
+
+/* Abstract 展开框 */
 .abstract-box {
   display: none;
   margin-top: 8px;
@@ -49,10 +73,23 @@ title: Publications
   font-size: 0.95em;
   line-height: 1.55;
 }
+
 .toggle-btn {
   cursor: pointer;
   color: #0066cc;
   font-weight: 600;
+}
+
+/* 小屏幕自适应（防止挤在一行导致文字重叠） */
+@media (max-width: 768px) {
+  .paper-block {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .paper-img {
+    width: 100%;
+    height: auto;
+  }
 }
 </style>
 
@@ -63,90 +100,90 @@ function toggleAbstract(id) {
 }
 </script>
 
-<h2>📌 Publications</h2>
+<div class="pub-page">
 
-<!-- ===================== VLA-OS PAPER ===================== -->
-<div class="paper-block">
-  <img class="paper-img" src="https://junshanhuang.com/images/VLA-OS.png" alt="VLA-OS">
-  <div>
-    <h3 class="paper-title">VLA-OS: Structuring and Dissecting Planning Representations and Paradigms in Vision-Language-Action Models</h3>
-    <p class="paper-info">
-      Chongkai Gao, Zixuan Liu, Zhenghao Chi, <b>Junshan Huang</b>, Xin Fei, Yiwen Hou,
-      Yuxuan Zhang, Yudi Lin, Zhirui Fang, Lin Shao
-      <br>
-      <i>The 39th Conference on Neural Information Processing Systems (NeurIPS 2025)</i>
-    </p>
-    <p class="paper-links">
-        |
-      <a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/118219">Paper</a> |
-      <a class="toggle-btn" onclick="toggleAbstract('abs_vlaos')">Abstract</a> |
-      <a href="https://github.com/HeegerGao/VLA-OS">Code</a> |
-      <a href="https://nus-lins-lab.github.io/vlaos/">Project Page</a>
-    </p>
-    <div id="abs_vlaos" class="abstract-box">
-      Recent studies on Vision-Language-Action (VLA) models have shifted from the end-to-end
-      action-generation paradigm toward a pipeline involving task planning followed by action generation,
-      demonstrating improved performance on various complex, long-horizon manipulation tasks.
-      However, existing approaches vary significantly, making it difficult to identify sources of performance gains.
-      We introduce VLA-OS, a unified VLA architecture series enabling varied planning paradigms, and design extensive
-      controlled experiments across diverse settings. Results show: (1) visually grounded planning representations
-      outperform language ones; (2) hierarchical VLA achieves better performance and generalization, with slower speed tradeoff.
+  <h2>📌 Publications</h2>
+
+  <!-- ===================== VLA-OS PAPER ===================== -->
+  <div class="paper-block">
+    <img class="paper-img" src="https://junshanhuang.com/images/VLA-OS.png" alt="VLA-OS">
+    <div>
+      <h3 class="paper-title">VLA-OS: Structuring and Dissecting Planning Representations and Paradigms in Vision-Language-Action Models</h3>
+      <p class="paper-info">
+        Chongkai Gao, Zixuan Liu, Zhenghao Chi, <b>Junshan Huang</b>, Xin Fei, Yiwen Hou,
+        Yuxuan Zhang, Yudi Lin, Zhirui Fang, Lin Shao
+        <br>
+        <i>The 39th Conference on Neural Information Processing Systems (NeurIPS 2025)</i>
+      </p>
+      <p class="paper-links">
+        <a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/118219">Paper</a> |
+        <a class="toggle-btn" onclick="toggleAbstract('abs_vlaos')">Abstract</a> |
+        <a href="https://github.com/HeegerGao/VLA-OS">Code</a> |
+        <a href="https://nus-lins-lab.github.io/vlaos/">Project Page</a>
+      </p>
+      <div id="abs_vlaos" class="abstract-box">
+        Recent studies on Vision-Language-Action (VLA) models have shifted from the end-to-end
+        action-generation paradigm toward a pipeline involving task planning followed by action generation,
+        demonstrating improved performance on various complex, long-horizon manipulation tasks.
+        However, existing approaches vary significantly, making it difficult to identify sources of performance gains.
+        We introduce VLA-OS, a unified VLA architecture series enabling varied planning paradigms, and design extensive
+        controlled experiments across diverse settings. Results show: (1) visually grounded planning representations
+        outperform language ones; (2) hierarchical VLA achieves better performance and generalization, with slower speed tradeoff.
+      </div>
     </div>
   </div>
-</div>
 
-<!-- ===================== UniFaRN PAPER ===================== -->
-<div class="paper-block">
-  <img class="paper-img" src="https://junshanhuang.com/images/unifarn.png" alt="UniFaRN">
-  <div>
-    <h3 class="paper-title">UniFaRN: Unified Transformer for Facial Reaction Generation</h3>
-    <p class="paper-info">
-      Cong Liang, Jiahe Wang, Haofan Zhang, Bing Tang, <b>Junshan Huang</b>,
-      Shangfei Wang, Xiaoping Chen
-      <br>
-      <i>ACM International Conference on Multimedia (ACMMM 2023)</i>
-    </p>
-    <p class="paper-links">
-    |
-      <a href="https://dl.acm.org/doi/10.1145/3581783.3612854">Paper</a> |
-      <a class="toggle-btn" onclick="toggleAbstract('abs_unifarn')">Abstract</a>
-    </p>
-    <div id="abs_unifarn" class="abstract-box">
-      We propose the Unified Transformer for Facial Reaction Generation (UniFaRN), which leverages multimodal
-      inputs and a unified architecture to generate appropriate and diverse facial reactions in dyadic interactions.
-      Our method balances reaction diversity and appropriateness through sampling strategies, ranking 1st in the REACT2023 Challenge.
+  <!-- ===================== UniFaRN PAPER ===================== -->
+  <div class="paper-block">
+    <img class="paper-img" src="https://junshanhuang.com/images/unifarn.png" alt="UniFaRN">
+    <div>
+      <h3 class="paper-title">UniFaRN: Unified Transformer for Facial Reaction Generation</h3>
+      <p class="paper-info">
+        Cong Liang, Jiahe Wang, Haofan Zhang, Bing Tang, <b>Junshan Huang</b>,
+        Shangfei Wang, Xiaoping Chen
+        <br>
+        <i>ACM International Conference on Multimedia (ACMMM 2023)</i>
+      </p>
+      <p class="paper-links">
+        <a href="https://dl.acm.org/doi/10.1145/3581783.3612854">Paper</a> |
+        <a class="toggle-btn" onclick="toggleAbstract('abs_unifarn')">Abstract</a>
+      </p>
+      <div id="abs_unifarn" class="abstract-box">
+        We propose the Unified Transformer for Facial Reaction Generation (UniFaRN), which leverages multimodal
+        inputs and a unified architecture to generate appropriate and diverse facial reactions in dyadic interactions.
+        Our method balances reaction diversity and appropriateness through sampling strategies, ranking 1st in the REACT2023 Challenge.
+      </div>
     </div>
   </div>
-</div>
 
+  <h2>🌱 Early Project</h2>
 
-## 🌱Early Project
+  <!-- 下面 Early Project 的内容保持你原来的，只是包在 pub-page 里面即可 -->
 
-<div style="display: flex; align-items: center; margin: 20px 0;">
-    <!-- Image Section -->
+  <div style="display: flex; align-items: center; margin: 20px 0;">
     <img src="https://junshanhuang.com/projects/n_body/demo.png" alt="Project Image" 
          style="width: 150px; height: 150px; object-fit: cover; border-radius: 8px; margin-right: 20px;">
-    <!-- Text Section -->
     <div>
-        <h3 style="margin: 0; font-size: 1.5em; font-weight: bold; color: #333;">Parallel Computing Acceleration for N-Body Simulation</h3>
-        <!-- Project Description -->
-        <p style="margin: 10px 0; color: #555; font-size: 1em; line-height: 1.5;">Accelerate the N-Body simulation up to 2.2x compared to NVIDIA's default algorithm.</p>
-            <!-- Links Section -->
-        <p style="margin: 5px 0;">
-            <a href="https://github.com/ctbfl/N_body_problem" 
-               style="color: blue; text-decoration: none; margin-right: 10px; font-weight: bold;">Code</a>
-            <span style="margin: 0 5px;">|</span>
-            <a href="https://www.bilibili.com/video/BV1CyByYNEMC/" 
-               style="color: blue; text-decoration: none; margin: 0 10px; font-weight: bold;">Demo Video</a>
-            <span style="margin: 0 5px;">|</span>
-            <a href="https://junshanhuang.com/projects/n_body/algorithm_manuscript.pdf" 
-               style="color: blue; text-decoration: none; margin: 0 10px; font-weight: bold;">Manuscript</a>
-            <span style="margin: 0 5px;">|</span>
-            <a href="https://junshanhuang.com/projects/n_body/slides.pdf" 
-               style="color: blue; text-decoration: none; margin: 0 10px; font-weight: bold;">Slides</a>
-        </p>
-	</div>
-</div>
+      <h3 style="margin: 0; font-size: 1.5em; font-weight: bold; color: #333;">Parallel Computing Acceleration for N-Body Simulation</h3>
+      <p style="margin: 10px 0; color: #555; font-size: 1em; line-height: 1.5;">
+        Accelerate the N-Body simulation up to 2.2x compared to NVIDIA's default algorithm.
+      </p>
+      <p style="margin: 5px 0;">
+        <a href="https://github.com/ctbfl/N_body_problem" 
+           style="color: blue; text-decoration: none; margin-right: 10px; font-weight: bold;">Code</a>
+        <span style="margin: 0 5px;">|</span>
+        <a href="https://www.bilibili.com/video/BV1CyByYNEMC/" 
+           style="color: blue; text-decoration: none; margin: 0 10px; font-weight: bold;">Demo Video</a>
+        <span style="margin: 0 5px;">|</span>
+        <a href="https://junshanhuang.com/projects/n_body/algorithm_manuscript.pdf" 
+           style="color: blue; text-decoration: none; margin: 0 10px; font-weight: bold;">Manuscript</a>
+        <span style="margin: 0 5px;">|</span>
+        <a href="https://junshanhuang.com/projects/n_body/slides.pdf" 
+           style="color: blue; text-decoration: none; margin: 0 10px; font-weight: bold;">Slides</a>
+      </p>
+    </div>
+  </div>
+
 
 <div style="display: flex; align-items: center; margin: 20px 0;">
     <!-- Image Section -->
@@ -167,6 +204,7 @@ function toggleAbstract(id) {
     </div>
 </div>
 
+
 <div style="display: flex; align-items:center; margin: 20px 0;">
     <!-- Image Section -->
     <img src="https://junshanhuang.com/projects/robogame/demo.png" alt="Project Image" 
@@ -180,6 +218,7 @@ function toggleAbstract(id) {
         </p>
     </div>
 </div>
+
 
 <div style="display: flex; align-items: center; margin: 20px 0;">
     <!-- Image Section -->
@@ -204,4 +243,11 @@ function toggleAbstract(id) {
         </p>
     </div>
 </div>
+
+
+
+  <!-- 其他 Early Project 块同理保留 -->
+
+</div>
+
 

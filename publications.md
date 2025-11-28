@@ -67,7 +67,7 @@ function toggleAbstract(id) {
 
 <!-- ===================== VLA-OS PAPER ===================== -->
 <div class="paper-block">
-  <img class="paper-img" src="./images/VLA-OS.png" alt="VLA-OS">
+  <img class="paper-img" src="https://junshanhuang.com/images/VLA-OS.png" alt="VLA-OS">
   <div>
     <h3 class="paper-title">VLA-OS: Structuring and Dissecting Planning Representations and Paradigms in Vision-Language-Action Models</h3>
     <p class="paper-info">
@@ -97,7 +97,7 @@ function toggleAbstract(id) {
 
 <!-- ===================== UniFaRN PAPER ===================== -->
 <div class="paper-block">
-  <img class="paper-img" src="./images/unifarn.png" alt="UniFaRN">
+  <img class="paper-img" src="https://junshanhuang.com/images/unifarn.png" alt="UniFaRN">
   <div>
     <h3 class="paper-title">UniFaRN: Unified Transformer for Facial Reaction Generation</h3>
     <p class="paper-info">

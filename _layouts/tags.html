@@ -1,0 +1,54 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include head.html %}
+</head>
+<body class="tag-list-page" itemscope itemtype="http://schema.org/WebPage">
+{% include chrome-frame.html %}
+{% include navigation.html %}
+
+<div id="main" role="main" itemprop="mainContentOfPage">
+  <div class="article-author-top">
+    {% include author-bio.html %}
+  </div>
+  <header class="tag-hero">
+    <p class="eyebrow">All tags</p>
+    <h1 class="page-title">{{ page.title }}</h1>
+    {% if page.description %}<p class="lede">{{ page.description }}</p>{% endif %}
+  </header>
+
+  <section class="tags-cloud">
+    {% assign all_tags = site.tags | sort %}
+    {% if all_tags == empty %}
+      <p>No tags yet. Write your first post with some tags to see them here.</p>
+    {% else %}
+    <ul class="tags-grid">
+      {% for tag in all_tags %}
+      {% assign tag_name = tag[0] %}
+      {% assign posts = tag[1] %}
+      <li class="tag-card">
+        <div>
+          <p class="eyebrow">Tag</p>
+          <h2>#{{ tag_name }}</h2>
+          <p class="tag-count">{{ posts | size }} post{% if posts.size > 1 %}s{% endif %}</p>
+        </div>
+        <a class="pill-link" href="{{ '/tag/' | append: tag_name | append: '/' | relative_url }}">View posts →</a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </section>
+</div>
+
+<div class="footer-wrap">
+  <footer>
+    {% include footer.html %}
+  </footer>
+</div>
+
+{% include scripts.html %}
+</body>
+</html>

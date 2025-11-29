@@ -15,45 +15,41 @@
 </div>
 
 <div id="main" role="main" itemprop="mainContentOfPage">
-  <article itemscope itemtype="http://schema.org/CreativeWork">
-    <div class="article-wrap">
-      <div class="blog-hero">
-        <div>
-          <p class="eyebrow">Writing & Notes</p>
-          <h1 class="page-title">{{ page.title }}</h1>
-          {% if page.description %}<p class="lede">{{ page.description }}</p>{% endif %}
-        </div>
-        <div class="blog-actions">
-          <label class="search-label" for="blog-search">Search</label>
-          <input id="blog-search" type="search" placeholder="Search posts by title, tags, or content…" autocomplete="off" />
-          <p class="search-hint">Press Enter to search or filter by tags below.</p>
-        </div>
-      </div>
+  <div class="blog-hero">
+    <div>
+      <p class="eyebrow">Writing & Notes</p>
+      <h1 class="page-title">{{ page.title }}</h1>
+      {% if page.description %}<p class="lede">{{ page.description }}</p>{% endif %}
+    </div>
+    <div class="blog-actions">
+      <label class="search-label" for="blog-search">Search</label>
+      <input id="blog-search" type="search" placeholder="Search posts by title, tags, or content…" autocomplete="off" />
+      <p class="search-hint">Press Enter to search or filter by tags below.</p>
+    </div>
+  </div>
 
-      <section class="tag-filter">
-        <div class="tag-filter-header">
-          <h2>Browse by tag</h2>
-          <a class="see-all-tags" href="{{ '/tags/' | relative_url }}">View tags page</a>
-        </div>
-        <div id="tag-badges" class="tag-badges" aria-live="polite">
-          {% assign all_tags = site.tags | sort %}
-          <button class="tag-badge active" data-tag="all">All</button>
-          {% for tag in all_tags %}
-            <button class="tag-badge" data-tag="{{ tag[0] | escape }}">{{ tag[0] }}</button>
-          {% endfor %}
-        </div>
-      </section>
+  <section class="tag-filter">
+    <div class="tag-filter-header">
+      <h2>Browse by tag</h2>
+      <a class="see-all-tags" href="{{ '/tags/' | relative_url }}">View tags page</a>
+    </div>
+    <div id="tag-badges" class="tag-badges" aria-live="polite">
+      {% assign all_tags = site.tags | sort %}
+      <button class="tag-badge active" data-tag="all">All</button>
+      {% for tag in all_tags %}
+        <button class="tag-badge" data-tag="{{ tag[0] | escape }}">{{ tag[0] }}</button>
+      {% endfor %}
+    </div>
+  </section>
 
-      <section id="blog-results" aria-live="polite">
-        <div class="results-meta">
-          <p><span id="results-count"></span></p>
-        </div>
-        <div id="posts-grid" class="posts-grid">
-          <!-- populated by blog.js -->
-        </div>
-      </section>
-    </div><!-- /.article-wrap -->
-  </article>
+  <section id="blog-results" aria-live="polite">
+    <div class="results-meta">
+      <p><span id="results-count"></span></p>
+    </div>
+    <div id="posts-grid" class="posts-grid">
+      <!-- populated by blog.js -->
+    </div>
+  </section>
 </div><!-- /#main -->
 
 <div class="footer-wrap">

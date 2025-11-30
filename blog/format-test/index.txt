@@ -1,0 +1,216 @@
+1:"$Sreact.fragment"
+2:I[3719,["711","static/chunks/711-3ac098f4aa3de521.js","217","static/chunks/217-414f3bc2f28e17e5.js","862","static/chunks/862-15a393ad2462454b.js","177","static/chunks/app/layout-eb156f7f6ee3ed4b.js"],"ThemeProvider"]
+3:I[768,["711","static/chunks/711-3ac098f4aa3de521.js","217","static/chunks/217-414f3bc2f28e17e5.js","862","static/chunks/862-15a393ad2462454b.js","177","static/chunks/app/layout-eb156f7f6ee3ed4b.js"],"default"]
+4:I[7555,[],""]
+5:I[1295,[],""]
+6:I[2548,["711","static/chunks/711-3ac098f4aa3de521.js","217","static/chunks/217-414f3bc2f28e17e5.js","862","static/chunks/862-15a393ad2462454b.js","177","static/chunks/app/layout-eb156f7f6ee3ed4b.js"],"default"]
+8:I[9665,[],"MetadataBoundary"]
+a:I[9665,[],"OutletBoundary"]
+d:I[4911,[],"AsyncMetadataOutlet"]
+f:I[9665,[],"ViewportBoundary"]
+11:I[6614,[],""]
+:HL["/_next/static/css/85829fc21d34b09a.css","style"]
+0:{"P":null,"b":"jKUmc-wS3bR3tZw1CD7W8","p":"","c":["","blog","format-test",""],"i":false,"f":[[["",{"children":["blog",{"children":[["postslug","format-test","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/85829fc21d34b09a.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.svg","type":"image/svg+xml"}],["$","link",null,{"rel":"dns-prefetch","href":"https://google-fonts.jialeliu.com"}],["$","link",null,{"rel":"preconnect","href":"https://google-fonts.jialeliu.com","crossOrigin":""}],["$","link",null,{"rel":"preload","as":"style","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap"}],["$","link",null,{"suppressHydrationWarning":true,"rel":"stylesheet","id":"gfonts-css","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap","media":"print"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              (function(){\n                var l = document.getElementById('gfonts-css');\n                if (!l) return;\n                if (l.media !== 'all') {\n                  l.addEventListener('load', function(){ try { l.media = 'all'; } catch(e){} });\n                }\n              })();\n            "}}],["$","noscript",null,{"children":["$","link",null,{"rel":"stylesheet","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap"}]}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              try {\n                const theme = localStorage.getItem('theme-storage');\n                const parsed = theme ? JSON.parse(theme) : null;\n                const setting = parsed?.state?.theme || 'system';\n                const prefersDark = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;\n                const effective = setting === 'dark' ? 'dark' : (setting === 'light' ? 'light' : (prefersDark ? 'dark' : 'light'));\n                var root = document.documentElement;\n                root.classList.add(effective);\n                root.setAttribute('data-theme', effective);\n              } catch (e) {\n                var root = document.documentElement;\n                root.classList.add('light');\n                root.setAttribute('data-theme', 'light');\n              }\n            "}}]]}],["$","body",null,{"className":"font-sans antialiased","children":["$","$L2",null,{"children":[["$","$L3",null,{"items":[{"title":"About","type":"page","target":"about","href":"/"},{"title":"Publications","type":"page","target":"publications","href":"/publications"},{"title":"Teaching","type":"page","target":"teaching","href":"/teaching"},{"title":"Awards","type":"page","target":"awards","href":"/awards"},{"title":"Services","type":"page","target":"services","href":"/services"},{"title":"Blog","type":"page","target":"blog","href":"/blog"}],"siteTitle":"Junshan Huang","enableOnePageMode":false}],["$","main",null,{"className":"min-h-screen pt-16 lg:pt-20","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L6",null,{"lastUpdated":"November 29, 2025"}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["postslug","format-test","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",["$","$L8",null,{"children":"$L9"}],null,["$","$La",null,{"children":["$Lb","$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","6-tdHT8BaWIIM_QVF1etA",{"children":[["$","$Lf",null,{"children":"$L10"}],null]}],null]}],false]],"m":"$undefined","G":["$11","$undefined"],"s":false,"S":true}
+12:"$Sreact.suspense"
+13:I[4911,[],"AsyncMetadata"]
+15:I[6868,["330","static/chunks/d3ac728e-598d38ae96b11803.js","711","static/chunks/711-3ac098f4aa3de521.js","907","static/chunks/907-77394335ddd73061.js","352","static/chunks/352-983c456fb1dcaf51.js","535","static/chunks/app/blog/%5Bpostslug%5D/page-c81ff96c0be669f8.js"],"default"]
+9:["$","$12",null,{"fallback":null,"children":["$","$L13",null,{"promise":"$@14"}]}]
+16:Taff,# format testing
+
+This document is a compact markdown test that tries to cover as many features as possible with minimal structure.
+
+## 1. Headings, inline formatting, and links
+
+### 1.1 Subheading level 3
+
+This sentence shows **bold**, *italic*, ***bold italic***, `inline code`,
+~~strikethrough~~, a [sample link](https://example.com), and inline math
+like $x^2 + y^2 = 1$ all in one place.[^note-inline]
+
+Soft line break below (no empty line between):
+This line should appear as part of the same paragraph in most renderers.
+
+Hard line break below (two spaces at end of the previous line)␣␣  
+This line should start on a new visual line, but still be part of the same paragraph.
+
+---
+
+## 2. Lists, tasks, tables
+
+Unordered and ordered list, with nesting:
+
+- Unordered item A
+- Unordered item B with nested ordered list:
+  1. Nested ordered item 1
+  2. Nested ordered item 2
+
+1. Top-level ordered item one
+2. Top-level ordered item two
+3. Top-level ordered item three
+
+Task list (GFM):
+
+- [x] Implement markdown renderer
+- [x] Add syntax highlighting
+- [ ] Finish writing documentation
+- [ ] Remove all ~~deprecated~~ flags
+
+Table (GFM):
+
+| feature   | example                       | note                          |
+|----------|--------------------------------|-------------------------------|
+| inline   | **bold**, *italic*       | basic text styling            |
+| math     | $x^2$, $$\int_0^1 x dx$$  | requires math extensions      |
+| code     | `python ... `    | fenced code block with language |
+| tasks    | - [x] done                | GFM task list normally not render in table    |
+
+---
+
+## 3. Code blocks, math blocks, blockquotes, images
+
+Code block with language hint:
+
+```python
+def greet(name: str) -> str:
+    message = f"Hello, {name}!"
+    print(message)
+    return message
+
+if __name__ == "__main__":
+    greet("markdown tester")
+````
+
+Math display block:
+
+$$
+\begin{aligned}
+\nabla_\theta J(\theta)
+&= \mathbb{E}*{\tau \sim \pi*\theta} \left[\nabla_\theta \log \pi_\theta(\tau), R(\tau)\right] \
+&\approx \frac{1}{N} \sum_{i=1}^N \nabla_\theta \log \pi_\theta(\tau_i), R(\tau_i)
+\end{aligned}
+$$
+
+Blockquote with nested list:
+
+> 💬 **Note**
+>
+> * This is a blockquote.
+> * It contains a short bullet list.
+> * It also references a footnote marker here.[^note-blockquote]
+
+Image reference (relative URL):
+
+![Demo image for format testing](/blog/replicate-pi0-5/demo.png)
+
+---
+
+## 4. Footnotes
+
+This sentence references another footnote marker for testing.[^note-second]
+
+[^note-inline]: Inline formatting footnote used near the start of the document.
+
+[^note-blockquote]: Footnote referenced from inside a blockquote.
+
+[^note-second]: Second generic footnote to test multiple definitions.17:Tad4,# 格式测试
+
+本文档是一个紧凑的 Markdown 测试，用尽量精简的结构来覆盖尽可能多的特性。
+
+## 1. 标题、行内格式和链接
+
+### 1.1 三级子标题
+
+这句话同时展示了 **粗体**、*斜体*、***粗斜体***、`行内代码`、~~删除线~~、一个[示例链接](https://example.com)，以及像 $x^2 + y^2 = 1$ 这样的行内数学公式，全都放在同一个地方。[^note-inline]
+
+下面是软换行（中间没有空行）：
+在大多数渲染器中，这一行应该显示为同一段落的一部分。
+
+下面是硬换行（上一行末尾有两个空格）␣␣
+这一行应该在视觉上从新的一行开始，但仍然属于同一段落。
+
+---
+
+## 2. 列表、任务和表格
+
+无序和有序列表，带有嵌套：
+
+* 无序条目 A
+* 无序条目 B，包含一个嵌套的有序列表：
+
+  1. 嵌套的有序条目 1
+  2. 嵌套的有序条目 2
+
+1. 顶层有序条目一
+2. 顶层有序条目二
+3. 顶层有序条目三
+
+任务列表（GFM）：
+
+* [x] 实现 Markdown 渲染器
+* [x] 添加语法高亮
+* [ ] 写完文档
+* [ ] 移除所有 ~~已弃用~~ 标志
+
+表格（GFM）：
+
+| 特性 | 示例                       | 说明          |
+| -- | ------------------------ | ----------- |
+| 行内 | **粗体**、*斜体*              | 基本文本样式      |
+| 数学 | $x^2$, $$\int_0^1 x dx$$ | 需要数学扩展支持    |
+| 代码 | `python ... `            | 带语言标注的围栏代码块 |
+| 任务 | - [x] 已完成                | GFM 任务列表默认不在表格渲染    |
+
+---
+
+## 3. 代码块、数学块、引用块和图片
+
+带语言提示的代码块：
+
+```python
+def greet(name: str) -> str:
+    message = f"你好，{name}！"
+    print(message)
+    return message
+
+if __name__ == "__main__":
+    greet("Markdown 测试者")
+```
+
+数学展示块：
+
+$$
+\begin{aligned}
+\nabla_\theta J(\theta)
+&= \mathbb{E}*{\tau \sim \pi*\theta} \left[\nabla_\theta \log \pi_\theta(\tau), R(\tau)\right] 
+&\approx \frac{1}{N} \sum_{i=1}^N \nabla_\theta \log \pi_\theta(\tau_i), R(\tau_i)
+\end{aligned}
+$$
+
+带有嵌套列表的引用块：
+
+> 💬 **说明**
+>
+> * 这是一个引用块。
+> * 它包含一个简短的项目符号列表。
+> * 它还在这里引用了一个脚注标记。[^note-blockquote]
+
+图片引用（相对 URL）：
+
+![用于格式测试的演示图片](/blog/replicate-pi0-5/demo.png)
+
+---
+
+## 4. 脚注
+
+这句话引用了另一个脚注标记用于测试。[^note-second]
+
+[^note-inline]: 用于文档开头附近的行内格式脚注。
+
+[^note-blockquote]: 从引用块内部引用的脚注。
+
+[^note-second]: 第二个通用脚注，用于测试多个定义。7:["$","$12",null,{"fallback":null,"children":["$","$L15",null,{"meta":{"title":"Test Markdown Rendering","title_cn":"测试Markdown渲染功能","subtitle":"","subtitle_cn":"","date":"2025-11-28","tags":["test"]},"contentEn":"$16","contentCn":"$17"}]}]
+c:null
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+b:null
+14:{"metadata":[["$","title","0",{"children":"Junshan Huang"}],["$","meta","1",{"name":"description","content":"PhD student at Rutgers University."}],["$","meta","2",{"name":"author","content":"Junshan Huang"}],["$","meta","3",{"name":"keywords","content":"Junshan Huang,PhD,Research,Rutgers University"}],["$","meta","4",{"name":"creator","content":"Junshan Huang"}],["$","meta","5",{"name":"publisher","content":"Junshan Huang"}],["$","meta","6",{"property":"og:title","content":"Junshan Huang"}],["$","meta","7",{"property":"og:description","content":"PhD student at Rutgers University."}],["$","meta","8",{"property":"og:site_name","content":"Junshan Huang's Academic Website"}],["$","meta","9",{"property":"og:locale","content":"en_US"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary"}],["$","meta","12",{"name":"twitter:title","content":"Junshan Huang"}],["$","meta","13",{"name":"twitter:description","content":"PhD student at Rutgers University."}],["$","link","14",{"rel":"icon","href":"/favicon.svg"}]],"error":null,"digest":"$undefined"}
+e:{"metadata":"$14:metadata","error":null,"digest":"$undefined"}

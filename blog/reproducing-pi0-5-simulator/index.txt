@@ -1,0 +1,277 @@
+1:"$Sreact.fragment"
+2:I[3719,["711","static/chunks/711-3ac098f4aa3de521.js","217","static/chunks/217-414f3bc2f28e17e5.js","862","static/chunks/862-15a393ad2462454b.js","177","static/chunks/app/layout-eb156f7f6ee3ed4b.js"],"ThemeProvider"]
+3:I[768,["711","static/chunks/711-3ac098f4aa3de521.js","217","static/chunks/217-414f3bc2f28e17e5.js","862","static/chunks/862-15a393ad2462454b.js","177","static/chunks/app/layout-eb156f7f6ee3ed4b.js"],"default"]
+4:I[7555,[],""]
+5:I[1295,[],""]
+6:I[2548,["711","static/chunks/711-3ac098f4aa3de521.js","217","static/chunks/217-414f3bc2f28e17e5.js","862","static/chunks/862-15a393ad2462454b.js","177","static/chunks/app/layout-eb156f7f6ee3ed4b.js"],"default"]
+8:I[9665,[],"MetadataBoundary"]
+a:I[9665,[],"OutletBoundary"]
+d:I[4911,[],"AsyncMetadataOutlet"]
+f:I[9665,[],"ViewportBoundary"]
+11:I[6614,[],""]
+:HL["/_next/static/css/85829fc21d34b09a.css","style"]
+0:{"P":null,"b":"jKUmc-wS3bR3tZw1CD7W8","p":"","c":["","blog","reproducing-pi0-5-simulator",""],"i":false,"f":[[["",{"children":["blog",{"children":[["postslug","reproducing-pi0-5-simulator","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/85829fc21d34b09a.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.svg","type":"image/svg+xml"}],["$","link",null,{"rel":"dns-prefetch","href":"https://google-fonts.jialeliu.com"}],["$","link",null,{"rel":"preconnect","href":"https://google-fonts.jialeliu.com","crossOrigin":""}],["$","link",null,{"rel":"preload","as":"style","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap"}],["$","link",null,{"suppressHydrationWarning":true,"rel":"stylesheet","id":"gfonts-css","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap","media":"print"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              (function(){\n                var l = document.getElementById('gfonts-css');\n                if (!l) return;\n                if (l.media !== 'all') {\n                  l.addEventListener('load', function(){ try { l.media = 'all'; } catch(e){} });\n                }\n              })();\n            "}}],["$","noscript",null,{"children":["$","link",null,{"rel":"stylesheet","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap"}]}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              try {\n                const theme = localStorage.getItem('theme-storage');\n                const parsed = theme ? JSON.parse(theme) : null;\n                const setting = parsed?.state?.theme || 'system';\n                const prefersDark = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;\n                const effective = setting === 'dark' ? 'dark' : (setting === 'light' ? 'light' : (prefersDark ? 'dark' : 'light'));\n                var root = document.documentElement;\n                root.classList.add(effective);\n                root.setAttribute('data-theme', effective);\n              } catch (e) {\n                var root = document.documentElement;\n                root.classList.add('light');\n                root.setAttribute('data-theme', 'light');\n              }\n            "}}]]}],["$","body",null,{"className":"font-sans antialiased","children":["$","$L2",null,{"children":[["$","$L3",null,{"items":[{"title":"About","type":"page","target":"about","href":"/"},{"title":"Publications","type":"page","target":"publications","href":"/publications"},{"title":"Teaching","type":"page","target":"teaching","href":"/teaching"},{"title":"Awards","type":"page","target":"awards","href":"/awards"},{"title":"Services","type":"page","target":"services","href":"/services"},{"title":"Blog","type":"page","target":"blog","href":"/blog"}],"siteTitle":"Junshan Huang","enableOnePageMode":false}],["$","main",null,{"className":"min-h-screen pt-16 lg:pt-20","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L6",null,{"lastUpdated":"November 29, 2025"}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["postslug","reproducing-pi0-5-simulator","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",["$","$L8",null,{"children":"$L9"}],null,["$","$La",null,{"children":["$Lb","$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","MIYZWDL9ViBTYHN5AMcfh",{"children":[["$","$Lf",null,{"children":"$L10"}],null]}],null]}],false]],"m":"$undefined","G":["$11","$undefined"],"s":false,"S":true}
+12:"$Sreact.suspense"
+13:I[4911,[],"AsyncMetadata"]
+15:I[6868,["330","static/chunks/d3ac728e-598d38ae96b11803.js","711","static/chunks/711-3ac098f4aa3de521.js","907","static/chunks/907-77394335ddd73061.js","352","static/chunks/352-983c456fb1dcaf51.js","535","static/chunks/app/blog/%5Bpostslug%5D/page-c81ff96c0be669f8.js"],"default"]
+9:["$","$12",null,{"fallback":null,"children":["$","$L13",null,{"promise":"$@14"}]}]
+16:T17fb,## 0. Preface
+
+This article provides a concise reference for deploying the Pi0 series models.
+
+We adopt a CS (Client-Server) architecture:
+
+- Client: only handles robot action commands as input, and environment/robot feedback/observations as output (and runs the simulator/real world)
+- Server: focuses on model inference, receiving feedback/observations from the client and outputting new action commands.
+
+So you will see that we use two virtual environments later:
+one for model execution, one for the simulator, and they communicate with each other via web interfaces.
+
+## 1. Clone the Project
+
+```bash
+git clone --recurse-submodules git@github.com:Physical-Intelligence/openpi.git
+cd openpi
+````
+
+* Here `--recurse-submodules` means recursive cloning; it will clone all referenced sub-repositories in the repo.
+* Unless otherwise specified, all commands below are executed in the project root directory.
+
+## 2. Environment Setup
+
+### 2.1 Install uv
+
+* **uv** is a new Python package and environment manager developed by Astral (formerly the PyO3 team).
+  Its features: extremely fast, all-in-one, and can replace the combination of `pip + venv (virtualenv) + pip-tools` (the speed comes from Rust implementation + local caching + parallelism).
+
+```bash
+conda create -n uv_envs python=3.10
+conda activate uv_envs
+pip install uv
+```
+
+* The steps above are mainly to create a “shell” environment for running uv.
+  This conda environment `uv_envs` itself will not be used to execute any project code; it only hosts the uv tool and lets you run uv inside it.
+
+### 2.2 Install Main Project Environment (Server)
+
+```bash
+GIT_LFS_SKIP_SMUDLE=1 uv sync
+```
+
+* `openpi/` is the project root, which contains the project configuration file `pyproject.toml`.
+  `pyproject.toml` is the modern unified configuration file for Python projects, used to declare dependencies, build system, and tooling, replacing scattered `setup.py` and `requirements.txt`.
+
+* `GIT_LFS_SKIP_SMUDGE=1` is a temporary environment variable set for the current command only (only effective on this line), recognized by Git LFS.
+  When enabled, `git clone` or `git pull` will not automatically download large files managed by LFS, but only fetch their pointer files, which speeds up syncing and reduces bandwidth usage.
+  If you later need the actual large binary files, you can manually run `git lfs pull` to download them.
+
+* `uv sync` will create a `.venv` virtual environment folder under the project directory and install all required packages based on `pyproject.toml`.
+
+```bash
+source .venv/bin/activate
+```
+
+This activates the project-level virtual environment created by uv.
+At the Python level, this environment completely replaces the previously activated conda environment.
+Even if you see two environment names in your shell prompt, only the most recently activated one is effective.
+
+![image-20251128204035983](/blog/reproducing-pi0-5-simulator/image-20251128204035983.png)
+
+> 🧩 When a venv is stacked on top of a conda environment:
+>
+> * The Python executable is completely replaced.
+> * Python’s import path depends on the configuration inside the Python executable, so all available packages now come from the new venv.
+> * The system `$PATH` is stacked, not replaced, so you can still use the `uv` command in the new environment — the system will find the `uv` executable from the conda environment’s path.
+> * When you run `python`, the system searches `PATH` from front to back; since the latest environment is at the front, it will use the most recently activated Python environment.
+
+### 2.3 Install LIBERO Environment (Client)
+
+Since we will first do inference tests in the LIBERO environment, which has its own dependencies, it is better to create a separate virtual environment for it.
+
+```bash
+conda activate uv_envs # if you are not already in this conda environment
+uv venv --python 3.8 examples/libero/.venv
+source examples/libero/.venv/bin/activate
+```
+
+We first create a new virtual environment under the `examples/libero` folder.
+
+Then we activate this new virtual environment, so you should see `(.venv)` appearing in front of `(uv_envs)` in your prompt.
+
+Next, install the dependencies:
+
+```bash
+uv pip sync exmaples/libero/requirements.txt third_party/libero/requirements.txt --extra-index-url https://download.pytorch.org/whl/cu113 --index-strategy=unsafe-best-match
+```
+
+* `uv pip sync` is a uv command that synchronizes the virtual environment’s libraries to exactly match your `requirements.txt` files.
+  It also supports multiple requirements files at once (it will merge them and try to find the best solution).
+* The last two parameters are for compatibility with the specified PyTorch CUDA wheels.
+
+Next, install submodules as local editable packages:
+
+```bash
+uv pip install -e packages/openpi-client
+uv pip install -e third_party/libero
+```
+
+LIBERO also requires an environment variable:
+
+```bash
+export PYTHONPATH=$PYTHONPATH:$PWD/third_party/libero
+```
+
+* You can test with `python -m libero`.
+
+## 3. Simple Run
+
+First start the server:
+
+```bash
+source .venv/bin/activate # make sure you are in the server environment
+python scripts/serve_policy.py --env LIBERO
+```
+
+* Here `--env` selects one of the pretrained policy weights provided by Physical Intelligence. Available options: `ALOHA`, `ALOHA_SIM`, `DROID`, `LIBERO`.
+
+* In the [source code](https://github.com/Physical-Intelligence/openpi/blob/3e0325a5e6032a9ab6beef7395fe47ca724980a5/scripts/serve_policy.py), the default command-line arguments are defined in class `Args`, and `tyro.cli(Args)` is used to merge user-provided CLI arguments with these defaults.
+
+  ![image-20251128220831692](/blog/reproducing-pi0-5-simulator/image-20251128220831692.png)
+
+Then open another terminal (keeping the original server terminal running) and start the client:
+
+```bash
+python examples/libero/main.py
+```
+
+This example script will automatically run a test. After waiting for a while, you will get a video showing the execution result.
+17:T15cd,## 0. 前言
+
+本文尝试提供一个简洁的部署Pi0系列模型的参考。
+
+采用 CS (Client-Server) 架构，
+
+- 客户端Client：只管机器人动作指令的输入，环境/机器人本体反馈/观察的输出（以及simulator/现实世界的运行)
+- 服务器端Server：则专注于模型推理，接受客户端的反馈/观察数据，给出新的动作指令。
+
+所以你会看到，我们后面用了两个虚拟环境，一个管模型运行，一个管Simulator运行，他们之间通过Web接口互相传递数据。
+
+## 1. 克隆项目
+
+```bash
+git clone --recurse-submodules git@github.com:Physical-Intelligence/openpi.git
+cd openpi
+```
+
+- 这里--recurse-submodules代表迭代clone，会把仓库中所有引用的子仓库都clone下来。
+- 如无特殊说明，下面所有命令均在项目根目录执行。
+
+## 2. 安装环境
+
+### 2.1 安装uv
+
+- uv 是一个新兴的 Python 包管理和环境管理工具，由 Astral（原 PyO3 团队）开发。它的特点：极快、全能、替代 pip + venv（虚拟环境） + pip-tools 的组合（速度优势来自 Rust 实现 + 本地缓存 + 并行）
+
+```bash
+conda create -n uv_envs python=3.10
+conda activate uv_envs
+pip install uv
+```
+
+- 上面这些步骤主要是为了创造一个用来运行 uv 的壳环境。这个conda环境`uv_envs`本身不会用来执行任何代码，只是在这个`uv_envs`里面安装uv工具，使用uv工具。
+
+### 2.2 安装项目主环境（Server端）
+
+```bash
+GIT_LFS_SKIP_SMUDLE=1 uv sync
+```
+
+- `openpi/`作为项目根目录，其中有一个pyproject.toml项目配置文件。`pyproject.toml`是现代 Python 项目的统一配置文件，用来声明项目依赖、构建方式和开发工具设置，取代分散的 setup.py 和 requirements.txt。
+- `GIT_LFS_SKIP_SMUDGE=1` 是一个为当前命令设置的临时环境变量（只在这一行有效），由 Git LFS 识别。
+  当启用该变量时，执行 `git clone` 或 `git pull` 时不会自动下载 LFS 管理的大文件，而是只获取它们的指针文件（pointer files），从而加快同步速度、减少带宽占用。
+   如果后续需要实际的二进制大文件，可手动运行 `git lfs pull` 完成下载。
+
+- `uv sync`会在项目文件夹下新建虚拟环境文件夹`.venv`，根据项目配置文件`pyproject.toml`自动安装所需的库。
+
+```bash
+source .venv/bin/activate
+```
+
+这将会激活刚刚uv创建的这个项目级的虚拟环境。此环境在python层面会完全替代原本激活的conda环境。尽管你可能在命令行看到前面有两个环境，但只有最新激活的这个是有效的。
+
+![image-20251128204035983](/blog/reproducing-pi0-5-simulator/image-20251128204035983.png)
+
+>🧩 当venv叠加在conda环境上时
+>
+>- Python executable被完全替换
+>- Python用来找包的路径依赖于python executable内部的配置，所以所有可用包都被替换为新环境的
+>- 系统的$PATH是叠加而非替代，所以你仍然可以在新环境里面使用uv指令，因为系统会在conda环境的路径下找到uv包的可执行文件来执行。
+>- 当你使用python时，系统自动在path里面从前往后找python executeable，由于最新加的环境在最前面，所以会使用最新激活的这个python环境。
+
+### 2.3 安装LIBERO环境（Client端）
+
+因为本文中首先在LIBERO虚拟环境中进行推理测试，其有自己的依赖项所以最好也自己搞一个虚拟环境。
+
+```bash
+conda activate uv_envs #如果你没有在这个conda环境里
+uv venv --python 3.8 examples/libero/.venv
+source examples/libero/.venv/bin/activate
+```
+
+我们首先在`examples/libero`文件夹中又创建了一个新的虚拟环境。
+
+随后激活了新的虚拟环境，所以你应该看到`(.venv)`出现在`(uv_envs)`的前面。
+
+然后我们安装依赖项
+
+```bash
+uv pip sync exmaples/libero/requirements.txt third_party/libero/requirements.txt --extra-index-url https://download.pytorch.org/whl/cu113 --index-strategy=unsafe-best-match
+```
+
+- `uv pip sync` 是一个uv命令，会将虚拟环境中的依赖库同步成和你的requirements.txt完全一致。并且还支持多个requirements文件一起（他会智能合并找最优方案）。
+- 后面的两个参数是为了保证兼容性
+
+接下来将子模块以包的形式安装在本地
+
+```bash
+uv pip install -e packages/openpi-client
+uv pip install -e third_party/libero
+```
+
+Libero的代码运行还需要加个环境变量
+
+```bash
+export PYTHONPATH=$PYTHONPATH:$PWD/third_party/libero
+```
+
+- 可使用`python -m libero`测试
+
+## 3. 简单运行
+
+首先启动server:
+
+```bash
+source .venv/bin/activate #要在server的环境中
+python scripts/serve_policy.py --env LIBERO
+```
+
+- 这里--env是选择一系列Physical Intelligence提供的训练好的模型权重，可选`ALOHA`， `ALOHA_SIM`，`DROID`，`LIBERO`。
+
+- [源码](https://github.com/Physical-Intelligence/openpi/blob/3e0325a5e6032a9ab6beef7395fe47ca724980a5/scripts/serve_policy.py)里面，默认命令行参数是设置在class Args里面，使用`tyro.cli(Args)`来将用户的命令行参数和默认参数融合。
+
+  ![image-20251128220831692](/blog/reproducing-pi0-5-simulator/image-20251128220831692.png)
+
+然后再开一个终端（保持原来这个开启），启动client：
+
+```
+python examples/libero/main.py
+```
+
+这个样例代码会自动跑一个测试，等待一段时间后你会得到执行结果的视频。
+7:["$","$12",null,{"fallback":null,"children":["$","$L15",null,{"meta":{"title":"Reproducing Pi0.5 in Simulator","title_cn":"模拟器复现Pi0.5攻略","subtitle":"","subtitle_cn":"","date":"2025-11-30","tags":["Practice","Pi0","VLA"]},"contentEn":"$16","contentCn":"$17"}]}]
+c:null
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+b:null
+14:{"metadata":[["$","title","0",{"children":"Junshan Huang"}],["$","meta","1",{"name":"description","content":"PhD student at Rutgers University."}],["$","meta","2",{"name":"author","content":"Junshan Huang"}],["$","meta","3",{"name":"keywords","content":"Junshan Huang,PhD,Research,Rutgers University"}],["$","meta","4",{"name":"creator","content":"Junshan Huang"}],["$","meta","5",{"name":"publisher","content":"Junshan Huang"}],["$","meta","6",{"property":"og:title","content":"Junshan Huang"}],["$","meta","7",{"property":"og:description","content":"PhD student at Rutgers University."}],["$","meta","8",{"property":"og:site_name","content":"Junshan Huang's Academic Website"}],["$","meta","9",{"property":"og:locale","content":"en_US"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary"}],["$","meta","12",{"name":"twitter:title","content":"Junshan Huang"}],["$","meta","13",{"name":"twitter:description","content":"PhD student at Rutgers University."}],["$","link","14",{"rel":"icon","href":"/favicon.svg"}]],"error":null,"digest":"$undefined"}
+e:{"metadata":"$14:metadata","error":null,"digest":"$undefined"}

@@ -1,0 +1,629 @@
+1:"$Sreact.fragment"
+2:I[3719,["711","static/chunks/711-3ac098f4aa3de521.js","217","static/chunks/217-414f3bc2f28e17e5.js","862","static/chunks/862-15a393ad2462454b.js","177","static/chunks/app/layout-04f81b10b1cda18d.js"],"ThemeProvider"]
+3:I[768,["711","static/chunks/711-3ac098f4aa3de521.js","217","static/chunks/217-414f3bc2f28e17e5.js","862","static/chunks/862-15a393ad2462454b.js","177","static/chunks/app/layout-04f81b10b1cda18d.js"],"default"]
+4:I[7555,[],""]
+5:I[1295,[],""]
+6:I[2548,["711","static/chunks/711-3ac098f4aa3de521.js","217","static/chunks/217-414f3bc2f28e17e5.js","862","static/chunks/862-15a393ad2462454b.js","177","static/chunks/app/layout-04f81b10b1cda18d.js"],"default"]
+8:I[9665,[],"MetadataBoundary"]
+a:I[9665,[],"OutletBoundary"]
+d:I[4911,[],"AsyncMetadataOutlet"]
+f:I[9665,[],"ViewportBoundary"]
+11:I[6614,[],""]
+:HL["/_next/static/css/9d94f4a7c4219e2f.css","style"]
+0:{"P":null,"b":"k03oOVOMqITotIXX161NY","p":"","c":["","blog","review-of-some-fundamental-mathematics-commonly-used-in-robotics-i-coordinate-transformations",""],"i":false,"f":[[["",{"children":["blog",{"children":[["postslug","review-of-some-fundamental-mathematics-commonly-used-in-robotics-i-coordinate-transformations","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/9d94f4a7c4219e2f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/fav.ico","type":"image/svg+xml"}],["$","link",null,{"rel":"dns-prefetch","href":"https://google-fonts.jialeliu.com"}],["$","link",null,{"rel":"preconnect","href":"https://google-fonts.jialeliu.com","crossOrigin":""}],["$","link",null,{"rel":"preload","as":"style","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap"}],["$","link",null,{"suppressHydrationWarning":true,"rel":"stylesheet","id":"gfonts-css","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap","media":"print"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              (function(){\n                var l = document.getElementById('gfonts-css');\n                if (!l) return;\n                if (l.media !== 'all') {\n                  l.addEventListener('load', function(){ try { l.media = 'all'; } catch(e){} });\n                }\n              })();\n            "}}],["$","noscript",null,{"children":["$","link",null,{"rel":"stylesheet","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap"}]}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              try {\n                const theme = localStorage.getItem('theme-storage');\n                const parsed = theme ? JSON.parse(theme) : null;\n                const setting = parsed?.state?.theme || 'system';\n                const prefersDark = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;\n                const effective = setting === 'dark' ? 'dark' : (setting === 'light' ? 'light' : (prefersDark ? 'dark' : 'light'));\n                var root = document.documentElement;\n                root.classList.add(effective);\n                root.setAttribute('data-theme', effective);\n              } catch (e) {\n                var root = document.documentElement;\n                root.classList.add('light');\n                root.setAttribute('data-theme', 'light');\n              }\n            "}}]]}],["$","body",null,{"className":"font-sans antialiased","children":["$","$L2",null,{"children":[["$","$L3",null,{"items":[{"title":"About","type":"page","target":"about","href":"/"},{"title":"Publications","type":"page","target":"publications","href":"/publications"},{"title":"Teaching","type":"page","target":"teaching","href":"/teaching"},{"title":"Awards","type":"page","target":"awards","href":"/awards"},{"title":"Services","type":"page","target":"services","href":"/services"},{"title":"Blog","type":"page","target":"blog","href":"/blog"}],"siteTitle":"Junshan Huang","enableOnePageMode":false}],["$","main",null,{"className":"min-h-screen pt-16 lg:pt-20","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L6",null,{"lastUpdated":"Feburary 7, 2026"}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["postslug","review-of-some-fundamental-mathematics-commonly-used-in-robotics-i-coordinate-transformations","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",["$","$L8",null,{"children":"$L9"}],null,["$","$La",null,{"children":["$Lb","$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","g7AUThjhEbhpZfJVFXqh_",{"children":[["$","$Lf",null,{"children":"$L10"}],null]}],null]}],false]],"m":"$undefined","G":["$11","$undefined"],"s":false,"S":true}
+12:"$Sreact.suspense"
+13:I[4911,[],"AsyncMetadata"]
+15:I[6868,["330","static/chunks/d3ac728e-598d38ae96b11803.js","711","static/chunks/711-3ac098f4aa3de521.js","907","static/chunks/907-77394335ddd73061.js","352","static/chunks/352-983c456fb1dcaf51.js","535","static/chunks/app/blog/%5Bpostslug%5D/page-23fa8c1cb4409c23.js"],"default"]
+9:["$","$12",null,{"fallback":null,"children":["$","$L13",null,{"promise":"$@14"}]}]
+16:T160f,Record some basic knowledge so I can pick it up when I forget.
+
+## 1. Coordinate Transformation
+
+Suppose we have coordinate frames $A$ and $B$. Also suppose there is a point $P_0$ in space and a vector $\vec{t}$ in space. How do we represent the same point and the same vector in coordinate frame $B$?
+
+The coordinate frame $B$ expressed in coordinate frame $A$ is: (the superscript $A$ indicates it is represented in frame $A$)
+
+$$
+{}^{A}T_{B} =
+\begin{bmatrix}
+R_{3\times3} & t_{3\times1} \\
+0;0;0 & 1
+\end{bmatrix}
+=
+\begin{bmatrix}
+R_{B} & t_{B} \\
+0;0;0 & 1
+\end{bmatrix}
+=
+\begin{bmatrix}
+r_{11} & r_{12} & r_{13} & x \\
+r_{21} & r_{22} & r_{23} & y \\
+r_{31} & r_{32} & r_{33} & z \\
+0 & 0 & 0 & 1
+\end{bmatrix}
+$$
+
+where
+
+$$
+R_{3\times3}=\begin{bmatrix}
+{}^A\hat x_B & {}^A\hat y_B & {}^A\hat z_B
+\end{bmatrix}
+$$
+
+represents the $x,y,z$ axes of coordinate frame $B$ expressed in frame $A$ (each ${}^A\hat x_B$ is a unit direction vector).
+
+and
+
+$$
+t_B=\begin{bmatrix}x\\y\\z\end{bmatrix}
+$$
+
+is the coordinate of the origin $O_B$ of frame $B$ expressed in frame $A$.
+
+Note: ${}^{A}T_{B}$ is usually called the homogeneous transformation matrix.
+
+---
+
+### Transforming a Point Between Coordinate Frames
+
+A point $P_0$ in space is expressed in frame $A$ as: ( $\mathbf{P}$ denotes the coordinate vector )
+
+$$
+{}^{A}\mathbf{p}_{P_0}=\begin{bmatrix}
+x_0\\
+y_0\\
+z_0
+\end{bmatrix}
+$$
+
+How do we express $P_0$ in frame $B$?
+
+> First, reason in frame $B$. Suppose $P_0$ in frame $B$ is
+> $$
+> {}^B\mathbf{P}_{P_0}=\begin{bmatrix}
+> x_0'\\
+> y_0'\\
+> z_0'
+> \end{bmatrix}
+> $$
+> Geometrically,
+> $$
+> {}^B\mathbf{P}_{P_0}={}^B\mathbf{P}_{O_B}+x_0'\cdot{}^B\hat x_B+ y_0'\cdot{}^B\hat y_B +z_0'\cdot{}^B\hat z_B
+> $$
+> Convert the same geometric expression to frame $A$ (note the coefficients are unchanged):
+> $$
+> {}^A\mathbf{P}_{P_0}={}^A\mathbf{P}_{O_B}+x_0’\cdot{}^A\hat x_B+ y_0'\cdot{}^A\hat y_B +z_0’\cdot{}^A\hat z_B
+> $$
+> Nothing actually changes — only the representation.
+>
+> Substitute known quantities:
+> $$
+> {}^B\mathbf{P}_{P_0}=\begin{bmatrix}
+> x_0'\\
+> y_0'\\
+> z_0'
+> \end{bmatrix}
+> =\begin{bmatrix}
+> 0\\
+> 0\\
+> 0
+> \end{bmatrix}
+> +x_0'\cdot\begin{bmatrix}
+> 1\\
+> 0\\
+> 0
+> \end{bmatrix}
+> +y_0'\cdot\begin{bmatrix}
+> 0\\
+> 1\\
+> 0
+> \end{bmatrix}
+> +z_0'\cdot\begin{bmatrix}
+> 0\\
+> 0\\
+> 1
+> \end{bmatrix}
+> $$
+> and
+> $$
+> \begin{bmatrix}
+> x_0\\
+> y_0\\
+> z_0
+> \end{bmatrix}=
+> t_B+\begin{bmatrix}
+> {}^A\hat x_B & {}^A\hat y_B & {}^A\hat z_B
+> \end{bmatrix}\cdot
+> \begin{bmatrix}
+> x_0'\\
+> y_0'\\
+> z_0'
+> \end{bmatrix}
+> $$
+> Now $x_0, y_0, z_0, {}^A\hat x_B, {}^A\hat y_B, {}^A\hat z_B, t_B$ are known, so ${}^B\mathbf{P}_{P_0}$ can be solved.
+>
+> For convenience, append one more row:
+> $$
+> \begin{align}
+> \begin{bmatrix}
+> x_0\\
+> y_0\\
+> z_0\\
+> 1
+> \end{bmatrix}&=
+> \begin{bmatrix}
+> t_B\\
+> 1
+> \end{bmatrix}
+> +\begin{bmatrix}
+> {}^A\hat x_B & {}^A\hat y_B & {}^A\hat z_B \\
+> 0 & 0 & 0
+> \end{bmatrix}\cdot
+> \begin{bmatrix}
+> x_0'\\
+> y_0'\\
+> z_0'
+> \end{bmatrix}\\
+> &=\begin{bmatrix}
+> {}^A\hat x_B & {}^A\hat y_B & {}^A\hat z_B & t_B\\
+> 0 & 0& 0 & 1
+> \end{bmatrix}\cdot
+> \begin{bmatrix}
+> x_0'\\
+> y_0'\\
+> z_0'\\
+> 1
+> \end{bmatrix}\\
+> &= {}^{A}T_{B} \cdot
+> \begin{bmatrix}
+> x_0'\\
+> y_0'\\
+> z_0' \\
+> 1
+> \end{bmatrix}
+> 
+> \end{align}
+> $$
+> That is (denote coordinates with appended 1 as $\tilde{P}$; vectors append 0 instead of 1):
+> $$
+> {}^A\mathbf{\tilde{P}}_{P_0} = {}^{A}T_{B}\cdot {}^B\mathbf{\tilde{P}}_{P_0}
+> $$
+> Therefore (left-multiply both sides by ${}^{A}T_{B}^{-1}$):
+> $$
+> {}^{A}T_{B}^{-1}\cdot{}^A\mathbf{\tilde{P}}_{P_0} = {}^B\mathbf{\tilde{P}}_{P_0}
+> $$
+
+In summary,
+
+$$
+\begin{bmatrix}
+x_0'\\
+y_0'\\
+z_0' \\
+1
+\end{bmatrix}={}^{A}T_{B}^{-1}\cdot \begin{bmatrix}
+x_0\\
+y_0\\
+z_0\\
+1
+\end{bmatrix}
+$$
+
+By symmetry,
+
+$$
+{}^A\mathbf{\tilde{P}}_{P_0} = {}^{A}T_{B}\cdot {}^B\mathbf{\tilde{P}}_{P_0}\\
+{}^B\mathbf{\tilde{P}}_{P_0} = {}^{B}T_{A}\cdot {}^A\mathbf{\tilde{P}}_{P_0}
+$$
+
+which implies
+
+$$
+{}^{A}T_{B}={}^{B}T_{A}^{-1}\\
+{}^{A}T_{B}\cdot{}^{B}T_{A}=I
+$$
+
+---
+
+### Transforming a Vector Between Coordinate Frames
+
+Consider a vector $\vec{t}$ in space expressed in frame $A$ as:
+
+$$
+{}^{A}\vec{t}=
+\begin{bmatrix}t_x\\t_y\\t_z\end{bmatrix}
+$$
+
+How do we express it in frame $B$?
+
+> A vector is translation-invariant. Move its start point to the origin $O_A$. Then it becomes a vector from $O_A$ to $T_0=[t_x, t_y, t_z]^T$. Append 0 for convenience:
+> $$
+> {}^{A}\tilde{\vec{t}} = \begin{bmatrix}t_x\\t_y\\t_z\\0\end{bmatrix}=\begin{bmatrix}t_x\\t_y\\t_z\\1\end{bmatrix}-\begin{bmatrix}0\\0\\0\\1\end{bmatrix}={}^A\mathbf{\tilde{P}}_{T_0}-{}^A\mathbf{\tilde{P}}_{O_A}
+> $$
+> Convert both points to frame $B$ and subtract:
+> $$
+> \begin{align}
+> {}^{B}\tilde{\vec{t}} &={}^B\mathbf{\tilde{P}}_{T_0}-{}^B\mathbf{\tilde{P}}_{O_A}\\
+> &={}^BT_{A}\cdot ({}^A\mathbf{\tilde{P}}_{T_0} - {}^A\mathbf{\tilde{P}}_{O_A})\\
+> &={}^BT_{A}\cdot{}^{A}\tilde{\vec{t}}\\
+> &={}^AT_{B}^{-1}\cdot{}^{A}\tilde{\vec{t}}
+> \end{align}
+> $$
+
+Thus
+
+$$
+\begin{bmatrix}
+t_x'\\
+t_y'\\
+t_z'\\
+0
+\end{bmatrix}={}^BT_{A}\cdot\begin{bmatrix}
+t_x\\
+t_y\\
+t_z\\
+0
+\end{bmatrix}={}^AT_{B}^{-1}\cdot\begin{bmatrix}
+t_x\\
+t_y\\
+t_z\\
+0
+\end{bmatrix}
+$$
+
+---
+
+### Some Practical Tricks
+
+1. **Chain Rule**
+
+   $$
+   {}^A\mathbf{\tilde{P}}={}^AT_B\cdot {}^BT_C\cdot{}^C\mathbf{\tilde{P}}\\
+   {}^A\mathbf{\tilde{P}}={}^AT_B\cdot {}^BT_C\cdot{}^CT_D\cdot{}^D\mathbf{\tilde{P}}
+   $$
+
+2. **Fast Inverse Computation**
+   $$
+   {}^AT_{B}=\begin{bmatrix}
+   R & t\\
+   0 & 1
+   \end{bmatrix}
+   $$
+   
+   $$
+   {}^AT_{B}^{-1}=\begin{bmatrix}
+   R^T & -R^T\cdot t\\
+   0 & 1
+   \end{bmatrix}
+   $$
+17:T1ea2,记录一些基础知识，供自己想不起来的时候拾取。
+
+## 1. 坐标变换
+
+假设我们有坐标系$A$ 和$B$ 。以及一个空间中的点$P_0$和空间中的一个向量$\vec{t}$，我们将如何在坐标系$B$中表征同一个点和同一个向量？
+
+坐标系$B$在坐标系$A$中被表示为：（左上角的$A$表示在坐标系$A$中表征）
+$$
+{}^{A}T_{B} =
+\begin{bmatrix}
+R_{3\times3} & t_{3\times1} \\
+0;0;0 & 1
+\end{bmatrix}
+=
+\begin{bmatrix}
+R_{B} & t_{B} \\
+0;0;0 & 1
+\end{bmatrix}
+=
+\begin{bmatrix}
+r_{11} & r_{12} & r_{13} & x \\
+r_{21} & r_{22} & r_{23} & y \\
+r_{31} & r_{32} & r_{33} & z \\
+0 & 0 & 0 & 1
+\end{bmatrix}
+$$
+其中
+$$
+R_{3\times3}=\begin{bmatrix}
+{}^A\hat x_B & {}^A\hat y_B & {}^A\hat z_B
+\end{bmatrix}
+$$
+代表了坐标系B的$x,y,z$三个轴在A坐标系中的表达（每个${}^A\hat x_B$都是表征方向的单位向量）
+
+而
+$$
+t_B=\begin{bmatrix}x\\y\\z\end{bmatrix}
+$$
+是坐标系B的坐标原点$O_B$在坐标系A下的表达。
+
+注：这个${}^{A}T_{B}$通常被大家成为齐次变换矩阵。 
+
+### 点位置在不同坐标系下的转换
+
+空间中的点$P_0$，他在坐标系$A$中被表示为:  ($\mathbf{P}$代表取点的坐标)
+$$
+{}^{A}\mathbf{p}_{P_0}=\begin{bmatrix}
+x_0\\
+y_0\\
+z_0
+\end{bmatrix}
+$$
+那么如何坐标系B中表达$P_0$呢？
+
+> 首先在坐标$B$下思考问题，假设$P_0$在$B$坐标系下表达为
+> $$
+> {}^B\mathbf{P}_{P_0}=\begin{bmatrix}
+> x_0'\\
+> y_0'\\
+> z_0'
+> \end{bmatrix}
+> $$
+> 从几何上思考，在B坐标系下表征$P_0$是这样：
+> $$
+> {}^B\mathbf{P}_{P_0}={}^B\mathbf{P}_{O_B}+x_0'\cdot{}^B\hat x_B+ y_0'\cdot{}^B\hat y_B +z_0'\cdot{}^B\hat z_B\\
+> $$
+> 将同样的几何表达转化到A坐标系下表征就是:（注意向量的系数是一样的）
+> $$
+> {}^A\mathbf{P}_{P_0}={}^A\mathbf{P}_{O_B}+x_0’\cdot{}^A\hat x_B+ y_0'\cdot{}^A\hat y_B +z_0’\cdot{}^A\hat z_B
+> $$
+> 实际上什么都没有变化，只是表达方式变了。
+>
+> 看起来不太像人话，把已知的东西带入上面两行就看懂了
+> $$
+> {}^B\mathbf{P}_{P_0}=\begin{bmatrix}
+> x_0'\\
+> y_0'\\
+> z_0'
+> \end{bmatrix}
+> =\begin{bmatrix}
+> 0\\
+> 0\\
+> 0
+> \end{bmatrix}
+> +x_0'\cdot\begin{bmatrix}
+> 1\\
+> 0\\
+> 0
+> \end{bmatrix}
+> +y_0'\cdot\begin{bmatrix}
+> 0\\
+> 1\\
+> 0
+> \end{bmatrix}
+> +z_0'\cdot\begin{bmatrix}
+> 0\\
+> 0\\
+> 1
+> \end{bmatrix}
+> $$
+> 以及
+> $$
+> \begin{bmatrix}
+> x_0\\
+> y_0\\
+> z_0
+> \end{bmatrix}=
+> t_B+\begin{bmatrix}
+> {}^A\hat x_B & {}^A\hat y_B & {}^A\hat z_B
+> \end{bmatrix}\cdot
+> \begin{bmatrix}
+> x_0'\\
+> y_0'\\
+> z_0'
+> \end{bmatrix}
+> $$
+> 可以发现在第二行中，我们已知了所有的$x_0, y_0, z_0,{}^A\hat x_B,  {}^A\hat y_B, {}^A\hat z_B, t_B$，已经可以将${}^B\mathbf{P}_{P_0}$算出来了。
+>
+> 为了表达方便，在下面补出一行，从而
+> $$
+> \begin{align}
+> \begin{bmatrix}
+> x_0\\
+> y_0\\
+> z_0\\
+> 1
+> \end{bmatrix}&=
+> \begin{bmatrix}
+> t_B\\
+> 1
+> \end{bmatrix}
+> +\begin{bmatrix}
+> {}^A\hat x_B & {}^A\hat y_B & {}^A\hat z_B \\
+> 0 & 0 & 0
+> \end{bmatrix}\cdot
+> \begin{bmatrix}
+> x_0'\\
+> y_0'\\
+> z_0'
+> \end{bmatrix}\\
+> &=\begin{bmatrix}
+> {}^A\hat x_B & {}^A\hat y_B & {}^A\hat z_B & t_B\\
+> 0 & 0& 0 & 1
+> \end{bmatrix}\cdot
+> \begin{bmatrix}
+> x_0'\\
+> y_0'\\
+> z_0'\\
+> 1
+> \end{bmatrix}\\
+> &= {}^{A}T_{B} \cdot
+> \begin{bmatrix}
+> x_0'\\
+> y_0'\\
+> z_0' \\
+> 1
+> \end{bmatrix}
+> 
+> \end{align}
+> $$
+> 也就是（如果标记加了1的这种坐标为$\tilde{P}$，注意如果向量的话是下面加个0不是1）
+> $$
+> {}^A\mathbf{\tilde{P}}_{P_0} = {}^{A}T_{B}\cdot {}^B\mathbf{\tilde{P}}_{P_0}
+> $$
+> 从而反过来(两边同时左乘${}^{A}T_{B}^{-1}$)就是
+> $$
+> {}^{A}T_{B}^{-1}\cdot{}^A\mathbf{\tilde{P}}_{P_0} = {}^B\mathbf{\tilde{P}}_{P_0}
+> $$
+
+总的来说，就是
+$$
+\begin{bmatrix}
+x_0'\\
+y_0'\\
+z_0' \\
+1
+\end{bmatrix}={}^{A}T_{B}^{-1}\cdot \begin{bmatrix}
+x_0\\
+y_0\\
+z_0\\
+1
+\end{bmatrix}
+$$
+
+> 很显然上面的推导过程是对称的，所以我们很容易得到两个对称的式子
+> $$
+> {}^A\mathbf{\tilde{P}}_{P_0} = {}^{A}T_{B}\cdot {}^B\mathbf{\tilde{P}}_{P_0}\\
+> {}^B\mathbf{\tilde{P}}_{P_0} = {}^{B}T_{A}\cdot {}^A\mathbf{\tilde{P}}_{P_0}
+> $$
+> 重写下第二个式子就是
+> $$
+> {}^A\mathbf{\tilde{P}}_{P_0}={}^{B}T_{A}^{-1}{}^B\mathbf{\tilde{P}}_{P_0}
+> $$
+> 因此
+> $$
+> {}^{A}T_{B}={}^{B}T_{A}^{-1}\\
+> {}^{A}T_{B}\cdot{}^{B}T_{A}=I
+> $$
+
+因而我们也有
+$$
+\begin{bmatrix}
+x_0'\\
+y_0'\\
+z_0' \\
+1
+\end{bmatrix}={}^{B}T_{A}\cdot \begin{bmatrix}
+x_0\\
+y_0\\
+z_0\\
+1
+\end{bmatrix}
+$$
+其中左边的是在B坐标系下的坐标，右边的是在A坐标系下的坐标，${}^BT_A$是在B坐标系下对A坐标系的表征。
+
+### 向量在不同坐标系下的转换
+
+空间中还有一个向量$\vec{t}$，他在坐标系A中被表示为：
+$$
+{}^{A}\vec{t}=
+\begin{bmatrix}t_x\\t_y\\t_z\end{bmatrix}
+$$
+他在坐标系B中又怎么表达呢？
+
+> 实际上很简单，向量是平移无关的，我们只要把它的出发点移动到A坐标系的原点，那么他就是从$O_A$出发，移动到点$T_0=[t_x, t_y, t_z]^T$的一个具体向量。我们这里给向量下面加一个0方便表达，记为$\tilde{\vec{t}}$
+> $$
+> {}^{A}\tilde{\vec{t}} = \begin{bmatrix}t_x\\t_y\\t_z\\0\end{bmatrix}=\begin{bmatrix}t_x\\t_y\\t_z\\1\end{bmatrix}-\begin{bmatrix}0\\0\\0\\1\end{bmatrix}={}^A\mathbf{\tilde{P}}_{T_0}-{}^A\mathbf{\tilde{P}}_{O_A}
+> $$
+> 我们直接把这两个点都转换到B坐标系中，然后对他们做一个减就行。（因为这两个点是在空间中不变的）
+> $$
+> \begin{align}
+> {}^{B}\tilde{\vec{t}} &={}^B\mathbf{\tilde{P}}_{T_0}-{}^B\mathbf{\tilde{P}}_{O_A}\\
+> &={}^BT_{A}\cdot ({}^A\mathbf{\tilde{P}}_{T_0} - {}^A\mathbf{\tilde{P}}_{O_A})\\
+> &={}^BT_{A}\cdot{}^{A}\tilde{\vec{t}}\\
+> &={}^AT_{B}^{-1}\cdot{}^{A}\tilde{\vec{t}}
+> \end{align}
+> $$
+> 所以从形式上看其实是一样的，区别只是下面是加个0而不是像坐标一样子下面加个1。
+
+所以${}^{B}\vec{t}=[{t_x, t_y, t_z}]^T$计算方式是
+$$
+\begin{bmatrix}
+t_x'\\
+t_y'\\
+t_z'\\
+0
+\end{bmatrix}={}^BT_{A}\cdot\begin{bmatrix}
+t_x\\
+t_y\\
+t_z\\
+0
+\end{bmatrix}={}^AT_{B}^{-1}\cdot\begin{bmatrix}
+t_x\\
+t_y\\
+t_z\\
+0
+\end{bmatrix}
+$$
+
+
+### 一点小技巧
+
+1. **链式法则**
+
+   从${}^B\mathbf{\tilde{P}}_{P_0} = {}^{B}T_{A}\cdot {}^A\mathbf{\tilde{P}}_{P_0}$里面我们就能看到一种类似相消的规则，右侧第一项的下标A和右侧第二项的左上标A消去了，剩下右侧第一项的左上标B，因此得到了左侧的这个式子。这个规则可以任意延长，从而
+   $$
+   {}^A\mathbf{\tilde{P}}={}^AT_B\cdot {}^BT_C\cdot{}^C\mathbf{\tilde{P}}\\
+   {}^A\mathbf{\tilde{P}}={}^AT_B\cdot {}^BT_C\cdot{}{}^CT_D\cdot{}^D\mathbf{\tilde{P}}\\
+   ...
+   $$
+
+​	对于向量也是一样的，只是再次注意向量的下面是加0，坐标的下面是加1.
+
+2. **求逆快速算法**
+
+   由于${}^AT_B$可以被表示为
+   $$
+   {}^AT_{B}=\begin{bmatrix}
+   R & t\\
+   0 & 1
+   \end{bmatrix}
+   $$
+   他的逆可以简化计算为
+   $$
+   {}^AT_{B}^{-1}=\begin{bmatrix}
+   R^T & -R^T\cdot t\\
+   0 & 1
+   \end{bmatrix}
+   $$
+
+> 可以这样计算的原理：
+>
+> 根据前文，我们已知${}^AT_{B}$的逆 ${}^AT_{B}^{-1}={}^BT_{A}$也是一个旋转矩阵，从而也可以被表示为
+> $$
+> {}^AT_{B}^{-1}={}^BT_{A}=\begin{bmatrix}
+> R’ & t'\\
+> 0 & 1
+> \end{bmatrix}
+> $$
+> 那么就有了
+> $$
+> \begin{bmatrix}
+> R & t\\
+> 0 & 1
+> \end{bmatrix}\cdot\begin{bmatrix}
+> R' & t'\\
+> 0 & 1
+> \end{bmatrix}=I
+> $$
+> 使用分块矩阵乘法
+> $$
+> \begin{bmatrix}
+> RR' & Rt'+t\\
+> 0 & 1
+> \end{bmatrix}=\begin{bmatrix}
+> I & 0\\
+> 0 & 1
+> \end{bmatrix}
+> $$
+> 两边对应位置相等。并且考虑到$R$是旋转矩阵（正交），所以$R^{-1}$=$R^T$
+> $$
+> RR'=I \Rightarrow R'=R^T=R^{-1}\\
+> t'=-R^{-1}\cdot t=-R^{T}\cdot t
+> $$
+7:["$","$12",null,{"fallback":null,"children":["$","$L15",null,{"meta":{"title":"Review of Some Fundamental Mathematics Commonly Used in Robotics (I): Coordinate Transformations","title_cn":"回顾一些机器人常用的基础数学知识(一)：坐标变换","subtitle":"","subtitle_cn":"","date":"2026-02-07","tags":["Math"]},"contentEn":"$16","contentCn":"$17"}]}]
+c:null
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+b:null
+14:{"metadata":[["$","title","0",{"children":"Junshan Huang"}],["$","meta","1",{"name":"description","content":"PhD student at Rutgers University."}],["$","meta","2",{"name":"author","content":"Junshan Huang"}],["$","meta","3",{"name":"keywords","content":"Junshan Huang,PhD,Research,Rutgers University"}],["$","meta","4",{"name":"creator","content":"Junshan Huang"}],["$","meta","5",{"name":"publisher","content":"Junshan Huang"}],["$","meta","6",{"property":"og:title","content":"Junshan Huang"}],["$","meta","7",{"property":"og:description","content":"PhD student at Rutgers University."}],["$","meta","8",{"property":"og:site_name","content":"Junshan Huang's Academic Website"}],["$","meta","9",{"property":"og:locale","content":"en_US"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary"}],["$","meta","12",{"name":"twitter:title","content":"Junshan Huang"}],["$","meta","13",{"name":"twitter:description","content":"PhD student at Rutgers University."}],["$","link","14",{"rel":"icon","href":"/fav.ico"}]],"error":null,"digest":"$undefined"}
+e:{"metadata":"$14:metadata","error":null,"digest":"$undefined"}

@@ -1,0 +1,291 @@
+1:"$Sreact.fragment"
+2:I[3719,["711","static/chunks/711-3ac098f4aa3de521.js","217","static/chunks/217-414f3bc2f28e17e5.js","862","static/chunks/862-15a393ad2462454b.js","177","static/chunks/app/layout-04f81b10b1cda18d.js"],"ThemeProvider"]
+3:I[768,["711","static/chunks/711-3ac098f4aa3de521.js","217","static/chunks/217-414f3bc2f28e17e5.js","862","static/chunks/862-15a393ad2462454b.js","177","static/chunks/app/layout-04f81b10b1cda18d.js"],"default"]
+4:I[7555,[],""]
+5:I[1295,[],""]
+6:I[2548,["711","static/chunks/711-3ac098f4aa3de521.js","217","static/chunks/217-414f3bc2f28e17e5.js","862","static/chunks/862-15a393ad2462454b.js","177","static/chunks/app/layout-04f81b10b1cda18d.js"],"default"]
+8:I[9665,[],"MetadataBoundary"]
+a:I[9665,[],"OutletBoundary"]
+d:I[4911,[],"AsyncMetadataOutlet"]
+f:I[9665,[],"ViewportBoundary"]
+11:I[6614,[],""]
+:HL["/_next/static/css/9d94f4a7c4219e2f.css","style"]
+0:{"P":null,"b":"I2oMRa1RujZw_FUuyMPfO","p":"","c":["","blog","review-of-common-mathematical-knowledge-in-robotics-ii-transformation-from-camera-coordinate-system-to-image-coordinate-system",""],"i":false,"f":[[["",{"children":["blog",{"children":[["postslug","review-of-common-mathematical-knowledge-in-robotics-ii-transformation-from-camera-coordinate-system-to-image-coordinate-system","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/9d94f4a7c4219e2f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/fav.ico","type":"image/svg+xml"}],["$","link",null,{"rel":"dns-prefetch","href":"https://google-fonts.jialeliu.com"}],["$","link",null,{"rel":"preconnect","href":"https://google-fonts.jialeliu.com","crossOrigin":""}],["$","link",null,{"rel":"preload","as":"style","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap"}],["$","link",null,{"suppressHydrationWarning":true,"rel":"stylesheet","id":"gfonts-css","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap","media":"print"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              (function(){\n                var l = document.getElementById('gfonts-css');\n                if (!l) return;\n                if (l.media !== 'all') {\n                  l.addEventListener('load', function(){ try { l.media = 'all'; } catch(e){} });\n                }\n              })();\n            "}}],["$","noscript",null,{"children":["$","link",null,{"rel":"stylesheet","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap"}]}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              try {\n                const theme = localStorage.getItem('theme-storage');\n                const parsed = theme ? JSON.parse(theme) : null;\n                const setting = parsed?.state?.theme || 'system';\n                const prefersDark = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;\n                const effective = setting === 'dark' ? 'dark' : (setting === 'light' ? 'light' : (prefersDark ? 'dark' : 'light'));\n                var root = document.documentElement;\n                root.classList.add(effective);\n                root.setAttribute('data-theme', effective);\n              } catch (e) {\n                var root = document.documentElement;\n                root.classList.add('light');\n                root.setAttribute('data-theme', 'light');\n              }\n            "}}]]}],["$","body",null,{"className":"font-sans antialiased","children":["$","$L2",null,{"children":[["$","$L3",null,{"items":[{"title":"About","type":"page","target":"about","href":"/"},{"title":"Publications","type":"page","target":"publications","href":"/publications"},{"title":"Teaching","type":"page","target":"teaching","href":"/teaching"},{"title":"Awards","type":"page","target":"awards","href":"/awards"},{"title":"Services","type":"page","target":"services","href":"/services"},{"title":"Blog","type":"page","target":"blog","href":"/blog"}],"siteTitle":"Junshan Huang","enableOnePageMode":false}],["$","main",null,{"className":"min-h-screen pt-16 lg:pt-20","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L6",null,{"lastUpdated":"Feburary 7, 2026"}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["postslug","review-of-common-mathematical-knowledge-in-robotics-ii-transformation-from-camera-coordinate-system-to-image-coordinate-system","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",["$","$L8",null,{"children":"$L9"}],null,["$","$La",null,{"children":["$Lb","$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","BXZ7xdpiMt89_tkJbSzmd",{"children":[["$","$Lf",null,{"children":"$L10"}],null]}],null]}],false]],"m":"$undefined","G":["$11","$undefined"],"s":false,"S":true}
+12:"$Sreact.suspense"
+13:I[4911,[],"AsyncMetadata"]
+15:I[6868,["330","static/chunks/d3ac728e-598d38ae96b11803.js","711","static/chunks/711-3ac098f4aa3de521.js","907","static/chunks/907-77394335ddd73061.js","352","static/chunks/352-983c456fb1dcaf51.js","535","static/chunks/app/blog/%5Bpostslug%5D/page-23fa8c1cb4409c23.js"],"default"]
+9:["$","$12",null,{"fallback":null,"children":["$","$L13",null,{"promise":"$@14"}]}]
+16:Tfe8,Assume that our camera coordinate system is defined as follows (viewed from behind the camera):
+
+- $Z$ points forward, $X$ points to the right, and $Y$ points downward. (This is a common definition used in OpenCV; in robotics it is more common to have $X$ forward, $Y$ to the left, and $Z$ upward, but the derivation is the same.)
+
+The image pixel coordinate system is defined as:
+
+- $X$ to the right, $Y$ downward.
+
+## From Camera Coordinates to Image Coordinates
+
+In general, a camera can be modeled using the pinhole imaging assumption (camera manufacturers usually handle lens distortion correction).
+
+![image-20260208152807344](/blog/review-of-common-mathematical-knowledge-in-robotics-ii-transformation-from-camera-coordinate-system-to-image-coordinate-system/image-20260208152807344.png)
+
+Originally, the image is formed on the imaging plane on the left, but for convenience we can instead observe it on the symmetric imaging plane on the right.
+
+Assume that we have a point in the camera coordinate system
+${}^{Cam}\mathbf{P}_{point} = [X, Y, Z]^T$.
+
+Using the principle of similar triangles, the corresponding point on the right imaging plane is
+$$
+\begin{bmatrix}
+\frac{F}{Z}\cdot X\\
+\frac{F}{Z}\cdot Y\\
+F
+\end{bmatrix}
+$$
+
+Next, we discretize this point into image coordinates. Let the corresponding image coordinate be
+${}^{Img}\mathbf{P}_{point} = [u, v]^T$.
+
+We use $m_x$ and $m_y$ to denote how many pixels there are per unit distance (per meter) in the $x$ and $y$ directions, respectively.
+
+Thus, the pixel position of this point relative to the image center is
+$$
+{}^{Center}\mathbf{P}_{point} =
+\begin{bmatrix}
+m_x\cdot\frac{F}{Z}\cdot X\\
+m_x\cdot\frac{F}{Z}\cdot Y\\
+\end{bmatrix}
+$$
+
+However, we know that image coordinates take the top-left corner as $(0,0)$. The image center in image coordinates is actually
+${}^{Img}\mathbf{P}_{center} = [c_x, c_y]^T$
+(this is generally half of the image width and height in pixels).
+
+So we perform another transformation:
+$$
+{}^{Img}\mathbf{P}_{point} =
+{}^{Img}\mathbf{P}_{center} + {}^{Center}\mathbf{P}_{Point}
+$$
+
+Finally, we obtain
+$$
+{}^{Img}\mathbf{P}_{point} =
+\begin{bmatrix}
+m_x\cdot\frac{F}{Z}\cdot X + c_x\\
+m_x\cdot\frac{F}{Z}\cdot Y + c_y\\
+\end{bmatrix}
+$$
+
+Using
+$$
+f_x = m_x\cdot F\\
+f_y = m_y\cdot F
+$$
+for simplification, we get
+$$
+{}^{Img}\mathbf{P}_{point} =
+\begin{bmatrix}
+u\\
+v
+\end{bmatrix}
+=
+\begin{bmatrix}
+f_x\cdot\frac{1}{Z}\cdot X + c_x\\
+f_x\cdot\frac{1}{Z}\cdot Y + c_y\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+f_x & 0 & c_x\\
+0 & f_y & c_y\\
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+X\\
+Y\\
+Z
+\end{bmatrix}
+\cdot \frac{1}{Z}
+$$
+
+People like to add a third row and move $Z$ to the left, resulting in the following form:
+$$
+Z \cdot {}^{Img}\mathbf{\tilde{P}}_{point}
+= Z \cdot
+\begin{bmatrix}
+u\\
+v\\
+1
+\end{bmatrix}
+=
+\begin{bmatrix}
+f_x & 0 & c_x\\
+0 & f_y & c_y\\
+0 & 0 & 1
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+X\\
+Y\\
+Z
+\end{bmatrix}
+= K \cdot {}^{Cam}\mathbf{P}_{point}
+$$
+
+Here, $K$ is the well-known camera intrinsic matrix.
+
+There are many advantages to doing this (adding the third row):
+
+- The vector on the left-hand side not only gives pixel coordinates (by dividing the first two elements by the third), but also preserves the original depth information of the pixel through the third element, allowing us to transform back at any time.
+
+- A $3 \times 3$ matrix is convenient for matrix chain multiplication, for example:
+  $$
+  {}^{Img}\mathbf{\tilde{P}}_{point}
+  = K_{3\times3} \cdot [R|t]_{3\times4} \cdot {}^{World}\mathbf{\tilde{P}}_{point}
+  $$
+  (Here, $K$ can be regarded as ${}^{Img}T_{Cam}$, and the second term is ${}^{Cam}T_{World}$ with the last row removed, which makes it easy to understand using the chain rule.)
+
+## From Image Coordinates to Camera Coordinates
+
+Transforming from image coordinates to camera coordinates is simply the reverse of the above process:
+$$
+{}^{Cam}\mathbf{P}_{point}
+= K^{-1} \cdot Z \cdot {}^{Img}\mathbf{\tilde{P}}_{point}\\
+\begin{bmatrix}
+X\\
+Y\\
+Z
+\end{bmatrix}
+= K^{-1} \cdot Z \cdot
+\begin{bmatrix}
+u\\
+v\\
+1
+\end{bmatrix}
+$$
+17:Td2c,假设我们的相机坐标系是（从相机后面看过去）
+
+- $Z$朝前，$X$向右，$Y$向下。 （这是OpenCV常用的定义，机器人中通常X朝前，Y向左，Z向上，但推导是一样的）
+
+图像的像素坐标系是
+
+- $X$向右，$Y$向下。
+
+##  从相机系到图像系
+
+一般相机可以采用小孔成像的假设（相机厂商会帮忙去畸变）
+
+![image-20260208152807344](/blog/review-of-common-mathematical-knowledge-in-robotics-ii-transformation-from-camera-coordinate-system-to-image-coordinate-system/image-20260208152807344.png)
+
+原来是在左侧这个成像面上成像的，但是为了方便我们可以换到右侧对称的这个成像面上观察。
+
+假设我们在相机系下有一个点${}^{Cam}\mathbf{P}_{point}=[X,Y,Z]^T$
+
+那么使用相似三角形的原理，得到他对应在右侧成像平面上的点的位置是
+$$
+\begin{bmatrix}
+\frac{F}{Z}\cdot X\\
+\frac{F}{Z}\cdot Y\\
+F
+\end{bmatrix}
+$$
+然后我们要离散化这个点到图像坐标上，设其对应的图像坐标为${}^{Img}\mathbf{P}_{point}=[u,v]^T$。
+
+我们用$m_x$和$m_y$分别表示$x,y$方向上，单位距离（每米）有多少像素
+
+从而得到该点相对图像中心的像素位置
+$$
+{}^{Center}\mathbf{P}_{point}=\begin{bmatrix}
+m_x\cdot\frac{F}{Z}\cdot X\\
+m_x\cdot\frac{F}{Z}\cdot Y\\
+\end{bmatrix}
+$$
+但是因为我们知道图像坐标是从左上角为(0,0)的，我们这里的图像中心实际上位置已经是${}^{Img}\mathbf{P}_{center}=[c_x, c_y]^T$（这个一般就是一半的图片像素长宽）
+
+所以再做个转化
+$$
+{}^{Img}\mathbf{P}_{point}={}^{Img}\mathbf{P}_{center}+{}^{Center}\mathbf{P}_{Point}
+$$
+从而最后
+$$
+{}^{Img}\mathbf{P}_{point}=\begin{bmatrix}
+m_x\cdot\frac{F}{Z}\cdot X + c_x\\
+m_x\cdot\frac{F}{Z}\cdot Y + c_y\\
+\end{bmatrix}
+$$
+使用
+$$
+f_x=m_x\cdot F\\
+f_y=m_y\cdot F
+$$
+进行简化则得到
+$$
+{}^{Img}\mathbf{P}_{point} =\begin{bmatrix}
+u\\
+v
+\end{bmatrix}=\begin{bmatrix}
+f_x\cdot\frac{1}{Z}\cdot X + c_x\\
+f_x\cdot\frac{1}{Z}\cdot Y + c_y\\
+\end{bmatrix} = 
+\begin{bmatrix}
+f_x & 0 & c_x\\
+0 & f_y & c_y\\
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+X\\
+Y\\
+Z
+\end{bmatrix}\cdot\frac{1}{Z}
+$$
+人们喜欢给他加上第三行，并把Z放到左边，搞成这个样子
+$$
+Z\cdot{}^{Img}\mathbf{\tilde{P}}_{point} =Z\cdot\begin{bmatrix}
+u\\
+v\\
+1
+\end{bmatrix}= 
+\begin{bmatrix}
+f_x & 0 & c_x\\
+0 & f_y & c_y\\
+0 & 0 & 1
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+X\\
+Y\\
+Z
+\end{bmatrix}=K\cdot {}^{Cam}\mathbf{P}_{point}
+$$
+其中$K$就是常说的相机内参矩阵。
+
+这么做（加上第三行）好处有很多
+
+- 左侧的结果向量除了可以得到像素坐标（前两项除以第三项），还通过第三项保留了像素原本的深度信息，这样我们还可以随时变换回去。
+
+- 3x3的矩阵大小方便矩阵连乘，比如
+  $$
+  {}^{Img}\mathbf{\tilde{P}}_{point} = K_{3\times3}\cdot [R|t]_{3\times4}\cdot {}^{World}\mathbf{\tilde{P}}_{point}
+  $$
+  (其中K相当于是${}^{Img}T_{Cam}$，而第二项就是${}^{Cam}T_{World}$去掉最后一行，从而用链式法则很好理解)
+
+## 从图像系到相机系
+
+从图像系到相机系，就是上述过程反过来~
+$$
+{}^{Cam}\mathbf{P}_{point}=K^{-1}\cdot Z\cdot {}^{Img}\mathbf{\tilde{P}}_{point}\\
+\begin{bmatrix}
+X\\
+Y\\
+Z
+\end{bmatrix}=K^{-1}\cdot Z \cdot \begin{bmatrix}
+u\\
+v\\
+1
+\end{bmatrix}
+$$
+7:["$","$12",null,{"fallback":null,"children":["$","$L15",null,{"meta":{"title":"Review of Common Mathematical Knowledge in Robotics (II): Transformation from Camera Coordinate System to Image Coordinate System","title_cn":"机器人常用数学知识复习（二）：相机坐标系到图像坐标系的转换","subtitle":"","subtitle_cn":"","date":"2026-02-08","tags":["math"]},"contentEn":"$16","contentCn":"$17"}]}]
+c:null
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+b:null
+14:{"metadata":[["$","title","0",{"children":"Junshan Huang"}],["$","meta","1",{"name":"description","content":"PhD student at Rutgers University."}],["$","meta","2",{"name":"author","content":"Junshan Huang"}],["$","meta","3",{"name":"keywords","content":"Junshan Huang,PhD,Research,Rutgers University"}],["$","meta","4",{"name":"creator","content":"Junshan Huang"}],["$","meta","5",{"name":"publisher","content":"Junshan Huang"}],["$","meta","6",{"property":"og:title","content":"Junshan Huang"}],["$","meta","7",{"property":"og:description","content":"PhD student at Rutgers University."}],["$","meta","8",{"property":"og:site_name","content":"Junshan Huang's Academic Website"}],["$","meta","9",{"property":"og:locale","content":"en_US"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary"}],["$","meta","12",{"name":"twitter:title","content":"Junshan Huang"}],["$","meta","13",{"name":"twitter:description","content":"PhD student at Rutgers University."}],["$","link","14",{"rel":"icon","href":"/fav.ico"}]],"error":null,"digest":"$undefined"}
+e:{"metadata":"$14:metadata","error":null,"digest":"$undefined"}

@@ -1,0 +1,109 @@
+1:"$Sreact.fragment"
+2:I[3719,["711","static/chunks/711-3ac098f4aa3de521.js","217","static/chunks/217-414f3bc2f28e17e5.js","862","static/chunks/862-15a393ad2462454b.js","177","static/chunks/app/layout-04f81b10b1cda18d.js"],"ThemeProvider"]
+3:I[768,["711","static/chunks/711-3ac098f4aa3de521.js","217","static/chunks/217-414f3bc2f28e17e5.js","862","static/chunks/862-15a393ad2462454b.js","177","static/chunks/app/layout-04f81b10b1cda18d.js"],"default"]
+4:I[7555,[],""]
+5:I[1295,[],""]
+6:I[2548,["711","static/chunks/711-3ac098f4aa3de521.js","217","static/chunks/217-414f3bc2f28e17e5.js","862","static/chunks/862-15a393ad2462454b.js","177","static/chunks/app/layout-04f81b10b1cda18d.js"],"default"]
+8:I[9665,[],"MetadataBoundary"]
+a:I[9665,[],"OutletBoundary"]
+d:I[4911,[],"AsyncMetadataOutlet"]
+f:I[9665,[],"ViewportBoundary"]
+11:I[6614,[],""]
+:HL["/_next/static/css/9d94f4a7c4219e2f.css","style"]
+0:{"P":null,"b":"SMX2UAnxLa7PVscavicMR","p":"","c":["","blog","year-end-reflections-2026",""],"i":false,"f":[[["",{"children":["blog",{"children":[["postslug","year-end-reflections-2026","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/9d94f4a7c4219e2f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/fav.ico","type":"image/svg+xml"}],["$","link",null,{"rel":"dns-prefetch","href":"https://google-fonts.jialeliu.com"}],["$","link",null,{"rel":"preconnect","href":"https://google-fonts.jialeliu.com","crossOrigin":""}],["$","link",null,{"rel":"preload","as":"style","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap"}],["$","link",null,{"suppressHydrationWarning":true,"rel":"stylesheet","id":"gfonts-css","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap","media":"print"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              (function(){\n                var l = document.getElementById('gfonts-css');\n                if (!l) return;\n                if (l.media !== 'all') {\n                  l.addEventListener('load', function(){ try { l.media = 'all'; } catch(e){} });\n                }\n              })();\n            "}}],["$","noscript",null,{"children":["$","link",null,{"rel":"stylesheet","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap"}]}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              try {\n                const theme = localStorage.getItem('theme-storage');\n                const parsed = theme ? JSON.parse(theme) : null;\n                const setting = parsed?.state?.theme || 'system';\n                const prefersDark = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;\n                const effective = setting === 'dark' ? 'dark' : (setting === 'light' ? 'light' : (prefersDark ? 'dark' : 'light'));\n                var root = document.documentElement;\n                root.classList.add(effective);\n                root.setAttribute('data-theme', effective);\n              } catch (e) {\n                var root = document.documentElement;\n                root.classList.add('light');\n                root.setAttribute('data-theme', 'light');\n              }\n            "}}]]}],["$","body",null,{"className":"font-sans antialiased","children":["$","$L2",null,{"children":[["$","$L3",null,{"items":[{"title":"About","type":"page","target":"about","href":"/"},{"title":"Publications","type":"page","target":"publications","href":"/publications"},{"title":"Teaching","type":"page","target":"teaching","href":"/teaching"},{"title":"Awards","type":"page","target":"awards","href":"/awards"},{"title":"Services","type":"page","target":"services","href":"/services"},{"title":"Blog","type":"page","target":"blog","href":"/blog"}],"siteTitle":"Junshan Huang","enableOnePageMode":false}],["$","main",null,{"className":"min-h-screen pt-16 lg:pt-20","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L6",null,{"lastUpdated":"Feburary 7, 2026"}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["postslug","year-end-reflections-2026","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",["$","$L8",null,{"children":"$L9"}],null,["$","$La",null,{"children":["$Lb","$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","jtIv2s9tHWfnbIcyxiQjP",{"children":[["$","$Lf",null,{"children":"$L10"}],null]}],null]}],false]],"m":"$undefined","G":["$11","$undefined"],"s":false,"S":true}
+12:"$Sreact.suspense"
+13:I[4911,[],"AsyncMetadata"]
+15:I[6868,["330","static/chunks/d3ac728e-598d38ae96b11803.js","711","static/chunks/711-3ac098f4aa3de521.js","907","static/chunks/907-77394335ddd73061.js","352","static/chunks/352-983c456fb1dcaf51.js","535","static/chunks/app/blog/%5Bpostslug%5D/page-23fa8c1cb4409c23.js"],"default"]
+9:["$","$12",null,{"fallback":null,"children":["$","$L13",null,{"promise":"$@14"}]}]
+16:T193a,The Lunar New Year is just around the corner.
+
+This will be my first Chinese New Year / Spring Festival spent away from home.
+
+Happy New Year!
+
+Back in 2022, when I switched my major from Microelectronics to Artificial Intelligence, I could already tell that AI would be the direction of the future—but I never imagined it would evolve this fast.
+
+In just the past few months, I’ve been stunned over and over again. The insanely impressive video generation model Seedance 2.0, the fully automated research-and-paper-writing system FARS, all kinds of AI agent programming...
+
+AI is progressing at a breathtaking pace. Every time you open X, you see new work popping up again. Seriously—every single time...
+
+A quick look back at the things that have left the deepest impression on me this year, as far as I can recall right now:
+
+- Programming agents like Codex/Claude Code have completely changed the underlying logic of what it means to “write code.” People no longer need to focus on painstakingly crafting scripts line by line or mastering every detail of syntax. You just need to define the framework, clarify the execution logic, and provide the mathematical formulas; the AI can then implement your idea incredibly fast. Sometimes, you don’t even need to explain that much— it already knows what to do. What’s even more intimidating is that AI is fundamentally powered by compute, and compute keeps advancing (even if there are bottlenecks in recent years). Tasks that take an agent a full minute today may become instantaneous in the future—so fast that your brain hasn’t even finished processing what just happened.
+- Seedance 2.0, ByteDance’s new video model, generates anime-style videos insanely well—watching derivative creations is pure bliss. The same goes for realistic footage: authenticity, coherence, all kinds of camera movement and shot transitions. It further convinces me that video-guided (or world-model-guided) robotic action models have a huge future ahead. But it will also mercilessly take away many entry-level video production jobs.
+- Doubao Phone and Lumine (the project that plays Genshin Impact automatically)—also from ByteDance. GUI agents don’t just help you play games; they are redefining the next era’s traffic gateway. This is truly a world-shaking shift.
+- FARS, which started livestreaming on Bilibili yesterday, comes from the startup “Analemma.” It automatically comes up with ideas, makes plans, runs experiments, and writes papers. I kept its livestream on while coding, watching the costs and token usage climb, and seeing the system continuously switch among different projects as progress rolled forward. The fear of being replaced by a power loom somehow made me code more efficiently. I don’t know how good its results really are, but simply seeing the system running is enough to evoke that feeling. Of course, right now I’m still confident I can do better than AI—especially since AI still can’t run real-robot experiments. That’s where I get to catch my breath for the moment. But what about the future? If I don’t keep improving, it’s very possible that my only advantage over AI will be that I’m cheaper?
+- Tesla’s Full Self-Driving (FSD) v14—I tried it, and the experience was genuinely excellent. For a while I even planned to buy a new car and purchase it outright. In the end, because my commute is simply too short (< 1 mile), it wasn’t worth it, so I didn’t. But without a doubt, having FSD versus not having it is an entirely different mode of transportation.
+- Starship being caught by “chopsticks” (though that was a bit more than a year ago), and Long March 10’s controlled splashdown (a historic breakthrough)—these are each major steps for humanity toward deep space.
+- Robot locomotion algorithms (like dancing or a three-step layup): last year robots still felt very “robotic”; this year they move like agile people from the mountains.
+- Folding clothes went from a Holy Grail–level challenge that was extremely difficult to something that can now be tackled routinely. The explosion of all kinds of VLA models.
+- NanoBanana Pro, Google’s image editing and generation model, has an unparalleled understanding of the 3D world and even demonstrates reasoning ability. I tried it, and the results were already quite satisfying.
+
+That’s about all I can think of for now. But even just these things, all happening within a single year, are enough to show the pace of human technological development. This speed is unprecedented in history—and we also know that in the coming year, it will only get faster.
+
+Although many of these technologies have been evolving continuously rather than erupting overnight, it still feels like this year a lot of them, almost in unison, crossed a threshold of real usability—undergoing a qualitative change. (Of course, the qualitative leap for robotics models is still far away, waiting for us to explore.)
+
+I feel incredibly fortunate to have been born at the right time—to be experiencing this wild technological acceleration with my senses at their sharpest. And I feel equally fortunate that, in this era of rapid advances in robotics, I have a place to stand and the chance to do related research. I’m deeply grateful to the teachers and classmates who have helped me along the way. Without a doubt, I’m living through a stirring and exhilarating chapter in the human epic.
+
+I have a premonition that within my lifetime, AI is destined to overturn the entire world—yet I don’t know what the future will actually look like.
+
+But I do know this: I must use AI to extend my hands and my mind. With an absolutely open attitude, I need to embrace any new technology quickly and adapt just as quickly—only then is it possible to secure a place in this crazy world.
+
+Nothing should be an excuse to stop you from trying something new. Running out of AI tokens is not a real problem—there are more than enough you can obtain with a student identity. If you don’t have compute (and of course, you do), you can rent it and it’s not that expensive. Even if you don’t have a robot arm (and of course, you do), you can still understand everything by running it through simulation.
+
+So the only true bottleneck is yourself—your courage, your focus, your ability to take action, and your time.
+
+
+
+Facing the new year, I would say:
+
+*Let’s keep pace with the world!*
+17:T148c,马上过年了。
+
+这是第一个不在家过的新年/春节。
+
+新年快乐！
+
+当我在2022年从微电子转到人工智能专业的时候，我判断到了AI会是未来的方向，但是没有想到他的发展如此的迅速。
+
+仅仅在最近这几个月，我就感受到了多少次的震撼。超级牛逼的视频生成模型Seedance2.0，完全自动做research写paper的科研系统FARS，各种AI Agent编程...
+
+AI的发展实在是过于迅速，每次打开X，你总是能看到又有新的工作出现了。真的，每次...
+
+简单回想在此刻能想到的今年令我印象深刻的东西：
+
+- Codex/Claude Code等一系列的编程代理，彻底改变了写代码这一件事的底层逻辑。人不再需要去专注于如何熟练编写一个个可视化脚本，熟悉一个个语法，你只需要确定好代码框架，确定好运行逻辑，把数学公式给到AI，他就能按照你的思路非常快速的写出代码。甚至，都不一定需要你说这么多，他自己就知道怎么做。更恐怖的一件事情是，AI是完全基于算力之上的，而算力是在不断发展的（尽管近几年有了瓶颈），现在看Agent需要一分钟做的事情，可能以后一眨眼就完成了，而你的脑子甚至都还没转过来。
+- Seedance 2.0，字节跳动的新视频模型，二次元的视频生成的非常非常的好，看二创都爽炸了。真实视频也是一样，真实性、连贯性、各种运镜切镜。他真的进一步为我确认了视频引导的（或者说世界模型引导的）机器人动作模型是大有未来的。但，也一定会无情的夺取许多低端视频岗位的工作。
+- 豆包手机和Lumine（自动玩原神的那个工作），还是字节的，GUI Agent不仅仅能帮你打游戏，他更是在重新定义下一个时代的流量入口。这真的是天翻地覆的变化。
+- FARS，从昨天开始在b站上直播的，来自创业公司“日行迹Analemma”。自动想idea，做规划、跑实验、写paper。我一边挂着他的直播一边写代码，看着他消耗的费用和Token数的上升，以及不断滚动切换的各个项目的进展，被织布机取代的恐惧让我写代码效率更高了。虽然不知道他的成果到底怎么样，但是光看到这个系统在运行就已经足够产生这种感觉了。当然在现在，我很有信心能比AI做的活更好，尤其是AI还不能跑真机机器人实验，在这一点上我暂时得以喘息。但未来呢？如果我不努力进步的话，很有可能我和AI相比唯一的优势就是比他更省钱了？
+- 特斯拉的自动驾驶（FSD）v14，我试用了，体验真的很好，一度打算买新车并且同时买断。最后因为通勤距离实在太短 (< 1 mile)还是不划算，才没买。但是毫无疑问，有FSD和没有FSD，完全是两种交通方式。
+- 星舰筷子夹火箭（虽然是一年多一点之前），长征十号的受控溅落（历史性突破），这些都是人类走向深空的一个个大踏步。
+- 机器人的Locomotion算法（比如跳舞，三步上篮），去年的时候机器人还很机器人，今年的机器人已经完全是山里灵活的人了。
+- 机器人叠衣服从一个非常困难的圣杯级别项目，变成了已经可以被平凡攻克的挑战。各种各样VLA模型的爆发。
+- NanoBanana Pro，谷歌的图片编辑和生成模型，对于三维世界的理解无与伦比，并拥有推理能力。我试了效果已经相当令人满意了。
+
+暂时就想到这么多。但仅仅这些东西，都发生在一年之内，足以体现人类科技的发展速度。这个速度是历史上前所未有的，但我们也知道，接下来这一年，速度只会更快。
+
+虽然这里面，很多技术都是一直有在不断地演进，而不是突然爆发的，但是感觉在今年他们之中的许多都不约而同的到达了一种可用的程度，有了一种质变。（当然，机器人模型的质变还在远方，等待我们去求索）
+
+我真的很有幸，出生在合适的时间，在我对这个世界的感知最为敏锐的时候，全身心体验了技术的狂飙突进。也何其有幸，算是在这个机器人技术狂飙的时代，有一个立身之地可以从事相关的研究，真的无比感谢一路上帮助过我的老师和同学们。毫无疑问，我正在经历人类史诗中相当激昂的一段篇章。
+
+我有预感，在我的有生之年，AI注定会颠覆整个世界，但我不知道未来到底会是什么样。
+
+但我知道，必须以AI之力拓展我的双手和大脑，以绝对开放的心态快速接纳任何新生的技术并快速适应他，这才有可能在这疯狂的世界里占据下一席之地。
+
+没有什么东西可以是阻挡你尝试新东西的借口，AI Token不够是不可能的，使用学生身份能薅到的就已经用不完了；算力没有（当然是有的）都可以租也不太贵；即使是机械臂没有（当然还是有的）都可以在simulation里面跑明白。
+
+所以唯一的瓶颈其实只是你自己，是你的勇气、专注、行动力，以及时间。
+
+
+
+面向新的一年，我会说：
+
+让我们跟上这个世界的步伐吧！
+7:["$","$12",null,{"fallback":null,"children":["$","$L15",null,{"meta":{"title":"Year-End Reflections","title_cn":"年末随感","subtitle":"","subtitle_cn":"","date":"2026-02-14","tags":["thinking"]},"contentEn":"$16","contentCn":"$17"}]}]
+c:null
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+b:null
+14:{"metadata":[["$","title","0",{"children":"Junshan Huang"}],["$","meta","1",{"name":"description","content":"PhD student at Rutgers University."}],["$","meta","2",{"name":"author","content":"Junshan Huang"}],["$","meta","3",{"name":"keywords","content":"Junshan Huang,PhD,Research,Rutgers University"}],["$","meta","4",{"name":"creator","content":"Junshan Huang"}],["$","meta","5",{"name":"publisher","content":"Junshan Huang"}],["$","meta","6",{"property":"og:title","content":"Junshan Huang"}],["$","meta","7",{"property":"og:description","content":"PhD student at Rutgers University."}],["$","meta","8",{"property":"og:site_name","content":"Junshan Huang's Academic Website"}],["$","meta","9",{"property":"og:locale","content":"en_US"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary"}],["$","meta","12",{"name":"twitter:title","content":"Junshan Huang"}],["$","meta","13",{"name":"twitter:description","content":"PhD student at Rutgers University."}],["$","link","14",{"rel":"icon","href":"/fav.ico"}]],"error":null,"digest":"$undefined"}
+e:{"metadata":"$14:metadata","error":null,"digest":"$undefined"}

@@ -1,0 +1,985 @@
+1:"$Sreact.fragment"
+2:I[3719,["711","static/chunks/711-3ac098f4aa3de521.js","217","static/chunks/217-414f3bc2f28e17e5.js","862","static/chunks/862-15a393ad2462454b.js","177","static/chunks/app/layout-04f81b10b1cda18d.js"],"ThemeProvider"]
+3:I[768,["711","static/chunks/711-3ac098f4aa3de521.js","217","static/chunks/217-414f3bc2f28e17e5.js","862","static/chunks/862-15a393ad2462454b.js","177","static/chunks/app/layout-04f81b10b1cda18d.js"],"default"]
+4:I[7555,[],""]
+5:I[1295,[],""]
+6:I[2548,["711","static/chunks/711-3ac098f4aa3de521.js","217","static/chunks/217-414f3bc2f28e17e5.js","862","static/chunks/862-15a393ad2462454b.js","177","static/chunks/app/layout-04f81b10b1cda18d.js"],"default"]
+8:I[9665,[],"MetadataBoundary"]
+a:I[9665,[],"OutletBoundary"]
+d:I[4911,[],"AsyncMetadataOutlet"]
+f:I[9665,[],"ViewportBoundary"]
+11:I[6614,[],""]
+:HL["/_next/static/css/39cb4fde2fa41b5e.css","style"]
+0:{"P":null,"b":"whj3ws_t7-z8KajLRjXtc","p":"","c":["","blog","how-to-calibrate-camera-intrinsic-parameters",""],"i":false,"f":[[["",{"children":["blog",{"children":[["postslug","how-to-calibrate-camera-intrinsic-parameters","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/39cb4fde2fa41b5e.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/fav.ico","type":"image/svg+xml"}],["$","link",null,{"rel":"dns-prefetch","href":"https://google-fonts.jialeliu.com"}],["$","link",null,{"rel":"preconnect","href":"https://google-fonts.jialeliu.com","crossOrigin":""}],["$","link",null,{"rel":"preload","as":"style","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Noto+Sans+SC:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"}],["$","link",null,{"suppressHydrationWarning":true,"rel":"stylesheet","id":"gfonts-css","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Noto+Sans+SC:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap","media":"print"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              (function(){\n                var l = document.getElementById('gfonts-css');\n                if (!l) return;\n                if (l.media !== 'all') {\n                  l.addEventListener('load', function(){ try { l.media = 'all'; } catch(e){} });\n                }\n              })();\n            "}}],["$","noscript",null,{"children":["$","link",null,{"rel":"stylesheet","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Noto+Sans+SC:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"}]}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              try {\n                const theme = localStorage.getItem('theme-storage');\n                const parsed = theme ? JSON.parse(theme) : null;\n                const setting = parsed?.state?.theme || 'system';\n                const prefersDark = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;\n                const effective = setting === 'dark' ? 'dark' : (setting === 'light' ? 'light' : (prefersDark ? 'dark' : 'light'));\n                var root = document.documentElement;\n                root.classList.add(effective);\n                root.setAttribute('data-theme', effective);\n              } catch (e) {\n                var root = document.documentElement;\n                root.classList.add('light');\n                root.setAttribute('data-theme', 'light');\n              }\n            "}}]]}],["$","body",null,{"className":"font-sans antialiased","children":["$","$L2",null,{"children":[["$","$L3",null,{"items":[{"title":"About","type":"page","target":"about","href":"/"},{"title":"Publications","type":"page","target":"publications","href":"/publications"},{"title":"Teaching","type":"page","target":"teaching","href":"/teaching"},{"title":"Awards","type":"page","target":"awards","href":"/awards"},{"title":"Services","type":"page","target":"services","href":"/services"},{"title":"Blog","type":"page","target":"blog","href":"/blog"}],"siteTitle":"Junshan Huang","enableOnePageMode":false}],["$","main",null,{"className":"min-h-screen pt-16 lg:pt-20","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L6",null,{"lastUpdated":"February 26, 2026"}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["postslug","how-to-calibrate-camera-intrinsic-parameters","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",["$","$L8",null,{"children":"$L9"}],null,["$","$La",null,{"children":["$Lb","$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","dwDnuLpm8fI75T_5IRn_q",{"children":[["$","$Lf",null,{"children":"$L10"}],null]}],null]}],false]],"m":"$undefined","G":["$11","$undefined"],"s":false,"S":true}
+12:"$Sreact.suspense"
+13:I[4911,[],"AsyncMetadata"]
+15:I[6868,["330","static/chunks/d3ac728e-598d38ae96b11803.js","711","static/chunks/711-3ac098f4aa3de521.js","907","static/chunks/907-77394335ddd73061.js","352","static/chunks/352-983c456fb1dcaf51.js","535","static/chunks/app/blog/%5Bpostslug%5D/page-23fa8c1cb4409c23.js"],"default"]
+9:["$","$12",null,{"fallback":null,"children":["$","$L13",null,{"promise":"$@14"}]}]
+16:T1ec4,When you purchase a camera, it may not necessarily provide a way to read out its intrinsic parameters. However, we often need these parameters, so we typically calibrate the camera ourselves using software.
+
+---
+
+## Method for Calibrating Camera Intrinsics (Abstract Version)
+
+>1. Print a calibration board and place it on a table.  
+>2. Pick up the camera and take many pictures of the board from various angles.  
+>3. Let the program compute the camera intrinsics automatically.
+
+## Principle Analysis
+
+> All derivations here use the standard OpenCV camera coordinate system: Z points forward, X to the right, and Y downward.
+
+We define a series of calibration points in the world, denoted as $q_1, q_2, ..., q_m$. We also **require** that all these calibration points lie on the same plane. Therefore, their coordinates in the world coordinate system can be expressed as:
+
+$$
+{}^{World}\mathbf{P}_{q_j}=
+\begin{bmatrix}
+x_j\\
+y_j\\
+0
+\end{bmatrix}, \,
+{}^{World}\mathbf{\tilde{P}}_{q_j}=
+\begin{bmatrix}
+x_j\\
+y_j\\
+0\\
+1
+\end{bmatrix}
+$$
+
+(As for why they must lie on the same plane, this will become clear later.)
+
+We then take many images of the board from different viewpoints (for now, assume no distortion), denoted as $P_1, P_2, ..., P_n$.
+
+Using computer vision techniques such as ArUco code detection, we can determine the image locations of the calibration points.
+
+For image $P_i$, let the projection of point $q_j$ onto the image be $l_{i,j}$, whose pixel coordinates are:
+
+$$
+{}^{Img}\mathbf{P}_{l_{i,j}}=\begin{bmatrix}
+x_{i,j}\\
+y_{i,j}
+\end{bmatrix},\,{}^{Img}\mathbf{\tilde{P}}_{l_{i,j}}=\begin{bmatrix}
+x_{i,j}\\
+y_{i,j}\\
+1
+\end{bmatrix}
+$$
+
+This projection follows the coordinate transformation formula (see the previous article for derivation):
+
+$$
+Z_{i,j}\cdot{}^{Img}\mathbf{\tilde{P}}_{l_{i,j}} = K_{3\times3}\cdot [R_i|t_i]_{3\times4}\cdot {}^{World}\mathbf{\tilde{P}}_{q_j}
+$$
+
+Here, $R_i, t_i$ represent the rotation and translation of the camera relative to the world coordinate system when taking the $i$-th image. $Z_{i,j}$ is the Z-coordinate of calibration point $q_j$ in the camera coordinate system (theoretically exists, but RGB cameras do not retain depth information, so here $Z_{i,j}$ serves mainly as a homogeneous scaling factor):
+
+$$
+{}^{Camera_i}\mathbf{P}_{q_j}=\begin{bmatrix}
+X_{i,j}\\
+Y_{i,j}\\
+Z_{i,j}
+\end{bmatrix}
+$$
+
+We aim to solve for the camera intrinsic matrix $K$. However, in practice, we do not know the camera pose relative to the world coordinate system when each image was taken. Therefore, $R_i$, $t_i$, and $Z_{i,j}$ are all unknown.
+
+So we adopt a clever workaround.
+
+Substituting ${}^{World}\mathbf{P}_{q_j}$ into the transformation equation:
+
+$$
+Z_{i,j}\cdot{}^{Img}\mathbf{\tilde{P}}_{l_{i,j}} = K_{3\times3}\cdot [R_i|t_i]_{3\times4}\cdot\begin{bmatrix}
+x_j\\
+y_j\\
+0\\
+1
+\end{bmatrix}
+$$
+
+If we write $[R_i|t_i]$ as four column vectors $[\mathbf{r}_{1i},\mathbf{r}_{2i},\mathbf{r}_{3i}, \mathbf{t}_i]$, we find that $\mathbf{r}_{3i}$ disappears, yielding:
+
+$$
+Z_{i,j}\cdot{}^{Img}\mathbf{\tilde{P}}_{l_{i,j}} = K_{3\times3}\cdot (x_j\cdot \mathbf{r}_{1i}+y_j\cdot\mathbf{r}_{2i}+\mathbf{t}_i)
+=K_{3\times3}\cdot 
+\begin{bmatrix}
+\mathbf{r}_{1i} & \mathbf{r}_{2i} & \mathbf{t}_{i}
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+x_j\\
+y_j\\
+1
+\end{bmatrix}
+$$
+
+Also,
+
+$$
+Z_{i,j}\cdot{}^{Img}\mathbf{\tilde{P}}_{l_{i,j}}=Z_{i,j}\cdot \begin{bmatrix}
+x_{i,j}\\
+y_{i,j}\\
+1
+\end{bmatrix}
+$$
+
+Thus, by placing all calibration points on a single plane, the transformation effectively becomes one between two 2D vectors.
+
+### Solving for $\lambda_i H_i$ from a Single Image
+
+For one image, we construct equations for all calibration points:
+
+$$
+Z_{i,j_k}\cdot \begin{bmatrix}
+x_{i,j_k}\\
+y_{i,j_k}\\
+1
+\end{bmatrix}=K_{3\times3}\cdot 
+\begin{bmatrix}
+\mathbf{r}_{1i} & \mathbf{r}_{2i} & \mathbf{t}_{i}
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+x_{j_k}\\
+y_{j_k}\\
+1
+\end{bmatrix}
+$$
+
+Within the same image, $K_{3\times3}\cdot 
+\begin{bmatrix}
+\mathbf{r}_{1i} & \mathbf{r}_{2i} & \mathbf{t}_{i}
+\end{bmatrix}$ is constant.
+
+The unknown $Z_{i,j}$ prevents direct combination of equations. However, we can eliminate it by discarding the magnitude constraint and retaining only the direction constraint.
+
+> The original equation enforces both equal direction and equal magnitude.  
+> We discard the magnitude constraint and keep only direction consistency.  
+> We use the cross product to express "same direction":
+> $$
+> k\cdot \mathbf{t}=\mathbf{t'} \Rightarrow  \mathbf{t}\times\mathbf{t'}=0
+> $$
+
+Thus:
+
+$$
+{}^{Img}\mathbf{\tilde{P}}_{l_{i,j}}\times (H_i \cdot {}^{World\_plane}\mathbf{\tilde{P}}_{q_j})=0,\, \forall j
+$$
+
+Define:
+
+$$
+H_i :=K_{3\times3}\cdot 
+\begin{bmatrix}
+\mathbf{r}_{1i} & \mathbf{r}_{2i} & \mathbf{t}_{i}
+\end{bmatrix}
+$$
+
+Each calibration point provides two constraints (not three).
+
+Since $H_i$ is common within the image, multiple points allow us to solve for $\lambda_i H_i$ (note that the cross-product formulation makes $H_i$ determined only up to scale).
+
+Because $\lambda_i H_i$ has 8 degrees of freedom, four calibration points (8 constraints) suffice to solve it.
+
+### Solving for $B$ from $\lambda_i H_i$
+
+For each image:
+
+$$
+\lambda_i H_i= \begin{bmatrix}
+\mathbf{h_{1_i}} & \mathbf{h_{2_i}} & \mathbf{h_{3_i}}
+\end{bmatrix}
+$$
+
+Since $\mathbf{r}_{1i}$ and $\mathbf{r}_{2i}$ are orthogonal unit vectors (columns of a rotation matrix), we obtain:
+
+$$
+\mathbf h_{1i}^T (K^{-1})^TK^{-1}\mathbf h_{2i}=0
+$$
+
+$$
+\mathbf h_{1i}^T (K^{-1})^TK^{-1} \mathbf h_{1i}
+=
+\mathbf h_{2i}^T (K^{-1})^TK^{-1} \mathbf h_{2i}
+$$
+
+Define:
+
+$$
+B:=(K^{-1})^TK^{-1}
+$$
+
+Each image provides two linear constraints on $B$:
+
+$$
+\mathbf h_{1i}^T B \mathbf h_{2i}=0
+$$
+
+$$
+\mathbf h_{1i}^T B\mathbf h_{1i}=\mathbf h_{2i}^T B\mathbf h_{2i}
+$$
+
+Since $B$ is symmetric, it has six independent parameters, but scale is irrelevant, leaving five degrees of freedom.
+
+Stacking equations from all images:
+
+$$
+\mathbf{V} \mathbf{b}=0, \, \mathbf{V}\in\mathbb{R}^{2n\times 6}
+$$
+
+At least three images (six constraints) are sufficient to solve for $\mathbf{b}$ in theory.
+
+In practice, due to noise, we solve:
+
+$$
+\min_{||b||=1}||\mathbf{V}\mathbf{b}||
+$$
+
+Using SVD, $\mathbf{b}$ is the right singular vector corresponding to the smallest singular value.
+
+### Recovering $K$ from $B$
+
+After solving $\mathbf b$, we obtain:
+
+$$
+B=(K^{-1})^TK^{-1}
+$$
+
+Let:
+
+$$
+C:=B^{-1}=KK^T
+$$
+
+Since $KK^T$ is symmetric positive definite, perform Cholesky decomposition:
+
+$$
+C=LL^T
+$$
+
+The resulting lower triangular matrix $L$ is exactly $K$.
+
+### Further Optimization of $K$
+
+Recall the pipeline:
+
+$$
+\text{corner points} \to \lambda_iH_i \to B \to K
+$$
+
+Information was compressed twice, and distortion was ignored, so the obtained $K$ contains systematic bias.
+
+We refine $K$ by minimizing the reprojection error:
+
+$$
+\min_{K,D,R_i,t_i} \sum_i^n \sum_j^m||{}^{Img}\mathbf{P}_{l_{i,j}}-\pi(K,D,R_i,t_i,{}^{World}\mathbf{\tilde{P}}_{q_j})||^2
+$$
+
+Here, $\pi$ denotes the mapping from world coordinates to image coordinates.  
+$K$ is the intrinsic matrix, $D$ is the distortion parameters, $R_i,t_i$ are the pose of image $i$.
+
+Specifically:
+
+$$
+\pi(K,D,R_i,t_i,{}^{World}\mathbf{\tilde{P}}_{q_j})
+=
+K\cdot \text{distort}(\Pi({}^{Cam_i}T_{World}\cdot{}^{World}\mathbf{\tilde{P}}_{q_j}),D)
+$$
+
+where $\Pi$ is perspective division $(X,Y,Z)\to(X/Z,Y/Z)$.
+
+This is a nonlinear least squares problem, typically solved using the Levenberg–Marquardt (LM) algorithm, which adaptively balances Gauss–Newton and gradient descent.
+
+---
+
+What I thought would be a short write-up ended up taking much longer, and it kept getting longer as I wrote. This article was almost entirely typed by hand, which made me deeply aware of the inefficiency of human input. I should think about how to write such knowledge summaries in a more AI-native way in the future.
+17:T532c,买到手一个摄像头，他不一定就提供了内参的读取功能。但我们往往需要这个参数，因此我们往往会使用软件来自己标定摄像头。
+
+---
+
+## 标定摄像头内参的方法（抽象版）
+
+>1. 打印一个标定板，放在桌上。
+>2. 拿起摄像头，对着这个标定板各种角度拍拍拍。
+>3. 程序自己算出来相机内参
+
+## 原理分析
+
+> 此处所有推导都使用opencv标准相机系，Z朝前，X朝右，Y朝下。
+
+我们设定一系列位于世界中的校准点，记为$q_1, q_2,...,q_m$。 而且我们还**额外要求**这些校准点都在一个平面上，因此他们在世界坐标系下的坐标都可以被表示为
+$$
+{}^{World}\mathbf{P}_{q_j}=
+\begin{bmatrix}
+x_j\\
+y_j\\
+0
+\end{bmatrix}, \,
+{}^{World}\mathbf{\tilde{P}}_{q_j}=
+\begin{bmatrix}
+x_j\\
+y_j\\
+0\\
+1
+\end{bmatrix}
+$$
+（至于为什么要求在同一个平面上，后面就知道了）
+
+然后使用摄像头用各种视角给他拍很多张照片（我们先假设他们都是没有畸变的），记为$P_1, P_2,...,P_n$。
+
+我们通过诸如Aurco Code识别等计算机视觉技术，可以确定校准点在图像中的位置。
+
+我们记照片$P_i$中，$q_j$对应的点（投影到照片上的点）为$l_{i,j}$，记他在图像上的像素坐标为
+$$
+{}^{Img}\mathbf{P}_{l_{i,j}}=\begin{bmatrix}
+x_{i,j}\\
+y_{i,j}
+\end{bmatrix},\,{}^{Img}\mathbf{\tilde{P}}_{l_{i,j}}=\begin{bmatrix}
+x_{i,j}\\
+y_{i,j}\\
+1
+\end{bmatrix}
+$$
+这个投影基于坐标转换公式（推导见上一篇）
+$$
+Z_{i,j}\cdot{}^{Img}\mathbf{\tilde{P}}_{l_{i,j}} = K_{3\times3}\cdot [R_i|t_i]_{3\times4}\cdot {}^{World}\mathbf{\tilde{P}}_{q_j}
+$$
+$R_i,t_i$分别是第i张照片$P_i$拍摄时候相机相对于世界坐标的旋转和平移，而$Z_{i,j}$则是标定点$p_j$在相机坐标系下的Z值（理论上存在，但RGBD相机无法保留深度信息，因此$Z_{i,j}$在这里更多是一种齐次坐标的比例因子)
+$$
+{}^{Camera\_i}\mathbf{P}_{q_j}=\begin{bmatrix}
+X_{i,j}\\
+Y_{i,j}\\
+Z_{i,j}
+\end{bmatrix}
+$$
+现在我们想要求出这个相机内参矩阵$K$，但是显然我们几乎不可能知道相机拍摄每张照片时候相对世界坐标系的位姿，从而$R_i$，$t_i$，$Z_{i,j}$都无从得知。
+
+因此我们想了一个巧妙的办法绕过。
+
+将前面的${}^{World}\mathbf{P}_{q_j}$带入坐标转换公式，我们会得到
+$$
+Z_{i,j}\cdot{}^{Img}\mathbf{\tilde{P}}_{l_{i,j}} = K_{3\times3}\cdot [R_i|t_i]_{3\times4}\cdot\begin{bmatrix}
+x_j\\
+y_j\\
+0\\
+1
+\end{bmatrix}
+$$
+如果我们把$[R_i|t_i]$表示为四个列向量$[\mathbf{r}_{1i},\mathbf{r}_{2i},\mathbf{r}_{3i}, \mathbf{t}_i]$，带入就会发现$r_{3i}$消失了，从而得到
+$$
+Z_{i,j}\cdot{}^{Img}\mathbf{\tilde{P}}_{l_{i,j}} = K_{3\times3}\cdot (x_j\cdot \mathbf{r}_{i1}+y_j\cdot\mathbf{r}_{i1}+\mathbf{t}_i)=K_{3\times3}\cdot 
+\begin{bmatrix}
+\mathbf{r}_{1i} & \mathbf{r}_{2i} & \mathbf{t}_{i}
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+x_j\\
+y_j\\
+1
+\end{bmatrix}
+$$
+又
+$$
+\\
+Z_{i,j}\cdot{}^{Img}\mathbf{\tilde{P}}_{l_{i,j}}=Z_{i,j}\cdot \begin{bmatrix}
+x_{i,j}\\
+y_{i,j}\\
+1
+\end{bmatrix}
+$$
+从而可以发现，通过设置所有标定点都在一个平面上，我们将这个变换实质上变为了两个二维向量之间的变换。
+
+### 求出单张图像的$\lambda_iH_i$
+
+我们对一张照片上所有的校准点构建方程
+$$
+Z_{i,j_0}\cdot \begin{bmatrix}
+x_{i,j_0}\\
+y_{i,j_0}\\
+1
+\end{bmatrix}=K_{3\times3}\cdot 
+\begin{bmatrix}
+\mathbf{r}_{1i} & \mathbf{r}_{2i} & \mathbf{t}_{i}
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+x_{j_0}\\
+y_{j_0}\\
+1
+\end{bmatrix}\\
+Z_{i,j_1}\cdot \begin{bmatrix}
+x_{i,j_1}\\
+y_{i,j_1}\\
+1
+\end{bmatrix}=K_{3\times3}\cdot 
+\begin{bmatrix}
+\mathbf{r}_{1i} & \mathbf{r}_{2i} & \mathbf{t}_{i}
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+x_{j_1}\\
+y_{j_1}\\
+1
+\end{bmatrix}\\
+...\\
+Z_{i,j_m}\cdot \begin{bmatrix}
+x_{i,j_m}\\
+y_{i,j_m}\\
+1
+\end{bmatrix}=K_{3\times3}\cdot 
+\begin{bmatrix}
+\mathbf{r}_{1i} & \mathbf{r}_{2i} & \mathbf{t}_{i}
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+x_{j_m}\\
+y_{j_m}\\
+1
+\end{bmatrix}\\
+$$
+可以发现，在同一张图片内部，$K_{3\times3}\cdot 
+\begin{bmatrix}
+\mathbf{r}_{1i} & \mathbf{r}_{2i} & \mathbf{t}_{i}
+\end{bmatrix}$ 都是一样的。
+
+只剩下一个$Z_{i,j_m}$是与各个图片相关且无法得知的两，他阻碍我们统合这些方程。但是我们可以扔掉它，从而将各个点的方程形式统一起来。
+
+> 原来的等式表达的是，两个向量完全相等（方向一致+长度一致）
+>
+> 我们可以考虑放弃使用长度一致这一个约束，从而这个等式还剩下方向一致这个信息。
+>
+> 我们可以用叉乘这一数学工具来表示”方向一致“ （注意下面是单项箭头）
+> $$
+> k\cdot \mathbf{t}=\mathbf{t'} \Rightarrow  \mathbf{t}\times\mathbf{t'}=0
+> $$
+
+于是就有了
+$$
+\begin{align}
+\begin{bmatrix}
+x_{i,j_0}\\
+y_{i,j_0}\\
+1
+\end{bmatrix}
+\times (K_{3\times3}
+\cdot 
+\begin{bmatrix}
+\mathbf{r}_{1i} & \mathbf{r}_{2i} & \mathbf{t}_{i}
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+x_{j_0}\\
+y_{j_0}\\
+1
+\end{bmatrix})&=\mathbf{0}\\
+
+\begin{bmatrix}
+x_{i,j_1}\\
+y_{i,j_1}\\
+1
+\end{bmatrix}\times (K_{3\times3}\cdot 
+\begin{bmatrix}
+\mathbf{r}_{1i} & \mathbf{r}_{2i} & \mathbf{t}_{i}
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+x_{j_1}\\
+y_{j_1}\\
+1
+\end{bmatrix})&=\mathbf{0}\\
+...&\\
+\begin{bmatrix}
+x_{i,j_m}\\
+y_{i,j_m}\\
+1
+\end{bmatrix}\times (K_{3\times3}\cdot 
+\begin{bmatrix}
+\mathbf{r}_{1i} & \mathbf{r}_{2i} & \mathbf{t}_{i}
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+x_{j_m}\\
+y_{j_m}\\
+1
+\end{bmatrix})&=\mathbf{0}\\
+\end{align}
+$$
+从而在这个图像中，每一个校准点都提供了一个方程。 为了简化表达，我们记
+$$
+H_i :=K_{3\times3}\cdot 
+\begin{bmatrix}
+\mathbf{r}_{1i} & \mathbf{r}_{2i} & \mathbf{t}_{i}
+\end{bmatrix}\\
+$$
+校准点在图像中的坐标记为
+$$
+{}^{Img}\mathbf{\tilde{P}}_{l_{i,j}}:=\begin{bmatrix}
+x_{i,j}\\
+y_{i,j}\\
+1
+\end{bmatrix}
+$$
+校准点在世界坐标系的坐标且去除Z坐标（因为z都是0）记为：
+$$
+{}^{World\_plane}\mathbf{\tilde{P}}_{q_j}=
+\begin{bmatrix}
+x_j\\
+y_j\\
+
+1
+\end{bmatrix}
+$$
+那么每张图片就提供了这样一组方程
+$$
+{}^{Img}\mathbf{\tilde{P}}_{l_{i,j}}\times (H_i \cdot {}^{World\_plan}\mathbf{\tilde{P}}_{q_j})=0,\, \forall j
+$$
+
+> 注意其中每一条方程都提供了两个约束，而不是三个。证明如下：
+> $$
+> \mathbf{\tilde{p}}\times (H_i\cdot \mathbf{\tilde{P}})=0
+> $$
+> 设
+> $$
+> \mathbf{\tilde{p}}=\begin{bmatrix}
+> x\\
+> y\\
+> 1
+> \end{bmatrix},\,
+> \mathbf{w} = H_i\cdot \mathbf{\tilde{P}}= \begin{bmatrix}
+> w_1\\
+> w_2\\
+> w_3
+> \end{bmatrix}
+> $$
+> 则根据叉乘定义
+> $$
+> \mathbf{\tilde{p}}\times \mathbf{w}= \begin{bmatrix}
+> y\cdot w_3- w_2\\
+> w_1 - x\cdot w_3\\
+> x\cdot w_2-y\cdot w_1
+> \end{bmatrix}=0
+> $$
+> 我们解出前两行，将结果带入第三行
+> $$
+> w_2=y\cdot w_3\\
+> w_1=x\cdot w_3
+> $$
+> 带入第三行就成了
+> $$
+> x\cdot(y \cdot w_3)-y\cdot(x\cdot w_3)=0
+> $$
+> 显然左边本来就已经是0了，所以第三行实际上无法提供任何约束。也就是这样一条方程只能提供两个约束。
+
+对于单张图片内部而言，他的$H_i\in \mathbb{R^{3\times3}}$都是一样的，自然而然我们可以用多个方程来解出这个变量的值。
+
+但是由于叉乘方程的特殊性，无论$H_i$拉伸还是收缩多少倍，只要原来结果是0，那么拉伸收缩完结果还是0，所以我们能求解出的实际上不是$H_i$ 而是$\lambda_i \cdot H_i$
+
+因为未知量$\lambda_i$的存在，$\lambda_i \cdot H_i$实际只有8个自由度。所以只要有四个校准点，就有了8个约束，就能解出本图片里面的$\lambda_i \cdot H_i$。
+
+### 从各个图像的$\lambda_i H_i$中求出$B$矩阵
+
+现在每一个图像我们都能求解出一个$\lambda_i\cdot H_i=\begin{bmatrix}
+\mathbf{h_{1_i}} & \mathbf{h_{2_i}} & \mathbf{h_{3_i}}
+\end{bmatrix}$，接下来我们尝试综合各个图像的$\lambda_i\cdot H_i$来最终求解出$K_{3\times3}$
+$$
+H_i :=K_{3\times3}\cdot 
+\begin{bmatrix}
+\mathbf{r}_{1i} & \mathbf{r}_{2i} & \mathbf{t}_{i}
+\end{bmatrix}\\ 
+\lambda_i\cdot H_i= \begin{bmatrix}
+\mathbf{h_{1_i}} & \mathbf{h_{2_i}} & \mathbf{h_{3_i}}
+\end{bmatrix}
+$$
+那么就会有
+$$
+\mathbf h_{1i} = \lambda_i\cdot K\mathbf r_{1i},\quad
+\mathbf h_{2i} = \lambda_i\cdot K\mathbf r_{2i},\quad
+\mathbf h_{3i} = \lambda_i\cdot K\mathbf t_i
+$$
+我们开始寻找内在的约束，由于$\mathbf{r}_{1i}$和$\mathbf{r}_{2i}$是旋转矩阵的列向量，那么他们互相正交，且他们的长度相等（都是1）。这给我们两个方程
+$$
+(\frac{1}{\lambda_i} K^{-1}\mathbf h_{1i})^T\cdot(\frac{1}{\lambda_i} K^{-1}\mathbf h_{2i})=0\\
+(\frac{1}{\lambda_i} K^{-1}\mathbf h_{1i})^T\cdot(\frac{1}{\lambda_i} K^{-1}\mathbf h_{1i})=(\frac{1}{\lambda_i} K^{-1}\mathbf h_{2i})^T\cdot(\frac{1}{\lambda_i} K^{-1}\mathbf h_{2i})
+$$
+简化一下就是（$\lambda$就这样被消去了）
+$$
+\mathbf h_{1i}^T (K^{-1})^TK^{-1}\mathbf h_{2i}=0\\
+\mathbf h_{1i}^T (K^{-1})^TK^{-1} \mathbf h_{1i}=\mathbf h_{2i}^T (K^{-1})^TK^{-1} \mathbf h_{2i}
+$$
+接下来我们进一步定义一个和图像无关的变量$B$，他完全只取决于相机的内参。 
+$$
+B:=(K^{-1})^TK^{-1}
+$$
+从而每张图像$i$都提供了这样的两个方程
+$$
+\mathbf h_{1i}^T B \mathbf h_{2i}=0\\
+\mathbf h_{1i}^T B\mathbf h_{1i}=\mathbf h_{2i}^T B\mathbf h_{2i}
+$$
+从而一张图像给了两个关于变量$B$的方程，多张图像就能形成大量约束，使我们能够将变量$B$解出来。
+
+> $B$包含多少个自由度？一张图像的两个方程又提供了多少约束？
+>
+> 首先，$B:=(K^{-1})^TK^{-1}$的定义决定了，$B$是一个对称的矩阵，从而只能有6个自由度。
+> $$
+> B=\begin{bmatrix}
+> b_{11} & b_{12} & b_{13}\\
+> b_{21} & b_{22} & b_{23}\\
+> b_{31} & b_{32} & b_{33}
+> \end{bmatrix}=\begin{bmatrix}
+> b_{11} & b_{12} & b_{13}\\
+> b_{12} & b_{22} & b_{23}\\
+> b_{13} & b_{23} & b_{33}
+> \end{bmatrix}
+> $$
+> 与此同时$B$的尺度还完全不影响方程成立，所以实际上只有五个自由度。
+>
+> 我们再设$\mathbf h_{1i}=\begin{bmatrix}a_1, a_2, a_3\end{bmatrix}^T$以及$\mathbf h_{2i}=\begin{bmatrix}c_1, c_2, c_3\end{bmatrix}^T$
+>
+> 将这些变量全部带入前述的两个方程，则有
+> $$
+> \begin{bmatrix}
+> a_1c_1\\
+> a_1c_2+a_2c_1\\
+> a_1c_3+a_3c_1\\
+> a_2c_2\\
+> a_2c_3+a_3c_2\\
+> a_3c_3
+> \end{bmatrix}^T
+> \cdot
+> \begin{bmatrix}
+> b_{11}\\
+> b_{12}\\
+> b_{13}\\
+> b_{22}\\
+> b_{23}\\
+> b_{33}\\
+> \end{bmatrix}
+> =0
+> $$
+>
+> 以及
+> $$
+> \begin{bmatrix}
+> a_1a_1\\
+> a_1a_2+a_2a_1\\
+> a_1c_3+a_3a_1\\
+> a_2a_2\\
+> a_2a_3+a_3a_2\\
+> a_3a_3
+> \end{bmatrix}^T
+> \cdot
+> \begin{bmatrix}
+> b_{11}\\
+> b_{12}\\
+> b_{13}\\
+> b_{22}\\
+> b_{23}\\
+> b_{33}\\
+> \end{bmatrix}
+> -\begin{bmatrix}
+> c_1c_1\\
+> c_1c_2+c_2c_1\\
+> c_1c_3+c_3c_1\\
+> c_2c_2\\
+> c_2c_3+c_3c_2\\
+> c_3c_3
+> \end{bmatrix}^T
+> \cdot
+> \begin{bmatrix}
+> b_{11}\\
+> b_{12}\\
+> b_{13}\\
+> b_{22}\\
+> b_{23}\\
+> b_{33}\\
+> \end{bmatrix}=0
+> $$
+> 通常这两个方程会被表达为
+> $$
+> \mathbf v_{12}(\mathbf h_{1i},\mathbf h_{2i})^T \mathbf b = 0\\
+> \left(\mathbf v_{11}(\mathbf h_{1i},\mathbf h_{1i})-\mathbf v_{22}(\mathbf h_{2i},\mathbf h_{2i})\right)^T\mathbf b=0
+> $$
+
+我们把所有图片的两个方程堆起来，就形成了
+$$
+\mathbf{V} \mathbf{b}=0, \, \mathbf{V}\in\mathbb{R}^{2n\times 6}
+$$
+可以看到，变量$\mathbf b$有五个自由度，每张图像提供两个独立线性约束（理想情况下）。那么理论上最少只要有三张图片，就能把$\mathbf b$解出来了。
+
+但在现实中有各种噪声在，完美的解是不存在的，因此我们改为求$\mathbf{b}$让方程左边的结果尽可能接近0。也就是
+$$
+\min_{||b||=1}||\mathbf{V}\mathbf{b}||
+$$
+（这里底下的条件$||b||=1$实际上可以随便设置为任意大于0的值，只要在各行之间统一就行，一般就用1。）
+
+我们可以直接使用奇异值分解解出最终的$\mathbf{b}=SVD中右侧正交矩阵的最后一列$。
+
+> **奇异值定理（Rayleigh quotient）**
+>
+> 对于任意矩阵$V$:
+> $$
+> \min_{||x||=1}||\mathbf{V}x||=\sigma_{min}(V)
+> $$
+> 并且达到最小值的x是最小奇异值对应的右奇异向量。
+>
+> ---
+>
+> 我们结合我们的例子推导一下为什么会这样。首先对$\mathbf{V}$做奇异值分解（SVD）
+> $$
+> \mathbf{V}_{2n\times6}=U_{2n\times 2n}\Sigma_{2n\times6} W_{6\times6}^T
+> $$
+> 其中$U$和$W$都是正交矩阵，都满足
+> $$
+> U^TU=UU^T=I_{2n\times2n}\\
+> W^TW=WW^T=I_{6\times6}
+> $$
+> 而$\Sigma$是形状为$2n\times6$的对角矩阵
+> $$
+> \Sigma=\begin{bmatrix}
+> \sigma_1 & 0 & 0 & \cdots & 0\\
+> 0 & \sigma_2 & 0 & \cdots & 0\\
+> 0 & 0 & \sigma_3 & \cdots & 0\\
+> \vdots & \vdots & \vdots & \ddots & \vdots\\
+> 0 & 0 & 0 & \cdots & \sigma_6\\
+> 0 & 0 & 0 & \cdots & 0\\
+> \vdots & \vdots & \vdots & & \vdots
+> \end{bmatrix}_{2n\times 6}, \sigma_1\geq \sigma_2 \geq ... \geq\sigma_6 \geq 0
+> $$
+> 任意单位向量$\mathbf{b}$都可以被写成（正交矩阵只是变方向，不改变模长）
+> $$
+> \mathbf{b}=W\mathbf{y}, ||\mathbf{y}||=1
+> $$
+> 从而（还是正交矩阵不改变模长）
+> $$
+> ||\mathbf{V}\mathbf{b}||=||U\Sigma W^TW\mathbf{y}||=||U\Sigma \mathbf{y}||=||\Sigma \mathbf{y}||
+> $$
+> 而
+> $$
+> \|\Sigma \mathbf{y}\|^2
+> = \sigma_1^2 y_1^2
+> + \sigma_2^2 y_2^2
+> + \cdots
+> + \sigma_6^2 y_6^2
+> $$
+> 那么求$\min_{||\mathbf y||=1}||\Sigma \mathbf y||$显然就是让模长全部用在和最小的$\sigma_6$相乘，也就是
+> $$
+> \mathbf y=\begin{bmatrix}
+> 0\\
+> 0\\
+> 0\\
+> 0\\
+> 0\\
+> 1\\
+> \end{bmatrix}
+> $$
+> 故而最终
+> $$
+> \mathbf{b}=W\mathbf{y}=W\cdot\begin{bmatrix}
+> 0\\
+> 0\\
+> 0\\
+> 0\\
+> 0\\
+> 1\\
+> \end{bmatrix}
+> $$
+> 结果是$W$矩阵的最后一列
+
+### 从$B$矩阵中求出相机内参$K$
+
+解出了$\mathbf b$我们就得到了$B_{3\times3}=(K^{-1})^TK^{-1}=K^{-T}K^{-1}$
+
+最后，我们来解出K。
+$$
+C:=B^{-1}=(K^{-T}K^{-1})^{-1}=KK^T
+$$
+由于$KK^T$的构建形式，且$K$是可逆的，故矩阵$C$是正定的，存在Cholesky分解$A=LL^T$。
+
+可以发现解出来的$L$就是$K$，结束！
+
+> 1. **K可逆**
+>
+> $$
+> K=
+> \begin{bmatrix}
+> f_x & \gamma & c_x\\
+> 0 & f_y & c_y\\
+> 0 & 0 & 1
+> \end{bmatrix}
+> $$
+>
+> 一个有效的相机，内参矩阵K中$f_x$和$f_y$都不是0（不然图片就没有高度或者宽度了），从而可通过初等行变换产生单位矩阵，各行线性无关，故可逆。
+>
+> 2. **$KK^T$是正定**
+>
+> 正定的定义是对称且$\mathbf x^TA \mathbf x>0,\forall \mathbf x\neq \mathbf 0$，带入$A=KK^T$可得
+> $$
+> \mathbf x^TA \mathbf x=\mathbf x^TKK^T\mathbf x=(K^T\mathbf x)^TK^T\mathbf x
+> $$
+> 因为$\mathbf x\neq0$且$K$的各分量（行）线性无关，所以$K^T\mathbf x\neq0$。 （如果存在$\mathbf x\neq 0$能让$K^T\mathbf x=0$，那么就产生了线性相关，K就不可逆了）
+>
+> 所以
+> $$
+> \mathbf x^TA \mathbf x=(K^T\mathbf x)^TK^T\mathbf x>0
+> $$
+> 并且显然$KK^T$是对称的，从而$KK^T$是正定的。
+>
+> 3. **Gram–Schmidt 正交化**
+>
+> 假设我们有一组线性无关的向量$v_1, v_2,....,v_n$
+>
+> 我们想要把他们变为一组正交基，第一步
+> $$
+> u_1=v_1
+> $$
+> 第二步
+> $$
+> u_2=v_2-\frac{v_2^Tu_1}{u_1^Tu_1}u_1
+> $$
+> 以此类推，将每个向量都删除去所有之前已经建立的正交基u_i$上面的分量。
+>
+> 4. **Cholesky分解**
+>
+> "对一个正定矩阵$A$，不仅一定可以将他分解为$A=LL^T$(下三角矩阵和它自身转置的积)，而且（L的对角元都>0的）分解是唯一的。"
+>
+> 我们可以先试着解解看，假设有（注意A是对称阵）
+> $$
+> A=
+> \begin{bmatrix}
+> a_{11} & a_{21} & a_{31}\\
+> a_{21} & a_{22} & a_{32}\\
+> a_{31} & a_{32} & a_{33}
+> \end{bmatrix}, \, L=
+> \begin{bmatrix}
+> l_{11} & 0 & 0\\
+> l_{21} & l_{22} & 0\\
+> l_{31} & l_{32} & l_{33}
+> \end{bmatrix}
+> $$
+> 要使其满足
+> $$
+> A = LL^{T}
+> $$
+> 则得到
+> $$
+> \begin{bmatrix}
+> a_{11} & a_{21} & a_{31}\\
+> a_{21} & a_{22} & a_{32}\\
+> a_{31} & a_{32} & a_{33}
+> \end{bmatrix}=
+> \begin{bmatrix}
+> l_{11}^2 & l_{11}l_{21} & l_{11}l_{31}\\
+> l_{11}l_{21} & l_{21}^2+l_{22}^2 & l_{21}l_{31}+l_{22}l_{32}\\
+> l_{31}l_{11} & l_{31}l_{21}+l_{32}l_{22} & l_{31}^2+l_{32}^2+l_{33}^2
+> \end{bmatrix}
+> $$
+> 故而
+> $$
+> \begin{align}
+> l_{11}&=\sqrt{a_{11}}\\
+> l_{21}&=\frac{a_{21}}{\sqrt{a_{11}}}\\
+> l_{31}&=\frac{a_{31}}{\sqrt{a_{11}}}\\
+> l_{22}&=\sqrt{(a_{22}-l_{21}^2)}\\
+> l_{32}&=\frac{a_{32}-l_{21}l_{31}}{l_{22}}\\
+> l_{33}&=\sqrt{(a_{33}-l_{31}^2-l_{32}^2)}
+> \end{align}
+> $$
+> 所以这个下三角阵$L$就这么直接被解出来了。
+>
+> 但是这暗含一个要求，那就是根号内大于零，即：
+> $$
+> a_{ii}-\sum^{i-1}_{k=1}l^2_{ik}>0
+> $$
+> 而矩阵A的正定性天然满足了这个要求。这证明起来比较复杂，可以参考[这个证明](https://math.stackexchange.com/questions/2509810/how-to-prove-the-existence-and-uniqueness-of-cholesky-decomposition)。
+
+### 对内参矩阵$K$进行进一步优化
+
+回顾我们是怎么得到当前的$K$的，我们从$角点\to\lambda_iH_i\to B(\to K)$
+
+这里面进行了两次的信息压缩，并且也没有考虑相机畸变，所以得到的K一定是包含了系统偏差的。
+
+所以在得到初始的$K$之后，再使用原始像素观测本身去优化$K$，这个过程就是最小化重投影误差。
+$$
+\min_{K,D,R_i,t_i} \sum_i^n \sum_j^m||{}^{Img}\mathbf{P}_{l_{i,j}}-\pi(K,D,R_i,t_i,{}^{World}\mathbf{\tilde{P}}_{q_j})||^2
+$$
+其中$\pi$代表从世界坐标，经过相机到图像坐标的映射。$K$是相机内参矩阵,$D$是畸变矩阵,$R_i,t_i$是第$i$张图像的相机pose，${}^{World}\mathbf{P}_{q_j}$是第j个校准点在世界的坐标，${}^{Img}\mathbf{P}_{l_{i,j}}$是第j个校准点映射到第i张图像的像素坐标。
+
+> 具体来说这个$\pi(\cdot)$实际上是
+> $$
+> \pi(K,D,R_i,t_i,{}^{World}\mathbf{\tilde{P}}_{q_j})=K\cdot \text{distort}(\Pi({}^{Cam_i}T_{World}\cdot{}^{World}\mathbf{\tilde{P}}_{q_j}),D)
+> $$
+> 其中$D$是畸变参数，$\text{distort}$是径向+切向畸变， $\Pi$是透视除法$(X,Y,Z)\to(X/Z,Y/Z)$
+
+这属于非线性最小二乘问题。对于非线性最小二乘，典型是 Levenberg–Marquardt（LM）来解，这是一种在牛顿迭代法和梯度下降法之间自动切换的优化算法。
+
+>定义残差向量为
+>$$
+>\mathbf{r}(\boldsymbol \theta)=\begin{bmatrix}
+>r_1(\boldsymbol{\theta})\\
+>r_2(\boldsymbol{\theta})\\
+>\vdots\\
+>r_N(\boldsymbol{\theta})
+>\end{bmatrix}
+>$$
+>目标函数就是
+>$$
+>E(\theta)=||\mathbf{r}(\theta)||^2=\mathbf r ^T\mathbf r
+>$$
+>
+>1. **梯度下降**（稳定优化但是慢）
+>
+>$$
+>\nabla E(\theta)=2\cdot(\frac{\partial \mathbf r}{\partial\mathbf \theta})^T \mathbf r(\theta)
+>$$
+>
+>2. **Gauss-Newton方程**（快但是如果近似不好就容易出问题）
+>
+>在当前参数$\theta$附近，把非线性投影函数进行一阶泰勒展开
+>$$
+>\mathbf r(\theta+\Delta \theta)\approx \mathbf r(\theta) +J\Delta\theta\\
+>J=\frac{\partial \mathbf r}{\partial \theta}
+>$$
+>$J$是所谓雅可比矩阵。
+>
+>所以我们的目标函数就可以化为
+>$$
+>E(\theta+\Delta \theta)\approx||\mathbf r(\theta) +J\Delta\theta||^2
+>$$
+>从而目标函数相对于$\Delta \theta$梯度是（经过线性化后目标函数相对于$\Delta \theta$是二次函数，可通过解线性方程直接最小化了）
+>$$
+>\begin{align}
+>\nabla_{\Delta\theta}E(\theta+\Delta \theta)=\frac{\partial E(\theta+\Delta \theta)}{\partial \Delta \theta}&=\frac{\partial(\mathbf r(\theta) +J\Delta\theta)^T(\mathbf r(\theta) +J\Delta\theta)}{\partial \Delta \theta}\\
+>&=\frac{\partial(\mathbf  r(\theta)^T \mathbf r+2\Delta\theta^TJ^T\mathbf r(\theta) +\Delta\theta J^TJ\Delta\theta)}{\partial \Delta \theta}\\
+>&=0+2J^T\mathbf r(\theta)+2J^TJ\Delta \theta
+>\end{align}
+>$$
+>达成极小值的必要条件是梯度为零，所以
+>$$
+>J^TJ\Delta \theta=-J^T\mathbf r(\theta)
+>$$
+>这就是Gauss-Newton方程。这个方法很快，但该方程基于对目标函数的二次近似，当拟合不佳时容易发散。而且万一$J^TJ$不可逆的话，$\Delta \theta$直接就求不出来了！
+>
+>3. **LM方法**
+>
+>因此LM方法进行了小修改：
+>$$
+>(J^TJ+\lambda I)\Delta \theta=-J^T\mathbf r(\theta)
+>$$
+>首先保证了$\Delta \theta$一定可以求出来，因为左边这个因子一定可逆了。然后容易观察到
+>
+>- 当$\lambda$接近0的时候，$\Delta \theta$的求解类似于上面的Gauss-Newton。
+>- 当$\lambda$很大的时候，$\Delta \theta$就接近$-\frac{1}{\lambda}J^T\mathbf r(\theta)$。这实际上和直接做梯度下降得到的梯度形式$\Delta E(\theta)=2J(\theta)^T\mathbf r(\theta)$一样。
+>
+>从而LM方法就是通过动态调节系数$\lambda$来做到因地制宜。如果一次迭代后误差下降了，代表二次近似可信，从而减小$\lambda$更加接近Gauss-Newton，步子变大。如果一次迭代后误差增加了，代表近似可能存在问题，增大$\lambda$更接近梯度下降，步子变小，稳步优化。
+
+
+
+---
+
+写的时候以为挺短的，结果写了好久，越写越长。本篇基本上都是手打的，深深感受到人类输入的低效，后面要思考怎么AI Native的进行这种知识总结的撰写。
+7:["$","$12",null,{"fallback":null,"children":["$","$L15",null,{"meta":{"title":"How to Calibrate Camera Intrinsic Parameters","title_cn":"如何对摄像头进行内参标定","subtitle":"","subtitle_cn":"","date":"2026-02-26","tags":["Math"]},"contentEn":"$16","contentCn":"$17"}]}]
+c:null
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+b:null
+14:{"metadata":[["$","title","0",{"children":"Junshan Huang"}],["$","meta","1",{"name":"description","content":"PhD student at Rutgers University."}],["$","meta","2",{"name":"author","content":"Junshan Huang"}],["$","meta","3",{"name":"keywords","content":"Junshan Huang,PhD,Research,Rutgers University"}],["$","meta","4",{"name":"creator","content":"Junshan Huang"}],["$","meta","5",{"name":"publisher","content":"Junshan Huang"}],["$","meta","6",{"property":"og:title","content":"Junshan Huang"}],["$","meta","7",{"property":"og:description","content":"PhD student at Rutgers University."}],["$","meta","8",{"property":"og:site_name","content":"Junshan Huang's Academic Website"}],["$","meta","9",{"property":"og:locale","content":"en_US"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary"}],["$","meta","12",{"name":"twitter:title","content":"Junshan Huang"}],["$","meta","13",{"name":"twitter:description","content":"PhD student at Rutgers University."}],["$","link","14",{"rel":"icon","href":"/fav.ico"}]],"error":null,"digest":"$undefined"}
+e:{"metadata":"$14:metadata","error":null,"digest":"$undefined"}

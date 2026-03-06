@@ -1176,17 +1176,28 @@
         'mul_zero','mul_succ','zero_mul','succ_mul','mul_comm','mul_one','one_mul','two_mul',
         'mul_add'
       ];
+      const fullHighlight = s.startsWith('-- What we have:') ||
+        s.trim().startsWith('-- add') ||
+        s.trim().startsWith('-- mul');
+
       let out = s;
-      // highlight 0, succ, add, mul in comments
-      out = out.replace(/(?<!\w)0(?!\w)/g, `<span class=\"kw\">0</span>`);
-      out = out.replace(/\bsucc\b/g, `<span class=\"kw\">succ</span>`);
-      out = out.replace(/\badd\b/g, `<span class=\"kw\">add</span>`);
-      out = out.replace(/\bmul\b/g, `<span class=\"kw\">mul</span>`);
-      keywords.forEach(k => {
-        const re = new RegExp(`\\b${k}\\b`, 'g');
-        out = out.replace(re, `<span class=\"kw\">${k}</span>`);
-      });
-      return out;
+      if (fullHighlight) {
+        out = out.replace(/(?<!\w)0(?!\w)/g, `<span class=\"kw\">0</span>`);
+        out = out.replace(/\bsucc\b/g, `<span class=\"kw\">succ</span>`);
+        out = out.replace(/\badd\b/g, `<span class=\"kw\">add</span>`);
+        out = out.replace(/\bmul\b/g, `<span class=\"kw\">mul</span>`);
+        keywords.forEach(k => {
+          const re = new RegExp(`\\b${k}\\b`, 'g');
+          out = out.replace(re, `<span class=\"kw\">${k}</span>`);
+        });
+        return out;
+      }
+
+      const union = ['add_zero','add_succ','succ_add','zero_add','add_assoc','add_comm','add_right_comm',
+        'mul_zero','mul_succ','zero_mul','succ_mul','mul_comm','mul_one','one_mul','two_mul',
+        'mul_add','succ','add','mul','0'];
+      const re = new RegExp(`\\b(${union.join('|')})\\b`);
+      return out.replace(re, `<span class=\"kw\">$1</span>`);
     }
 
     function showPopup(ev, lineObj, lineEl) {

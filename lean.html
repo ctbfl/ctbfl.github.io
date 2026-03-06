@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lean Proof</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0d1117;
+      --panel: #161b22;
+      --panel2: #1c2128;
+      --border: #30363d;
+      --text: #e6edf3;
+      --muted: #8b949e;
+      --have: #3fb950;
+      --locked: #79c0ff;
+      --disabled: #6e7681;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Noto Sans SC', system-ui, sans-serif;
+      height: 100vh;
+      overflow: hidden;
+    }
+    .layout {
+      display: flex;
+      height: 100%;
+    }
+    .left {
+      width: 380px;
+      flex-shrink: 0;
+      display: flex;
+      flex-direction: column;
+      border-right: 1px solid var(--border);
+      background: var(--panel);
+    }
+    .right {
+      flex: 1;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      background: var(--panel2);
+    }
+    .section {
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--border);
+    }
+    .section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    .section h2 {
+      margin: 0 0 8px;
+      font-size: 13px;
+      color: var(--muted);
+      font-weight: 600;
+    }
+    .lang-btn {
+      padding: 2px 8px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: #21262d;
+      color: var(--text);
+      font-size: 12px;
+      cursor: pointer;
+    }
+    .lang-btn:hover {
+      border-color: var(--locked);
+      color: var(--locked);
+      background: #1f6feb22;
+    }
+    .section p {
+      margin: 0 0 10px;
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+    .layer-row { margin-bottom: 8px; }
+    .layer-label {
+      font-size: 11px;
+      color: var(--muted);
+      margin-bottom: 4px;
+    }
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .chip {
+      padding: 4px 8px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: #21262d;
+      color: var(--muted);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      user-select: none;
+      cursor: pointer;
+      display: inline-flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .chip-label {
+      line-height: 1.2;
+    }
+    .subchips {
+      display: flex;
+      gap: 4px;
+      flex-wrap: wrap;
+    }
+    .subchip {
+      padding: 2px 6px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: #0f141b;
+      color: var(--muted);
+      font-size: 11px;
+      line-height: 1.2;
+    }
+    .chip.active .subchip {
+      border-color: var(--have);
+      color: var(--have);
+      background: #23863622;
+    }
+    .chip.locked .subchip {
+      border-color: var(--locked);
+      color: var(--locked);
+      background: #1f6feb22;
+    }
+    .chip.goal-active .subchip {
+      border-color: #d29922;
+      color: #d29922;
+      background: #d2992222;
+    }
+    .chip.goal-disabled .subchip {
+      border-color: var(--disabled);
+      color: var(--disabled);
+      background: #6e768122;
+    }
+    .chip.active {
+      border-color: var(--have);
+      color: var(--have);
+      background: #23863622;
+    }
+    .chip.locked {
+      border-color: var(--locked);
+      color: var(--locked);
+      background: #1f6feb22;
+      cursor: not-allowed;
+    }
+    .to-prove-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .chip.goal-active {
+      border-color: #d29922;
+      color: #d29922;
+      background: #d2992222;
+    }
+    .chip.goal-disabled {
+      border-color: var(--disabled);
+      color: var(--disabled);
+      background: #6e768122;
+      cursor: not-allowed;
+    }
+    .hint {
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+    .code-header {
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--muted);
+      flex-shrink: 0;
+    }
+
+    .code-line {
+      display: block;
+      padding: 2px 6px;
+      margin: 0 -6px;
+      border-radius: 6px;
+      cursor: pointer;
+      white-space: pre;
+    }
+    .code-line:hover {
+      background: #2b313a;
+    }
+    .code-line.is-active {
+      outline: 1px solid #3fb95066;
+      background: #2b313a;
+    }
+    .kw {
+      display: inline-block;
+      padding: 1px 6px;
+      border-radius: 6px;
+      background: #1f6feb22;
+      border: 1px solid var(--locked);
+      color: var(--locked);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      line-height: 1.4;
+      font-weight: 600;
+    }
+    .popup {
+      position: fixed;
+      z-index: 20;
+      max-width: 480px;
+      background: #0f141b;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      box-shadow: 0 12px 28px rgba(0,0,0,.35);
+      padding: 10px 12px;
+      font-size: 12px;
+      color: var(--text);
+      display: none;
+    }
+    .popup h3 {
+      margin: 0 0 6px;
+      font-size: 12px;
+      color: var(--muted);
+      font-weight: 600;
+    }
+    .popup pre {
+      margin: 0 0 8px;
+      padding: 8px;
+      background: #11161d;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      font-size: 12px;
+      line-height: 1.5;
+      white-space: pre-wrap;
+    }
+
+    pre {
+      margin: 0;
+      padding: 16px;
+      flex: 1;
+      overflow: auto;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13px;
+      line-height: 1.7;
+      white-space: pre;
+      color: var(--text);
+    }
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <aside class="left">
+      <section class="section">
+        <div class="section-header">
+          <h2 data-i18n="what_we_have">What we have</h2>
+          <button id="langToggle" class="lang-btn" type="button">中</button>
+        </div>
+        <p data-i18n="what_we_have_desc">Checked means “known and collapsed”. Unknown items are expanded on the right. 0 and succ are fixed.</p>
+        <div id="layers"></div>
+      </section>
+
+      <section class="section" style="border-bottom:none;">
+        <h2 data-i18n="to_prove">To prove</h2>
+        <div class="to-prove-wrap">
+          <div id="goalLayers"></div>
+          <div class="hint" id="hint"></div>
+        </div>
+      </section>
+    </aside>
+
+    <main class="right">
+      <div class="code-header" data-i18n="code_header">Lean proof (line by line)</div>
+      <pre id="codeArea"></pre>
+    </main>
+  </div>
+  <div id="linePopup" class="popup"></div>
+
+  <script>
+    const BLOCKS = [
+  {
+    "id": "zero_const",
+    "name": "0",
+    "title": "自然数与 0",
+    "layer": 0,
+    "lockedKnown": true,
+    "disabledGoal": true,
+    "deps": [],
+    "script": [
+      "inductive MyNat where",
+      "  | zero : MyNat",
+      "  | succ : MyNat → MyNat",
+      "",
+      "notation (priority := 1000000) \"ℕ\" => MyNat"
+    ]
+  },
+  {
+    "id": "succ_ctor",
+    "name": "succ",
+    "title": "后继构造子 succ",
+    "layer": 0,
+    "lockedKnown": true,
+    "disabledGoal": true,
+    "deps": [],
+    "script": [
+      "-- succ 已在 MyNat 的定义里给出",
+      "-- 数字记号来自 OfNat 实例"
+    ]
+  },
+  {
+    "id": "add_axioms",
+    "name": "add",
+    "title": "加法公理（add_zero / add_succ）",
+    "layer": 1,
+    "deps": [
+      "zero_const",
+      "succ_ctor"
+    ],
+    "subchips": [
+      "add_zero",
+      "add_succ"
+    ],
+    "script": [
+      "opaque add : MyNat → MyNat → MyNat",
+      "",
+      "instance instAdd : Add MyNat where",
+      "  add := MyNat.add",
+      "",
+      "axiom add_zero (a : MyNat) : a + 0 = a",
+      "axiom add_succ (a d : MyNat) : a + (succ d) = succ (a + d)"
+    ],
+    "title_en": "Addition axioms (add_zero / add_succ)"
+  },
+  {
+    "id": "mul_axioms",
+    "name": "mul",
+    "title": "乘法公理（mul_zero / mul_succ）",
+    "layer": 1,
+    "deps": [
+      "zero_const",
+      "succ_ctor",
+      "add_axioms"
+    ],
+    "subchips": [
+      "mul_zero",
+      "mul_succ"
+    ],
+    "script": [
+      "opaque mul : MyNat → MyNat → MyNat",
+      "",
+      "instance : Mul MyNat where",
+      "  mul := MyNat.mul",
+      "",
+      "axiom mul_zero (a : MyNat) : a * 0 = 0",
+      "axiom mul_succ (a b : MyNat) : a * (succ b) = a * b + a"
+    ],
+    "title_en": "Multiplication axioms (mul_zero / mul_succ)"
+  },
+  {
+    "id": "zero_add",
+    "name": "zero_add",
+    "title": "0 + n = n",
+    "layer": 2,
+    "deps": [
+      "add_axioms"
+    ],
+    "script": [
+      "theorem zero_add (n : ℕ) : 0 + n = n := by",
+      {
+        "text": "  induction n with d hd",
+        "before": "Goal:\n  0 + n = n",
+        "after": "Goal 1:\n  0 + 0 = 0\n\nGoal 2:\n  d : ℕ\n  hd : 0 + d = d\n  ⊢ 0 + succ d = succ d"
+      },
+      {
+        "text": "  · rw [add_zero]",
+        "before": "Goal:\n  0 + 0 = 0",
+        "after": "Goal:\n  0 = 0"
+      },
+      {
+        "text": "    rfl",
+        "before": "d : ℕ\n  hd : 0 + d = d\n  ⊢ 0 = 0",
+        "after": "d : ℕ\n  hd : 0 + d = d\n  ⊢ 0 + succ d = succ d"
+      },
+      {
+        "text": "  · rw [add_succ]",
+        "before": "Goal:\n  0 + succ d = succ d",
+        "after": "Goal:\n  succ (0 + d) = succ d"
+      },
+      {
+        "text": "    rw [hd]",
+        "before": "Goal:\n  succ (0 + d) = succ d",
+        "after": "Goal:\n  succ d = succ d"
+      },
+      {
+        "text": "    rfl",
+        "before": "Goal:\n  succ d = succ d",
+        "after": "done"
+      }
+    ]
+  },
+  {
+    "id": "succ_add",
+    "name": "succ_add",
+    "title": "(succ m) + n = succ (m + n)",
+    "layer": 2,
+    "deps": [
+      "add_axioms"
+    ],
+    "script": [
+      "theorem succ_add (a b : ℕ) : succ a + b = succ (a + b) := by",
+      {
+        "text": "  induction b with d hd",
+        "before": "Goal:\n  succ a + b = succ (a + b)",
+        "after": "Goal 1:\n  succ a + 0 = succ (a + 0)\n\nGoal 2:\n  d : ℕ\n  hd : succ a + d = succ (a + d)\n  ⊢ succ a + succ d = succ (a + succ d)"
+      },
+      {
+        "text": "  · rw [add_zero]",
+        "before": "Goal:\n  succ a + 0 = succ (a + 0)",
+        "after": "Goal:\n  succ a = succ (a + 0)"
+      },
+      {
+        "text": "    rw [add_zero]",
+        "before": "d : ℕ\n  hd : succ a + d = succ (a + d)\n  ⊢ succ a = succ (a + 0)",
+        "after": "Goal:\n  succ a = succ a"
+      },
+      {
+        "text": "    rfl",
+        "before": "Goal:\n  succ a = succ a",
+        "after": "d : ℕ\n  hd : succ a + d = succ (a + d)\n  ⊢ succ a + succ d = succ (a + succ d)"
+      },
+      {
+        "text": "  · rw [add_succ]",
+        "before": "Goal:\n  succ a + succ d = succ (a + succ d)",
+        "after": "Goal:\n  succ (succ a + d) = succ (a + succ d)"
+      },
+      {
+        "text": "    rw [add_succ]",
+        "before": "Goal:\n  succ (succ a + d) = succ (a + succ d)",
+        "after": "Goal:\n  succ (succ a + d) = succ (succ (a + d))"
+      },
+      {
+        "text": "    rw [hd]",
+        "before": "Goal:\n  succ (succ a + d) = succ (succ (a + d))",
+        "after": "Goal:\n  succ (succ (a + d)) = succ (succ (a + d))"
+      },
+      {
+        "text": "    rfl",
+        "before": "Goal:\n  succ (succ (a + d)) = succ (succ (a + d))",
+        "after": "done"
+      }
+    ]
+  },
+  {
+    "id": "add_assoc",
+    "name": "add_assoc",
+    "title": "(a + b) + c = a + (b + c)",
+    "layer": 3,
+    "deps": [
+      "add_axioms"
+    ],
+    "script": [
+      "theorem add_assoc (a b c : ℕ) : a + b + c = a + (b + c) := by",
+      {
+        "text": "  induction c with d hd",
+        "before": "Goal:\n  a + b + c = a + (b + c)",
+        "after": "Goal 1:\n  a + b + 0 = a + (b + 0)\n\nGoal 2:\n  d : ℕ\n  hd : a + b + d = a + (b + d)\n  ⊢ a + b + succ d = a + (b + succ d)"
+      },
+      {
+        "text": "  · rw [add_zero]",
+        "before": "Goal:\n  a + b + 0 = a + (b + 0)",
+        "after": "Goal:\n  a + b + 0 = a + b"
+      },
+      {
+        "text": "    rw [add_zero]",
+        "before": "Goal:\n  a + b + 0 = a + b",
+        "after": "Goal:\n  a + b = a + b"
+      },
+      {
+        "text": "    rfl",
+        "before": "Goal:\n  a + b = a + b",
+        "after": "done"
+      },
+      {
+        "text": "  · rw [add_succ]",
+        "before": "d : ℕ\n  hd : a + b + d = a + (b + d)\n  ⊢ a + b + succ d = a + (b + succ d)",
+        "after": "Goal:\n  a + b + succ d = a + succ (b + d)"
+      },
+      {
+        "text": "    rw [add_succ]",
+        "before": "Goal:\n  a + b + succ d = a + succ (b + d)",
+        "after": "Goal:\n  succ (a + b + d) = a + succ (b + d)"
+      },
+      {
+        "text": "    rw [hd]",
+        "before": "Goal:\n  succ (a + b + d) = a + succ (b + d)",
+        "after": "Goal:\n  succ (a + (b + d)) = a + succ (b + d)"
+      },
+      {
+        "text": "    rw [add_succ]",
+        "before": "Goal:\n  succ (a + (b + d)) = a + succ (b + d)",
+        "after": "Goal:\n  succ (a + (b + d)) = succ (a + (b + d))"
+      },
+      {
+        "text": "    rfl",
+        "before": "Goal:\n  succ (a + (b + d)) = succ (a + (b + d))",
+        "after": "done"
+      }
+    ]
+  },
+  {
+    "id": "add_comm",
+    "name": "add_comm",
+    "title": "m + n = n + m",
+    "layer": 3,
+    "deps": [
+      "zero_add",
+      "succ_add"
+    ],
+    "script": [
+      "theorem add_comm (a b : ℕ) : a + b = b + a := by",
+      {
+        "text": "  induction b with d hd",
+        "before": "Goal:\n  a + b = b + a",
+        "after": "Goal 1:\n  a + 0 = 0 + a\n\nGoal 2:\n  d : ℕ\n  hd : a + d = d + a\n  ⊢ a + succ d = succ d + a"
+      },
+      {
+        "text": "  · rw [add_zero, zero_add]",
+        "before": "Goal:\n  a + 0 = 0 + a",
+        "after": "Step 1 (rw add_zero):\n  a = 0 + a\nStep 2 (rw zero_add):\n  a = a"
+      },
+      {
+        "text": "    rfl",
+        "before": "d : ℕ\n  hd : a + d = d + a\n  ⊢ a = a",
+        "after": "d : ℕ\n  hd : a + d = d + a\n  ⊢ a + succ d = succ d + a"
+      },
+      {
+        "text": "  · rw [add_succ, succ_add, hd]",
+        "before": "Goal:\n  a + succ d = succ d + a",
+        "after": "Step 1 (rw add_succ):\n  succ (a + d) = succ d + a\nStep 2 (rw succ_add):\n  succ (a + d) = succ (d + a)\nStep 3 (rw hd):\n  succ (d + a) = succ (d + a)"
+      },
+      {
+        "text": "    rfl",
+        "before": "Goal:\n  succ (d + a) = succ (d + a)",
+        "after": "done"
+      }
+    ]
+  },
+  {
+    "id": "add_right_comm",
+    "name": "add_right_comm",
+    "title": "(a + b) + c = (a + c) + b",
+    "layer": 3,
+    "deps": [
+      "add_assoc",
+      "add_comm"
+    ],
+    "script": [
+      "theorem add_right_comm (a b c : ℕ) : a + b + c = a + c + b := by",
+      {
+        "text": "  rw [add_assoc]",
+        "before": "Goal:\n  a + b + c = a + c + b",
+        "after": "Goal:\n  a + (b + c) = a + c + b"
+      },
+      {
+        "text": "  rw [add_comm b, add_assoc]",
+        "before": "Goal:\n  a + (b + c) = a + c + b",
+        "after": "Step 1 (rw add_comm b):\n  a + (c + b) = a + c + b\nStep 2 (rw add_assoc):\n  a + (c + b) = a + (c + b)"
+      },
+      {
+        "text": "  rfl",
+        "before": "Goal:\n  a + (c + b) = a + (c + b)",
+        "after": "done"
+      }
+    ]
+  },
+  {
+    "id": "zero_mul",
+    "name": "zero_mul",
+    "title": "0 * n = 0",
+    "layer": 3,
+    "deps": [
+      "mul_axioms",
+      "add_axioms"
+    ],
+    "script": [
+      "theorem zero_mul (m : ℕ) : 0 * m = 0 := by",
+      {
+        "text": "  induction m with d hd",
+        "before": "Goal:\n  0 * m = 0",
+        "after": "Goal 1:\n  0 * 0 = 0\n\nGoal 2:\n  d : ℕ\n  hd : 0 * d = 0\n  ⊢ 0 * succ d = 0"
+      },
+      {
+        "text": "  · rw [mul_zero]",
+        "before": "Goal:\n  0 * 0 = 0",
+        "after": "Goal:\n  0 = 0"
+      },
+      {
+        "text": "    rfl",
+        "before": "d : ℕ\n  hd : 0 * d = 0\n  ⊢ 0 = 0",
+        "after": "d : ℕ\n  hd : 0 * d = 0\n  ⊢ 0 * succ d = 0"
+      },
+      {
+        "text": "  · rw [mul_succ]",
+        "before": "Goal:\n  0 * succ d = 0",
+        "after": "Goal:\n  0 * d + 0 = 0"
+      },
+      {
+        "text": "    rw [hd]",
+        "before": "Goal:\n  0 * d + 0 = 0",
+        "after": "Goal:\n  0 + 0 = 0"
+      },
+      {
+        "text": "    rw [add_zero]",
+        "before": "Goal:\n  0 + 0 = 0",
+        "after": "Goal:\n  0 = 0"
+      },
+      {
+        "text": "    rfl",
+        "before": "Goal:\n  0 = 0",
+        "after": "done"
+      }
+    ]
+  },
+  {
+    "id": "succ_mul",
+    "name": "succ_mul",
+    "title": "(succ a) * b = a * b + b",
+    "layer": 3,
+    "deps": [
+      "mul_axioms",
+      "add_axioms",
+      "add_right_comm"
+    ],
+    "script": [
+      "theorem succ_mul (a b : ℕ) : succ a * b = a * b + b := by",
+      {
+        "text": "  induction b with d hd",
+        "before": "Goal:\n  succ a * b = a * b + b",
+        "after": "Goal 1:\n  succ a * 0 = a * 0 + 0\n\nGoal 2:\n  d : ℕ\n  hd : succ a * d = a * d + d\n  ⊢ succ a * succ d = a * succ d + succ d"
+      },
+      {
+        "text": "  · rw [mul_zero]",
+        "before": "Goal:\n  succ a * 0 = a * 0 + 0",
+        "after": "Goal:\n  0 = a * 0 + 0"
+      },
+      {
+        "text": "    rw [mul_zero]",
+        "before": "d : ℕ\n  hd : succ a * d = a * d + d\n  ⊢ 0 = a * 0 + 0",
+        "after": "Goal:\n  0 = 0 + 0"
+      },
+      {
+        "text": "    rw [add_zero]",
+        "before": "Goal:\n  0 = 0 + 0",
+        "after": "Goal:\n  0 = 0"
+      },
+      {
+        "text": "    rfl",
+        "before": "Goal:\n  0 = 0",
+        "after": "d : ℕ\n  hd : succ a * d = a * d + d\n  ⊢ succ a * succ d = a * succ d + succ d"
+      },
+      {
+        "text": "  · rw [mul_succ]",
+        "before": "Goal:\n  succ a * succ d = a * succ d + succ d",
+        "after": "Goal:\n  succ a * d + succ a = a * succ d + succ d"
+      },
+      {
+        "text": "    rw [mul_succ]",
+        "before": "Goal:\n  succ a * d + succ a = a * succ d + succ d",
+        "after": "Goal:\n  succ a * d + succ a = a * d + a + succ d"
+      },
+      {
+        "text": "    rw [hd]",
+        "before": "Goal:\n  succ a * d + succ a = a * d + a + succ d",
+        "after": "Goal:\n  a * d + d + succ a = a * d + a + succ d"
+      },
+      {
+        "text": "    rw [add_succ]",
+        "before": "Goal:\n  a * d + d + succ a = a * d + a + succ d",
+        "after": "Goal:\n  succ (a * d + d + a) = a * d + a + succ d"
+      },
+      {
+        "text": "    rw [add_succ]",
+        "before": "Goal:\n  succ (a * d + d + a) = a * d + a + succ d",
+        "after": "Goal:\n  succ (a * d + d + a) = succ (a * d + a + d)"
+      },
+      {
+        "text": "    rw [add_right_comm]",
+        "before": "Goal:\n  succ (a * d + d + a) = succ (a * d + a + d)",
+        "after": "Goal:\n  succ (a * d + a + d) = succ (a * d + a + d)"
+      },
+      {
+        "text": "    rfl",
+        "before": "Goal:\n  succ (a * d + a + d) = succ (a * d + a + d)",
+        "after": "done"
+      }
+    ]
+  },
+  {
+    "id": "mul_comm",
+    "name": "mul_comm",
+    "title": "a * b = b * a",
+    "layer": 3,
+    "deps": [
+      "zero_mul",
+      "succ_mul"
+    ],
+    "script": [
+      "theorem mul_comm (a b : ℕ) : a * b = b * a := by",
+      {
+        "text": "  induction b with d hd",
+        "before": "Goal:\n  a * b = b * a",
+        "after": "Goal 1:\n  a * 0 = 0 * a\n\nGoal 2:\n  d : ℕ\n  hd : a * d = d * a\n  ⊢ a * succ d = succ d * a"
+      },
+      {
+        "text": "  · rw [zero_mul]",
+        "before": "Goal:\n  a * 0 = 0 * a",
+        "after": "Goal:\n  a * 0 = 0"
+      },
+      {
+        "text": "    rw [mul_zero]",
+        "before": "d : ℕ\n  hd : a * d = d * a\n  ⊢ a * 0 = 0",
+        "after": "Goal:\n  0 = 0"
+      },
+      {
+        "text": "    rfl",
+        "before": "Goal:\n  0 = 0",
+        "after": "d : ℕ\n  hd : a * d = d * a\n  ⊢ a * succ d = succ d * a"
+      },
+      {
+        "text": "  · rw [succ_mul]",
+        "before": "Goal:\n  a * succ d = succ d * a",
+        "after": "Goal:\n  a * succ d = d * a + a"
+      },
+      {
+        "text": "    rw [← hd]",
+        "before": "Goal:\n  a * succ d = d * a + a",
+        "after": "Goal:\n  a * succ d = a * d + a"
+      },
+      {
+        "text": "    rw [mul_succ]",
+        "before": "Goal:\n  a * succ d = a * d + a",
+        "after": "Goal:\n  a * d + a = a * d + a"
+      },
+      {
+        "text": "    rfl",
+        "before": "Goal:\n  a * d + a = a * d + a",
+        "after": "done"
+      }
+    ]
+  },
+  {
+    "id": "mul_one",
+    "name": "mul_one",
+    "title": "m * 1 = m",
+    "layer": 3,
+    "deps": [
+      "mul_axioms",
+      "add_axioms"
+    ],
+    "script": [
+      "theorem mul_one (m : ℕ) : m * 1 = m := by",
+      {
+        "text": "  rw [one_eq_succ_zero]",
+        "before": "Goal:\n  m * 1 = m",
+        "after": "Goal:\n  m * succ 0 = m"
+      },
+      {
+        "text": "  rw [mul_succ]",
+        "before": "Goal:\n  m * succ 0 = m",
+        "after": "Goal:\n  m * 0 + m = m"
+      },
+      {
+        "text": "  rw [mul_zero]",
+        "before": "Goal:\n  m * 0 + m = m",
+        "after": "Goal:\n  0 + m = m"
+      },
+      {
+        "text": "  rw [zero_add]",
+        "before": "Goal:\n  0 + m = m",
+        "after": "Goal:\n  m = m"
+      },
+      {
+        "text": "  rfl",
+        "before": "Goal:\n  m = m",
+        "after": "done"
+      }
+    ]
+  },
+  {
+    "id": "one_mul",
+    "name": "one_mul",
+    "title": "1 * m = m",
+    "layer": 3,
+    "deps": [
+      "mul_comm",
+      "mul_one"
+    ],
+    "script": [
+      "theorem one_mul (m : ℕ) : 1 * m = m := by",
+      {
+        "text": "  rw [mul_comm, mul_one]",
+        "before": "Goal:\n  1 * m = m",
+        "after": "Step 1 (rw mul_comm):\n  m * 1 = m\nStep 2 (rw mul_one):\n  m = m"
+      },
+      {
+        "text": "  rfl",
+        "before": "Goal:\n  m = m",
+        "after": "done"
+      }
+    ]
+  },
+  {
+    "id": "two_mul",
+    "name": "two_mul",
+    "title": "2 * m = m + m",
+    "layer": 3,
+    "deps": [
+      "succ_mul",
+      "one_mul"
+    ],
+    "script": [
+      "theorem two_mul (m : ℕ) : 2 * m = m + m := by",
+      {
+        "text": "  rw [two_eq_succ_one, succ_mul, one_mul]",
+        "before": "Goal:\n  2 * m = m + m",
+        "after": "Step 1 (rw two_eq_succ_one):\n  succ 1 * m = m + m\nStep 2 (rw succ_mul):\n  1 * m + m = m + m\nStep 3 (rw one_mul):\n  m + m = m + m"
+      },
+      {
+        "text": "  rfl",
+        "before": "Goal:\n  m + m = m + m",
+        "after": "done"
+      }
+    ]
+  },
+  {
+    "id": "mul_add",
+    "name": "mul_add",
+    "title": "a * (b + c) = a * b + a * c",
+    "layer": 4,
+    "deps": [
+      "mul_axioms",
+      "add_axioms",
+      "add_assoc"
+    ],
+    "script": [
+      "theorem mul_add (a b c : ℕ) : a * (b + c) = a * b + a * c := by",
+      {
+        "text": "  induction c with d hd",
+        "before": "Goal:\n  a * (b + c) = a * b + a * c",
+        "after": "Goal 1:\n  a * (b + 0) = a * b + a * 0\n\nGoal 2:\n  d : ℕ\n  hd : a * (b + d) = a * b + a * d\n  ⊢ a * (b + succ d) = a * b + a * succ d"
+      },
+      {
+        "text": "  · rw [add_zero, mul_zero, add_zero]",
+        "before": "Goal:\n  a * (b + 0) = a * b + a * 0",
+        "after": "Step 1 (rw add_zero):\n  a * b = a * b + a * 0\nStep 2 (rw mul_zero):\n  a * b = a * b + 0\nStep 3 (rw add_zero):\n  a * b = a * b"
+      },
+      {
+        "text": "    rfl",
+        "before": "Goal:\n  a * b = a * b",
+        "after": "done"
+      },
+      {
+        "text": "  · rw [add_succ, mul_succ, hd, mul_succ, add_assoc]",
+        "before": "d : ℕ\n  hd : a * (b + d) = a * b + a * d\n  ⊢ a * (b + succ d) = a * b + a * succ d",
+        "after": "Step 1 (rw add_succ):\n  a * succ (b + d) = a * b + a * succ d\nStep 2 (rw mul_succ):\n  a * (b + d) + a = a * b + a * succ d\nStep 3 (rw hd):\n  a * b + a * d + a = a * b + a * succ d\nStep 4 (rw mul_succ):\n  a * b + a * d + a = a * b + (a * d + a)\nStep 5 (rw add_assoc):\n  a * b + (a * d + a) = a * b + (a * d + a)"
+      },
+      {
+        "text": "    rfl",
+        "before": "Goal:\n  a * b + (a * d + a) = a * b + (a * d + a)",
+        "after": "done"
+      }
+    ]
+  }
+];;;;;;;;;;
+
+
+
+    const BY_ID = Object.fromEntries(BLOCKS.map(b => [b.id, b]));
+    const ORDER = topoOrder();
+    const LOCKED = new Set(BLOCKS.filter(b => b.lockedKnown).map(b => b.id));
+
+    let known = new Set(['zero_const', 'succ_ctor']);
+    let goal = 'mul_add';
+
+    function topoOrder() {
+      const visited = new Set();
+      const out = [];
+      function dfs(id) {
+        if (visited.has(id)) return;
+        visited.add(id);
+        BY_ID[id].deps.forEach(dfs);
+        out.push(id);
+      }
+      BLOCKS.forEach(b => dfs(b.id));
+      return out;
+    }
+
+    function allDeps(id, bag = new Set()) {
+      if (bag.has(id)) return bag;
+      bag.add(id);
+      BY_ID[id].deps.forEach(d => allDeps(d, bag));
+      return bag;
+    }
+
+    function addKnown(id) {
+      allDeps(id).forEach(x => known.add(x));
+      LOCKED.forEach(x => known.add(x));
+    }
+
+    function removeKnown(id) {
+      if (LOCKED.has(id)) return;
+      const removeSet = new Set([id]);
+      let changed = true;
+      while (changed) {
+        changed = false;
+        for (const b of BLOCKS) {
+          if (!known.has(b.id) || removeSet.has(b.id)) continue;
+          if (b.deps.some(d => removeSet.has(d))) {
+            removeSet.add(b.id);
+            changed = true;
+          }
+        }
+      }
+      LOCKED.forEach(x => removeSet.delete(x));
+      removeSet.forEach(x => known.delete(x));
+      LOCKED.forEach(x => known.add(x));
+    }
+
+    function toggleKnown(id) {
+      if (LOCKED.has(id)) return;
+      if (known.has(id)) removeKnown(id);
+      else addKnown(id);
+      render();
+    }
+
+    function neededForGoal(id) {
+      return allDeps(id, new Set());
+    }
+
+    function renderLayers() {
+      const root = document.getElementById('layers');
+      root.innerHTML = '';
+      const grouped = {};
+      BLOCKS.forEach(b => {
+        if (!grouped[b.layer]) grouped[b.layer] = [];
+        grouped[b.layer].push(b);
+      });
+
+      [0,1,2,3,4].forEach(layer => {
+        if (!grouped[layer]) return;
+        const row = document.createElement('div');
+        row.className = 'layer-row';
+
+        const label = document.createElement('div');
+        label.className = 'layer-label';
+        label.textContent = t('layer_label', layer);
+
+        const chips = document.createElement('div');
+        chips.className = 'chips';
+
+        grouped[layer].forEach(b => {
+          const chip = document.createElement('span');
+          const active = known.has(b.id);
+          chip.className = 'chip' + (active ? ' active' : '') + (LOCKED.has(b.id) ? ' locked' : '');
+          const label = document.createElement('span');
+          label.className = 'chip-label';
+          label.textContent = b.name;
+          chip.appendChild(label);
+          if (b.subchips && b.subchips.length) {
+            const sub = document.createElement('div');
+            sub.className = 'subchips';
+            b.subchips.forEach(name => {
+              const s = document.createElement('span');
+              s.className = 'subchip';
+              s.textContent = name;
+              sub.appendChild(s);
+            });
+            chip.appendChild(sub);
+          }
+          chip.title = titleOf(b) + (LOCKED.has(b.id) ? '（固定已知）' : '');
+          chip.onclick = () => toggleKnown(b.id);
+          chips.appendChild(chip);
+        });
+
+        row.appendChild(label);
+        row.appendChild(chips);
+        root.appendChild(row);
+      });
+    }
+
+    function renderGoalLayers() {
+      if (!BY_ID[goal] || BY_ID[goal].disabledGoal) goal = 'mul_add';
+      const root = document.getElementById('goalLayers');
+      root.innerHTML = '';
+      const grouped = {};
+      BLOCKS.forEach(b => {
+        if (!grouped[b.layer]) grouped[b.layer] = [];
+        grouped[b.layer].push(b);
+      });
+
+      [0,1,2,3,4].forEach(layer => {
+        if (!grouped[layer]) return;
+        const row = document.createElement('div');
+        row.className = 'layer-row';
+
+        const label = document.createElement('div');
+        label.className = 'layer-label';
+        label.textContent = t('layer_label', layer);
+
+        const chips = document.createElement('div');
+        chips.className = 'chips';
+
+        grouped[layer].forEach(b => {
+          const chip = document.createElement('span');
+          const isDisabled = !!b.disabledGoal;
+          const isActive = goal === b.id;
+          chip.className = 'chip' + (isActive ? ' goal-active' : '') + (isDisabled ? ' goal-disabled' : '');
+          const label = document.createElement('span');
+          label.className = 'chip-label';
+          label.textContent = b.name;
+          chip.appendChild(label);
+          if (b.subchips && b.subchips.length) {
+            const sub = document.createElement('div');
+            sub.className = 'subchips';
+            b.subchips.forEach(name => {
+              const s = document.createElement('span');
+              s.className = 'subchip';
+              s.textContent = name;
+              sub.appendChild(s);
+            });
+            chip.appendChild(sub);
+          }
+          chip.title = titleOf(b) + (isDisabled ? '（不可作为目标）' : '（点击设为目标）');
+          chip.onclick = () => {
+            if (isDisabled) return;
+            goal = b.id;
+            render();
+          };
+          chips.appendChild(chip);
+        });
+
+        row.appendChild(label);
+        row.appendChild(chips);
+        root.appendChild(row);
+      });
+    }
+
+    const I18N = {
+      en: {
+        what_we_have: 'What we have',
+        what_we_have_desc: 'Checked means “known and collapsed”. Unknown items are expanded on the right. 0 and succ are fixed.',
+        to_prove: 'To prove',
+        code_header: 'Lean proof (line by line)',
+        what_we_have_line: 'What we have',
+        to_prove_line: 'To prove',
+        known_collapsed: 'is known (collapsed), proof hidden.',
+        uncheck_hint: 'Uncheck it to reveal the proof.',
+        expand_unknown: 'Expand all unknown items needed by the goal:',
+        end: 'end',
+        goal_deps: (need, hidden, shown) => `Goal depends on ${need} items; ${hidden} collapsed, ${shown} expanded.`,
+        before_label: 'Before',
+        after_label: 'After',
+        layer_label: (n) => `Layer ${n}`
+      },
+      zh: {
+        what_we_have: 'What we have（已知）',
+        what_we_have_desc: '勾选表示“已知且折叠”。未知项会在右侧正文展开。0 和 succ 固定常亮，不可关闭。',
+        to_prove: 'To prove（要证）',
+        code_header: '正文（Lean 交互风格，逐行）',
+        what_we_have_line: 'What we have',
+        to_prove_line: 'To prove',
+        known_collapsed: '已知（折叠），正文不展开。',
+        uncheck_hint: '可取消该项的已知勾选来查看其证明。',
+        expand_unknown: '以下展开所有“未知但被目标依赖”的项：',
+        end: 'end',
+        goal_deps: (need, hidden, shown) => `当前目标依赖 ${need} 项；折叠 ${hidden} 项，展开 ${shown} 项。`,
+        before_label: '执行前',
+        after_label: '执行后',
+        layer_label: (n) => `第 ${n} 层`
+      }
+    };
+
+    let LANG = 'en';
+
+    function t(key, ...args) {
+      const val = I18N[LANG][key];
+      return typeof val === 'function' ? val(...args) : val;
+    }
+
+    function titleOf(b) {
+      if (LANG === 'en' && b.title_en) return b.title_en;
+      return b.title;
+    }
+
+    function applyI18n() {
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (I18N[LANG][key]) el.textContent = I18N[LANG][key];
+      });
+      const btn = document.getElementById('langToggle');
+      if (btn) btn.textContent = LANG === 'en' ? '中' : 'EN';
+    }
+
+    function buildCode() {
+      const need = neededForGoal(goal);
+      const unknownNeeded = ORDER.filter(id => need.has(id) && !known.has(id));
+      const lines = [];
+
+      lines.push({ text: `-- ${t('what_we_have_line')}: ${[...known].map(id => BY_ID[id].name).join(', ')}` });
+      lines.push({ text: `-- ${t('to_prove_line')}: ${BY_ID[goal].name} (${titleOf(BY_ID[goal])})` });
+      lines.push({ text: '' });
+
+      if (known.has(goal)) {
+        lines.push({ text: `-- ${BY_ID[goal].name} ${t('known_collapsed')}` });
+        lines.push({ text: `-- ${t('uncheck_hint')}` });
+        return { lines, need };
+      }
+
+      lines.push({ text: `-- ${t('expand_unknown')}` });
+      unknownNeeded.forEach(id => {
+        const b = BY_ID[id];
+        lines.push({ text: '' });
+        lines.push({ text: `-- ${b.name} : ${titleOf(b)}` });
+        b.script.forEach(s => {
+          if (typeof s === 'string') lines.push({ text: s });
+          else lines.push(s);
+        });
+      });
+      lines.push({ text: '' });
+      lines.push({ text: `-- ${t('end')}` });
+      return { lines, need };
+    }
+
+    function renderCode() {
+      const root = document.getElementById('codeArea');
+      root.innerHTML = '';
+      const { lines } = buildCode();
+      lines.forEach((lineObj, idx) => {
+        const line = document.createElement('span');
+        line.className = 'code-line';
+        line.dataset.index = String(idx);
+        const raw = lineObj.text;
+        if (raw.trim().startsWith('--')) {
+          line.innerHTML = highlightKeywords(raw);
+        } else {
+          line.textContent = raw;
+        }
+        if (lineObj.before || lineObj.after) {
+          line.onmouseenter = (e) => showPopup(e, lineObj, line);
+          line.onmouseleave = () => hidePopup(line);
+        }
+        root.appendChild(line);
+      });
+      const { need, hidden, shown } = buildStats();
+      document.getElementById('hint').textContent = t('goal_deps', need, hidden, shown);
+    }
+
+    
+    function buildStats() {
+      const need = neededForGoal(goal).size;
+      const hidden = [...neededForGoal(goal)].filter(id => known.has(id)).length;
+      const shown = need - hidden;
+      return { need, hidden, shown };
+    }
+
+    function highlightKeywords(s) {
+      const keywords = [
+        'add_zero','add_succ','succ_add','zero_add','add_assoc','add_comm','add_right_comm',
+        'mul_zero','mul_succ','zero_mul','succ_mul','mul_comm','mul_one','one_mul','two_mul',
+        'mul_add'
+      ];
+      let out = s;
+      // highlight 0, succ, add, mul in comments
+      out = out.replace(/(?<!\w)0(?!\w)/g, `<span class=\"kw\">0</span>`);
+      out = out.replace(/\bsucc\b/g, `<span class=\"kw\">succ</span>`);
+      out = out.replace(/\badd\b/g, `<span class=\"kw\">add</span>`);
+      out = out.replace(/\bmul\b/g, `<span class=\"kw\">mul</span>`);
+      keywords.forEach(k => {
+        const re = new RegExp(`\\b${k}\\b`, 'g');
+        out = out.replace(re, `<span class=\"kw\">${k}</span>`);
+      });
+      return out;
+    }
+
+    function showPopup(ev, lineObj, lineEl) {
+      if (!lineObj.before && !lineObj.after) return;
+      const popup = document.getElementById('linePopup');
+      document.querySelectorAll('.code-line.is-active').forEach(el => el.classList.remove('is-active'));
+      lineEl.classList.add('is-active');
+
+      const before = lineObj.before || '（未提供）';
+      const after = lineObj.after || '（未提供）';
+      popup.innerHTML = `
+        <h3>${t('before_label')}</h3>
+        <pre>${escapeHtml(before)}</pre>
+        <h3>${t('after_label')}</h3>
+        <pre>${escapeHtml(after)}</pre>
+      `;
+      popup.style.display = 'block';
+
+      const pad = 12;
+      const rect = lineEl.getBoundingClientRect();
+      let x = rect.right + pad;
+      let y = rect.top;
+      if (x + popup.offsetWidth > window.innerWidth - pad) {
+        x = rect.left - popup.offsetWidth - pad;
+      }
+      if (x < pad) x = pad;
+      if (y + popup.offsetHeight > window.innerHeight - pad) {
+        y = window.innerHeight - popup.offsetHeight - pad;
+      }
+      if (y < pad) y = pad;
+      popup.style.left = `${x}px`;
+      popup.style.top = `${y}px`;
+    }
+
+    function hidePopup(lineEl) {
+      const popup = document.getElementById('linePopup');
+      if (!popup) return;
+      popup.style.display = 'none';
+      if (lineEl) lineEl.classList.remove('is-active');
+    }
+
+    function escapeHtml(str) {
+      return String(str)
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;');
+    }
+
+    window.addEventListener('mousemove', (e) => {
+      const popup = document.getElementById('linePopup');
+      if (!popup) return;
+      if (e.target.closest('.code-line')) return;
+      if (e.target.closest('#linePopup')) return;
+      popup.style.display = 'none';
+      document.querySelectorAll('.code-line.is-active').forEach(el => el.classList.remove('is-active'));
+    });
+function render() {
+      LOCKED.forEach(x => known.add(x));
+      renderLayers();
+      renderGoalLayers();
+      renderCode();
+    }
+
+    document.getElementById('langToggle')?.addEventListener('click', () => {
+      LANG = LANG === 'en' ? 'zh' : 'en';
+      applyI18n();
+      render();
+    });
+
+    applyI18n();
+    render();
+  </script>
+</body>
+</html>

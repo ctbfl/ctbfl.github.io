@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Lean Proof</title>
+  <title>Lean 证明递进演示</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -39,6 +39,8 @@
       flex-direction: column;
       border-right: 1px solid var(--border);
       background: var(--panel);
+      overflow: auto;
+      -webkit-overflow-scrolling: touch;
     }
     .right {
       flex: 1;
@@ -46,6 +48,27 @@
       display: flex;
       flex-direction: column;
       background: var(--panel2);
+    }
+    .mobile-toggle {
+      display: none;
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      z-index: 40;
+      border: 1px solid var(--border);
+      background: #21262d;
+      color: var(--text);
+      border-radius: 8px;
+      padding: 6px 8px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    .mobile-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.4);
+      z-index: 25;
     }
     .section {
       padding: 12px 14px;
@@ -253,9 +276,40 @@
       white-space: pre;
       color: var(--text);
     }
+    @media (max-width: 900px) {
+      .section-header,
+      .code-header {
+        padding-left: 46px;
+      }
+      .left {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 86%;
+        max-width: 360px;
+        transform: translateX(-100%);
+        transition: transform 0.2s ease;
+        z-index: 30;
+      }
+      .right {
+        width: 100%;
+      }
+      body.sidebar-open .left {
+        transform: translateX(0);
+      }
+      body.sidebar-open .mobile-overlay {
+        display: block;
+      }
+      .mobile-toggle {
+        display: inline-block;
+      }
+    }
   </style>
 </head>
 <body>
+  <button id="mobileToggle" class="mobile-toggle" type="button">☰</button>
+  <div id="mobileOverlay" class="mobile-overlay"></div>
   <div class="layout">
     <aside class="left">
       <section class="section">
@@ -1088,6 +1142,7 @@
     };
 
     let LANG = 'en';
+    const IS_TOUCH = window.matchMedia('(hover: none) and (pointer: coarse)').matches;
 
     function t(key, ...args) {
       const val = I18N[LANG][key];
@@ -1152,10 +1207,18 @@
         } else {
           line.textContent = raw;
         }
-        if (lineObj.before || lineObj.after) {
-          line.onmouseenter = (e) => showPopup(e, lineObj, line);
-          line.onmouseleave = () => hidePopup(line);
-        }
+          if (lineObj.before || lineObj.after) {
+            if (IS_TOUCH) {
+              line.onclick = (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                showPopup(e, lineObj, line);
+              };
+            } else {
+              line.onmouseenter = (e) => showPopup(e, lineObj, line);
+              line.onmouseleave = () => hidePopup(line);
+            }
+          }
         root.appendChild(line);
       });
       const { need, hidden, shown } = buildStats();
@@ -1247,6 +1310,17 @@
     }
 
     window.addEventListener('mousemove', (e) => {
+      if (IS_TOUCH) return;
+      const popup = document.getElementById('linePopup');
+      if (!popup) return;
+      if (e.target.closest('.code-line')) return;
+      if (e.target.closest('#linePopup')) return;
+      popup.style.display = 'none';
+      document.querySelectorAll('.code-line.is-active').forEach(el => el.classList.remove('is-active'));
+    });
+
+    window.addEventListener('click', (e) => {
+      if (!IS_TOUCH) return;
       const popup = document.getElementById('linePopup');
       if (!popup) return;
       if (e.target.closest('.code-line')) return;
@@ -1265,6 +1339,13 @@ function render() {
       LANG = LANG === 'en' ? 'zh' : 'en';
       applyI18n();
       render();
+    });
+
+    document.getElementById('mobileToggle')?.addEventListener('click', () => {
+      document.body.classList.toggle('sidebar-open');
+    });
+    document.getElementById('mobileOverlay')?.addEventListener('click', () => {
+      document.body.classList.remove('sidebar-open');
     });
 
     applyI18n();

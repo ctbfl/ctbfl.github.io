@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Lean 证明递进演示</title>
+  <title>Lean Proof Progression Demo</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -215,6 +215,7 @@
       border-radius: 6px;
       cursor: pointer;
       white-space: pre;
+      touch-action: manipulation;
     }
     .code-line:hover {
       background: #2b313a;
@@ -1209,11 +1210,13 @@
         }
           if (lineObj.before || lineObj.after) {
             if (IS_TOUCH) {
-              line.onclick = (e) => {
+              const tap = (e) => {
                 e.preventDefault();
                 e.stopPropagation();
                 showPopup(e, lineObj, line);
               };
+              line.onpointerup = tap;
+              line.ontouchend = tap;
             } else {
               line.onmouseenter = (e) => showPopup(e, lineObj, line);
               line.onmouseleave = () => hidePopup(line);
@@ -1319,7 +1322,7 @@
       document.querySelectorAll('.code-line.is-active').forEach(el => el.classList.remove('is-active'));
     });
 
-    window.addEventListener('click', (e) => {
+    window.addEventListener('pointerdown', (e) => {
       if (!IS_TOUCH) return;
       const popup = document.getElementById('linePopup');
       if (!popup) return;

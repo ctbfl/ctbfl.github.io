@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Lean Proof Progression Demo</title>
+  <title>Lean Proof Demo</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -52,16 +52,19 @@
     .mobile-toggle {
       display: none;
       position: fixed;
-      top: 10px;
+      top: 7px;
       left: 10px;
       z-index: 40;
-      border: 1px solid var(--border);
-      background: #21262d;
-      color: var(--text);
+      border: 1px solid #b83a1a;
+      background: #e5532f;
+      color: #fff;
       border-radius: 8px;
       padding: 6px 8px;
       font-size: 14px;
       cursor: pointer;
+    }
+    .mobile-toggle:hover {
+      background: #ff6a44;
     }
     .mobile-overlay {
       display: none;
@@ -1349,6 +1352,10 @@ function render() {
     });
     document.getElementById('mobileOverlay')?.addEventListener('click', () => {
       document.body.classList.remove('sidebar-open');
+    });
+
+    document.getElementById('linePopup')?.addEventListener('click', () => {
+      hidePopup();
     });
 
     applyI18n();

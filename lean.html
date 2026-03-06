@@ -443,12 +443,12 @@
       },
       {
         "text": "    rfl",
-        "before": "d : ℕ\n  hd : 0 + d = d\n  ⊢ 0 = 0",
-        "after": "d : ℕ\n  hd : 0 + d = d\n  ⊢ 0 + succ d = succ d"
+        "before": "Goal:\n  0 = 0",
+        "after": "done"
       },
       {
         "text": "  · rw [add_succ]",
-        "before": "Goal:\n  0 + succ d = succ d",
+        "before": "d : ℕ\n  hd : 0 + d = d\n  ⊢ 0 + succ d = succ d",
         "after": "Goal:\n  succ (0 + d) = succ d"
       },
       {
@@ -491,11 +491,11 @@
       {
         "text": "    rfl",
         "before": "Goal:\n  succ a = succ a",
-        "after": "d : ℕ\n  hd : succ a + d = succ (a + d)\n  ⊢ succ a + succ d = succ (a + succ d)"
+        "after": "done"
       },
       {
         "text": "  · rw [add_succ]",
-        "before": "Goal:\n  succ a + succ d = succ (a + succ d)",
+        "before": "d : ℕ\n  hd : succ a + d = succ (a + d)\n  ⊢ succ a + succ d = succ (a + succ d)",
         "after": "Goal:\n  succ (succ a + d) = succ (a + succ d)"
       },
       {
@@ -595,12 +595,12 @@
       },
       {
         "text": "    rfl",
-        "before": "d : ℕ\n  hd : a + d = d + a\n  ⊢ a = a",
-        "after": "d : ℕ\n  hd : a + d = d + a\n  ⊢ a + succ d = succ d + a"
+        "before": "Goal:\n  a = a",
+        "after": "done"
       },
       {
         "text": "  · rw [add_succ, succ_add, hd]",
-        "before": "Goal:\n  a + succ d = succ d + a",
+        "before": "d : ℕ\n  hd : a + d = d + a\n  ⊢ a + succ d = succ d + a",
         "after": "Step 1 (rw add_succ):\n  succ (a + d) = succ d + a\nStep 2 (rw succ_add):\n  succ (a + d) = succ (d + a)\nStep 3 (rw hd):\n  succ (d + a) = succ (d + a)"
       },
       {
@@ -661,12 +661,12 @@
       },
       {
         "text": "    rfl",
-        "before": "d : ℕ\n  hd : 0 * d = 0\n  ⊢ 0 = 0",
-        "after": "d : ℕ\n  hd : 0 * d = 0\n  ⊢ 0 * succ d = 0"
+        "before": "Goal:\n  0 = 0",
+        "after": "done"
       },
       {
         "text": "  · rw [mul_succ]",
-        "before": "Goal:\n  0 * succ d = 0",
+        "before": "d : ℕ\n  hd : 0 * d = 0\n  ⊢ 0 * succ d = 0",
         "after": "Goal:\n  0 * d + 0 = 0"
       },
       {
@@ -721,11 +721,11 @@
       {
         "text": "    rfl",
         "before": "Goal:\n  0 = 0",
-        "after": "d : ℕ\n  hd : succ a * d = a * d + d\n  ⊢ succ a * succ d = a * succ d + succ d"
+        "after": "done"
       },
       {
         "text": "  · rw [mul_succ]",
-        "before": "Goal:\n  succ a * succ d = a * succ d + succ d",
+        "before": "d : ℕ\n  hd : succ a * d = a * d + d\n  ⊢ succ a * succ d = a * succ d + succ d",
         "after": "Goal:\n  succ a * d + succ a = a * succ d + succ d"
       },
       {
@@ -783,17 +783,17 @@
       },
       {
         "text": "    rw [mul_zero]",
-        "before": "d : ℕ\n  hd : a * d = d * a\n  ⊢ a * 0 = 0",
+        "before": "Goal:\n  a * 0 = 0",
         "after": "Goal:\n  0 = 0"
       },
       {
         "text": "    rfl",
         "before": "Goal:\n  0 = 0",
-        "after": "d : ℕ\n  hd : a * d = d * a\n  ⊢ a * succ d = succ d * a"
+        "after": "done"
       },
       {
         "text": "  · rw [succ_mul]",
-        "before": "Goal:\n  a * succ d = succ d * a",
+        "before": "d : ℕ\n  hd : a * d = d * a\n  ⊢ a * succ d = succ d * a",
         "after": "Goal:\n  a * succ d = d * a + a"
       },
       {

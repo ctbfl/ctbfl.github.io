@@ -10,12 +10,14 @@ d:I[4911,[],"AsyncMetadataOutlet"]
 f:I[9665,[],"ViewportBoundary"]
 11:I[6614,[],""]
 :HL["/_next/static/css/2de9ae202c54d0db.css","style"]
-0:{"P":null,"b":"qRQGLRw_utoeFJHR9JT3Y","p":"","c":["","blog","robotics-related-mathmatics",""],"i":false,"f":[[["",{"children":["blog",{"children":[["postslug","robotics-related-mathmatics","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/2de9ae202c54d0db.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/fav.ico","type":"image/svg+xml"}],["$","link",null,{"rel":"dns-prefetch","href":"https://google-fonts.jialeliu.com"}],["$","link",null,{"rel":"preconnect","href":"https://google-fonts.jialeliu.com","crossOrigin":""}],["$","link",null,{"rel":"preload","as":"style","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Noto+Sans+SC:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"}],["$","link",null,{"suppressHydrationWarning":true,"rel":"stylesheet","id":"gfonts-css","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Noto+Sans+SC:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap","media":"print"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              (function(){\n                var l = document.getElementById('gfonts-css');\n                if (!l) return;\n                if (l.media !== 'all') {\n                  l.addEventListener('load', function(){ try { l.media = 'all'; } catch(e){} });\n                }\n              })();\n            "}}],["$","noscript",null,{"children":["$","link",null,{"rel":"stylesheet","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Noto+Sans+SC:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"}]}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              try {\n                const theme = localStorage.getItem('theme-storage');\n                const parsed = theme ? JSON.parse(theme) : null;\n                const setting = parsed?.state?.theme || 'system';\n                const prefersDark = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;\n                const effective = setting === 'dark' ? 'dark' : (setting === 'light' ? 'light' : (prefersDark ? 'dark' : 'light'));\n                var root = document.documentElement;\n                root.classList.add(effective);\n                root.setAttribute('data-theme', effective);\n              } catch (e) {\n                var root = document.documentElement;\n                root.classList.add('light');\n                root.setAttribute('data-theme', 'light');\n              }\n            "}}]]}],["$","body",null,{"className":"font-sans antialiased","children":["$","$L2",null,{"children":[["$","$L3",null,{"items":[{"title":"About","type":"page","target":"about","href":"/"},{"title":"Publications","type":"page","target":"publications","href":"/publications"},{"title":"Teaching","type":"page","target":"teaching","href":"/teaching"},{"title":"Awards","type":"page","target":"awards","href":"/awards"},{"title":"Services","type":"page","target":"services","href":"/services"},{"title":"Blog","type":"page","target":"blog","href":"/blog"}],"siteTitle":"Junshan Huang","enableOnePageMode":false}],["$","main",null,{"className":"min-h-screen pt-16 lg:pt-20","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L6",null,{"lastUpdated":"April 29, 2026"}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["postslug","robotics-related-mathmatics","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",["$","$L8",null,{"children":"$L9"}],null,["$","$La",null,{"children":["$Lb","$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","tTAIkL_s1MDKuRAd-59Lr",{"children":[["$","$Lf",null,{"children":"$L10"}],null]}],null]}],false]],"m":"$undefined","G":["$11","$undefined"],"s":false,"S":true}
+0:{"P":null,"b":"T236b_UYpZXyo4rnB76c4","p":"","c":["","blog","robotics-related-mathmatics",""],"i":false,"f":[[["",{"children":["blog",{"children":[["postslug","robotics-related-mathmatics","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/2de9ae202c54d0db.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/fav.ico","type":"image/svg+xml"}],["$","link",null,{"rel":"dns-prefetch","href":"https://google-fonts.jialeliu.com"}],["$","link",null,{"rel":"preconnect","href":"https://google-fonts.jialeliu.com","crossOrigin":""}],["$","link",null,{"rel":"preload","as":"style","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Noto+Sans+SC:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"}],["$","link",null,{"suppressHydrationWarning":true,"rel":"stylesheet","id":"gfonts-css","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Noto+Sans+SC:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap","media":"print"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              (function(){\n                var l = document.getElementById('gfonts-css');\n                if (!l) return;\n                if (l.media !== 'all') {\n                  l.addEventListener('load', function(){ try { l.media = 'all'; } catch(e){} });\n                }\n              })();\n            "}}],["$","noscript",null,{"children":["$","link",null,{"rel":"stylesheet","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Noto+Sans+SC:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"}]}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              try {\n                const theme = localStorage.getItem('theme-storage');\n                const parsed = theme ? JSON.parse(theme) : null;\n                const setting = parsed?.state?.theme || 'system';\n                const prefersDark = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;\n                const effective = setting === 'dark' ? 'dark' : (setting === 'light' ? 'light' : (prefersDark ? 'dark' : 'light'));\n                var root = document.documentElement;\n                root.classList.add(effective);\n                root.setAttribute('data-theme', effective);\n              } catch (e) {\n                var root = document.documentElement;\n                root.classList.add('light');\n                root.setAttribute('data-theme', 'light');\n              }\n            "}}]]}],["$","body",null,{"className":"font-sans antialiased","children":["$","$L2",null,{"children":[["$","$L3",null,{"items":[{"title":"About","type":"page","target":"about","href":"/"},{"title":"Publications","type":"page","target":"publications","href":"/publications"},{"title":"Teaching","type":"page","target":"teaching","href":"/teaching"},{"title":"Awards","type":"page","target":"awards","href":"/awards"},{"title":"Services","type":"page","target":"services","href":"/services"},{"title":"Blog","type":"page","target":"blog","href":"/blog"}],"siteTitle":"Junshan Huang","enableOnePageMode":false}],["$","main",null,{"className":"min-h-screen pt-16 lg:pt-20","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L6",null,{"lastUpdated":"April 29, 2026"}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["postslug","robotics-related-mathmatics","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",["$","$L8",null,{"children":"$L9"}],null,["$","$La",null,{"children":["$Lb","$Lc",["$","$Ld",null,{"promise":"$@e"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","CVcv93rypjJcHiRQ77qFx",{"children":[["$","$Lf",null,{"children":"$L10"}],null]}],null]}],false]],"m":"$undefined","G":["$11","$undefined"],"s":false,"S":true}
 12:"$Sreact.suspense"
 13:I[4911,[],"AsyncMetadata"]
-15:I[6868,["330","static/chunks/d3ac728e-598d38ae96b11803.js","711","static/chunks/711-3ac098f4aa3de521.js","513","static/chunks/513-74d6865606fbb15f.js","23","static/chunks/23-6518fcaad6cee602.js","535","static/chunks/app/blog/%5Bpostslug%5D/page-dc5613837d61e80a.js"],"default"]
+15:I[6868,["330","static/chunks/d3ac728e-598d38ae96b11803.js","711","static/chunks/711-3ac098f4aa3de521.js","513","static/chunks/513-74d6865606fbb15f.js","23","static/chunks/23-6518fcaad6cee602.js","535","static/chunks/app/blog/%5Bpostslug%5D/page-bebd6bce9c662e8b.js"],"default"]
 9:["$","$12",null,{"fallback":null,"children":["$","$L13",null,{"promise":"$@14"}]}]
-16:Tc4cf,Junshan Huang
+16:Tc440,Junshan Huang
+
+[TOC]
 
 ## 1. Rigid Body Transformations
 
@@ -23,13 +25,13 @@ f:I[9665,[],"ViewportBoundary"]
 >
 > You are to develop software to pick up objects from a table using a robot arm. Suppose these objects are all cuboids, and the robot’s 2-finger gripper will pick them up by approaching the top surface of the objects from above.
 >
-> For a given object, let the center of its top surface be \((x_0, y_0, z_0)\) and its orientation be \(R_0\) (a rotation matrix), with respect to the world/space coordinate frame. When \(R_0 = I\), the object’s top surface is parallel to the table surface, with the shorter (resp., longer) side of the top surface aligned with the global \(x\) (resp., \(y\)) axis.
+> For a given object, let the center of its top surface be $(x_0, y_0, z_0)$ and its orientation be $R_0$ (a rotation matrix), with respect to the world/space coordinate frame. When $R_0 = I$, the object’s top surface is parallel to the table surface, with the shorter (resp., longer) side of the top surface aligned with the global $x$ (resp., $y$) axis.
 >
-> For the robot gripper, when it points directly at the table surface, its local coordinate frame \(z\)-axis points down, and its \(y\)-axis is parallel to the finger-opening direction. To pick up an object, the robot must first position its gripper’s center \(20cm\) above the object’s top surface, with its local \(z\)-axis pointing in the direction opposite the object’s top surface normal, directly at the center of the object’s top surface. The grippers must be aligned so they can grasp the object from the shorter side. This pose for the gripper is generally called the *pre-grasp pose*.
+> For the robot gripper, when it points directly at the table surface, its local coordinate frame $z$-axis points down, and its $y$-axis is parallel to the finger-opening direction. To pick up an object, the robot must first position its gripper’s center $20cm$ above the object’s top surface, with its local $z$-axis pointing in the direction opposite the object’s top surface normal, directly at the center of the object’s top surface. The grippers must be aligned so they can grasp the object from the shorter side. This pose for the gripper is generally called the *pre-grasp pose*.
 >
-> 1. Compute the rotation, in the form of rotation matrices, that takes \(R_0\) to the properly oriented gripper orientation. Explain your reasoning. There should be at least two such rotations yielding two unique gripper orientations. Represent the rotation also in axis-angle and quaternion notations.
+> 1. Compute the rotation, in the form of rotation matrices, that takes $R_0$ to the properly oriented gripper orientation. Explain your reasoning. There should be at least two such rotations yielding two unique gripper orientations. Represent the rotation also in axis-angle and quaternion notations.
 >
-> 2. Provide the formula that, given \((x_0, y_0, z_0)\) and \(R_0\), computes the pose of the gripper (essentially, its local coordinate frame).
+> 2. Provide the formula that, given $(x_0, y_0, z_0)$ and $R_0$, computes the pose of the gripper (essentially, its local coordinate frame).
 >
 > 3. Let
 >
@@ -50,11 +52,11 @@ f:I[9665,[],"ViewportBoundary"]
 >
 >    compute the possible gripper pre-grasp poses.
 >
-> 4. Knowing the gripper’s pose, is the pose achievable for a UR-5e robot with its base located at \((0, 0, 0)\) and base orientation aligned with the world coordinate frame? The URDF and closed-form inverse kinematics solution for UR-5e can be readily found online. If the pose is reachable, provide all feasible robot configurations.
+> 4. Knowing the gripper’s pose, is the pose achievable for a UR-5e robot with its base located at $(0, 0, 0)$ and base orientation aligned with the world coordinate frame? The URDF and closed-form inverse kinematics solution for UR-5e can be readily found online. If the pose is reachable, provide all feasible robot configurations.
 >
-> 5. Suppose there is a pinhole camera with \(f = 0.5\) mounted at \((1, 0, 1)\) with its \(x\)-axis parallel to the world \(y\)-axis and its \(z\)-axis looking at \((0.4, 0, 0)\). The object mentioned earlier has a top surface dimension of \(10cm \times 20cm\). Give the camera image coordinates for the corners of the object.
+> 5. Suppose there is a pinhole camera with $f = 0.5$ mounted at $(1, 0, 1)$ with its $x$-axis parallel to the world $y$-axis and its $z$-axis looking at $(0.4, 0, 0)$. The object mentioned earlier has a top surface dimension of $10cm \times 20cm$. Give the camera image coordinates for the corners of the object.
 >
-> 6. The camera observes another object with top surface dimension \(8cm \times 16cm\) with corners having image coordinates
+> 6. The camera observes another object with top surface dimension $8cm \times 16cm$ with corners having image coordinates
 >
 >    $$
 >    (-0.0511, -0.0725),\quad
@@ -252,7 +254,7 @@ Finally we got the coordinates for four corners:
 
 ### (5) Calculate the image coordinates of the object corners
 
-We use the OpenCV camera convention: the camera \(x\)-axis points to the right, the camera \(y\)-axis points downward, and the camera \(z\)-axis points forward.
+We use the OpenCV camera convention: the camera $x$-axis points to the right, the camera $y$-axis points downward, and the camera $z$-axis points forward.
 
 The camera center is
 $$
@@ -264,7 +266,7 @@ C=
 \end{bmatrix}.
 $$
 
-Since the camera \(x\)-axis is parallel to the world \(y\)-axis, we have
+Since the camera $x$-axis is parallel to the world $y$-axis, we have
 $$
 \hat{x}_c=
 \begin{bmatrix}
@@ -274,7 +276,7 @@ $$
 \end{bmatrix}.
 $$
 
-The camera \(z\)-axis points from the camera center toward \((0.4,0,0)\), so
+The camera $z$-axis points from the camera center toward $(0.4,0,0)$, so
 $$
 \hat{z}_c
 =
@@ -319,7 +321,7 @@ $$
 \end{bmatrix}.
 $$
 
-Then the camera \(y\)-axis is
+Then the camera $y$-axis is
 $$
 \hat{y}_c=\hat{z}_c\times \hat{x}_c
 =
@@ -384,7 +386,7 @@ b=
 \end{bmatrix}.
 $$
 
-Since the top surface size is \(10\text{ cm}\times 20\text{ cm}=0.1\text{ m}\times 0.2\text{ m}\), the four corners are
+Since the top surface size is $10\text{ cm}\times 20\text{ cm}=0.1\text{ m}\times 0.2\text{ m}$, the four corners are
 $$
 P_{\pm,\pm}=P_c \pm 0.05\,a \pm 0.1\,b.
 $$
@@ -469,12 +471,12 @@ $$
 \end{bmatrix}.
 $$
 
-For a pinhole camera with focal length \(f=0.5\), the image-plane coordinates are obtained by perspective projection:
+For a pinhole camera with focal length $f=0.5$, the image-plane coordinates are obtained by perspective projection:
 $$
 (u,v)=\left(f\frac{x_c}{z_c},\;f\frac{y_c}{z_c}\right).
 $$
 
-Equivalently, we scale each camera-frame point so that its \(z\)-coordinate becomes \(f=0.5\), and then take the corresponding \(x\)- and \(y\)-coordinates.
+Equivalently, we scale each camera-frame point so that its $z$-coordinate becomes $f=0.5$, and then take the corresponding $x$- and $y$-coordinates.
 
 Therefore, the image coordinates of the four corners are
 $$
@@ -490,7 +492,7 @@ $$
 p_{--}\approx(0.08581,\,0.01340).
 $$
 
-Since no pixel scaling parameters such as \(f_x\), \(f_y\), or principal point are given, these are image-plane coordinates rather than pixel coordinates.
+Since no pixel scaling parameters such as $f_x$, $f_y$, or principal point are given, these are image-plane coordinates rather than pixel coordinates.
 
 ### (6) Recover the object's pose in the world coordinate frame
 
@@ -509,7 +511,7 @@ $$
 |CD|\approx 0.07231,\qquad
 |DA|\approx 0.03303.
 $$
-Hence \(AB\) and \(CD\) correspond to the longer \(16\text{ cm}\) edges, while \(BC\) and \(DA\) correspond to the shorter \(8\text{ cm}\) edges.
+Hence $AB$ and $CD$ correspond to the longer $16\text{ cm}$ edges, while $BC$ and $DA$ correspond to the shorter $8\text{ cm}$ edges.
 
 We first recover the 3D corner coordinates in the camera frame
 
@@ -562,7 +564,7 @@ z_D
 \end{bmatrix}.
 $$
 
-Because the top face is a \(0.16\times 0.08\) rectangle, the corner points must satisfy
+Because the top face is a $0.16\times 0.08$ rectangle, the corner points must satisfy
 $$
 \|P_A-P_B\|=0.16,\qquad
 \|P_B-P_C\|=0.08,\qquad
@@ -736,7 +738,7 @@ $$
 
 ## 2. Singularity of Euler angles
 
-> For intrinsic Euler angles \(Z_{\alpha}-Y_{\beta}-Z_{\gamma}\) and \(X_{\alpha}-Z_{\beta}-X_{\gamma}\), provide conditions one per case is sufficient when singularities arise, and write down the corresponding rotation matrices.
+> For intrinsic Euler angles $Z_{\alpha}-Y_{\beta}-Z_{\gamma}$ and $X_{\alpha}-Z_{\beta}-X_{\gamma}$, provide conditions one per case is sufficient when singularities arise, and write down the corresponding rotation matrices.
 
 ### (1) $Z_\alpha-Y_\beta-Z_\gamma$
 
@@ -775,7 +777,7 @@ $$
 
 ## 3. Rigid Body Transformation
 
-> Rotate the triangle \(\triangle v_1 v_2 v_3\)  by \(-\pi/2\) and translate by \((1, 5)\). Provide the transformation matrix and the resulting triangle.
+> Rotate the triangle $\triangle v_1 v_2 v_3$  by $-\pi/2$ and translate by $(1, 5)$. Provide the transformation matrix and the resulting triangle.
 >
 > <img src="/blog/robotics-related-mathmatics/image-20260428232635025.png" alt="image-20260428232635025" style="zoom:50%;" />
 
@@ -812,13 +814,13 @@ $$
 
 > <img src="/blog/robotics-related-mathmatics/image-20260428234552531.png" alt="image-20260428234552531" style="zoom:50%;" />
 >
-> For the chain illustrated in Fig. 2, let \(|OA| = \ell_1\), \(|AB| = \ell_2\), and \(|BC| = \ell_3\).
+> For the chain illustrated in Fig. 2, let $|OA| = \ell_1$, $|AB| = \ell_2$, and $|BC| = \ell_3$.
 >
-> - Compute the coordinates of \(A\), \(B\), and \(C\) in the given global frame (in the form of transformation matrices) as a function of \(\ell_1, \ell_2, \ell_3, \theta_1, \theta_2, \theta_3\).
+> - Compute the coordinates of $A$, $B$, and $C$ in the given global frame (in the form of transformation matrices) as a function of $\ell_1, \ell_2, \ell_3, \theta_1, \theta_2, \theta_3$.
 >
-> - Provide the velocity of \(C\) as a function of \(\ell_1, \ell_2, \ell_3, \theta_1, \theta_2, \theta_3\).
+> - Provide the velocity of $C$ as a function of $\ell_1, \ell_2, \ell_3, \theta_1, \theta_2, \theta_3$.
 >
-> - Let \(\ell_1 = \ell_3 = 2\), \(\ell_2 = 1\), \(\theta_1 = \pi/6\), \(\theta_2 = \pi/3\), and \(\theta_3 = -\pi/3\). Let \(\dot{\theta}_1 = \dot{\theta}_2 = \dot{\theta}_3 = 1\). Give \(C\)'s position and velocity.
+> - Let $\ell_1 = \ell_3 = 2$, $\ell_2 = 1$, $\theta_1 = \pi/6$, $\theta_2 = \pi/3$, and $\theta_3 = -\pi/3$. Let $\dot{\theta}_1 = \dot{\theta}_2 = \dot{\theta}_3 = 1$. Give $C$'s position and velocity.
 
 ### (1) Compute coordinates of A, B, C
 
@@ -925,7 +927,7 @@ $$
 
 > <img src="/blog/robotics-related-mathmatics/image-20260428234711965.png" alt="image-20260428234711965" style="zoom:50%;" />
 >
-> Consider the robot arm in Fig. 3 with three joints at \(x\), \(y\), and \(z\). At the given configuration,
+> Consider the robot arm in Fig. 3 with three joints at $x$, $y$, and $z$. At the given configuration,
 > $$
 > \alpha = \beta = \gamma = 0,
 > $$
@@ -938,7 +940,7 @@ $$
 > $$
 > b = (0,0,0),\quad z = (0,0,1),\quad y = (0,1,1),\quad x = (-1,1,1),\quad e = (-1,1,2).
 > $$
-> Provide the position and Jacobian of \(e\) as a function of \(\alpha, \beta,\) and \(\gamma\). Provide a condition when \(e\) does not have a full range of motion in 3D.
+> Provide the position and Jacobian of $e$ as a function of $\alpha, \beta,$ and $\gamma$. Provide a condition when $e$ does not have a full range of motion in 3D.
 
 We goes one by one, always let every local x axis aligned with next link at default pose.
 $$
@@ -1307,11 +1309,11 @@ The process will looks like
 > 2. Fix the camera both, drive the arm to move the calibration board, and take many pictures of the board on different angle.
 > 3. Let the program compute the camera extrinsic automatically.
 
-For the \(j\)-th calibration point rigidly attached to the end effector, its coordinates in the end-effector frame are known as
+For the $j$-th calibration point rigidly attached to the end effector, its coordinates in the end-effector frame are known as
 $$
 {}^{eef}\mathbf{\tilde P}_{j}.
 $$
-At the \(i\)-th robot pose, forward kinematics gives the known transform
+At the $i$-th robot pose, forward kinematics gives the known transform
 $$
 {}^{World}T_{eef,i}.{}^{World}T_{eef,i}.
 $$
@@ -1363,7 +1365,7 @@ K,D,\,
 \right\|^2.
 $$
 
-After solving for \({}^{Cam}T_{World}\), the camera pose in the world frame is obtained by inversion:
+After solving for ${}^{Cam}T_{World}$, the camera pose in the world frame is obtained by inversion:
 $$
 {}^{World}T_{Cam}
 =
@@ -1681,7 +1683,9 @@ $$
 3\text{-SAT} \le_p \text{Minimum-makespan MPP}.
 $$
 Hence the problem is NP-hard; the verification is polynomial, thus it is NP-Complete.
-17:Tbb3f,Junshan Huang
+17:Tbab0,Junshan Huang
+
+[TOC]
 
 ## 1. 刚体变换
 
@@ -1689,13 +1693,13 @@ Hence the problem is NP-hard; the verification is polynomial, thus it is NP-Comp
 >
 > 你需要开发一个软件，使用机械臂从桌面上抓取物体。假设这些物体都是长方体，并且机器人的二指夹爪会从上方接近物体的上表面来抓取它们。
 >
-> 对于一个给定物体，设其上表面的中心为 \((x_0, y_0, z_0)\)，其姿态为 \(R_0\)（一个旋转矩阵），均相对于世界/空间坐标系给出。当 \(R_0 = I\) 时，物体的上表面与桌面平行，并且上表面的较短边（相应地，较长边）与全局 \(x\) 轴（相应地，\(y\) 轴）对齐。
+> 对于一个给定物体，设其上表面的中心为 $(x_0, y_0, z_0)$，其姿态为 $R_0$（一个旋转矩阵），均相对于世界/空间坐标系给出。当 $R_0 = I$ 时，物体的上表面与桌面平行，并且上表面的较短边（相应地，较长边）与全局 $x$ 轴（相应地，$y$ 轴）对齐。
 >
-> 对于机器人夹爪，当它正对桌面时，其局部坐标系的 \(z\) 轴向下，且其 \(y\) 轴平行于手指张开方向。为了抓取一个物体，机器人必须首先将夹爪中心定位在物体上表面上方 \(20cm\) 处，使其局部 \(z\) 轴指向与物体上表面法向相反的方向，并直接指向物体上表面的中心。夹爪必须对齐，以便它们能够从较短边夹住物体。夹爪的这个位姿通常称为*预抓取位姿*。
+> 对于机器人夹爪，当它正对桌面时，其局部坐标系的 $z$ 轴向下，且其 $y$ 轴平行于手指张开方向。为了抓取一个物体，机器人必须首先将夹爪中心定位在物体上表面上方 $20cm$ 处，使其局部 $z$ 轴指向与物体上表面法向相反的方向，并直接指向物体上表面的中心。夹爪必须对齐，以便它们能够从较短边夹住物体。夹爪的这个位姿通常称为*预抓取位姿*。
 >
-> 1. 以旋转矩阵的形式计算将 \(R_0\) 变换到正确朝向的夹爪姿态的旋转。解释你的推理。应该至少存在两个这样的旋转，产生两个唯一的夹爪姿态。还要用轴角和四元数表示该旋转。
+> 1. 以旋转矩阵的形式计算将 $R_0$ 变换到正确朝向的夹爪姿态的旋转。解释你的推理。应该至少存在两个这样的旋转，产生两个唯一的夹爪姿态。还要用轴角和四元数表示该旋转。
 >
-> 2. 给出一个公式，使其在给定 \((x_0, y_0, z_0)\) 和 \(R_0\) 时，计算夹爪的位姿（本质上就是其局部坐标系）。
+> 2. 给出一个公式，使其在给定 $(x_0, y_0, z_0)$ 和 $R_0$ 时，计算夹爪的位姿（本质上就是其局部坐标系）。
 >
 > 3. 令
 >
@@ -1716,11 +1720,11 @@ Hence the problem is NP-hard; the verification is polynomial, thus it is NP-Comp
 >
 >    计算可能的夹爪预抓取位姿。
 >
-> 4. 已知夹爪位姿，对于基座位于 \((0, 0, 0)\) 且基座姿态与世界坐标系对齐的 UR-5e 机器人，该位姿是否可达？UR-5e 的 URDF 和闭式逆运动学解可以很容易在网上找到。如果该位姿可达，给出所有可行的机器人构型。
+> 4. 已知夹爪位姿，对于基座位于 $(0, 0, 0)$ 且基座姿态与世界坐标系对齐的 UR-5e 机器人，该位姿是否可达？UR-5e 的 URDF 和闭式逆运动学解可以很容易在网上找到。如果该位姿可达，给出所有可行的机器人构型。
 >
-> 5. 假设有一个针孔相机，\(f = 0.5\)，安装在 \((1, 0, 1)\)，其 \(x\) 轴平行于世界 \(y\) 轴，其 \(z\) 轴看向 \((0.4, 0, 0)\)。前面提到的物体上表面尺寸为 \(10cm \times 20cm\)。给出物体角点的相机图像坐标。
+> 5. 假设有一个针孔相机，$f = 0.5$，安装在 $(1, 0, 1)$，其 $x$ 轴平行于世界 $y$ 轴，其 $z$ 轴看向 $(0.4, 0, 0)$。前面提到的物体上表面尺寸为 $10cm \times 20cm$。给出物体角点的相机图像坐标。
 >
-> 6. 相机观察到另一个物体，其上表面尺寸为 \(8cm \times 16cm\)，角点的图像坐标为
+> 6. 相机观察到另一个物体，其上表面尺寸为 $8cm \times 16cm$，角点的图像坐标为
 >
 >    $$
 >    (-0.0511, -0.0725),\quad
@@ -1918,7 +1922,7 @@ $$
 
 ### (5) 计算物体角点的图像坐标
 
-我们使用 OpenCV 相机约定：相机 \(x\) 轴指向右方，相机 \(y\) 轴指向下方，相机 \(z\) 轴指向前方。
+我们使用 OpenCV 相机约定：相机 $x$ 轴指向右方，相机 $y$ 轴指向下方，相机 $z$ 轴指向前方。
 
 相机中心为
 $$
@@ -1930,7 +1934,7 @@ C=
 \end{bmatrix}.
 $$
 
-由于相机 \(x\) 轴平行于世界 \(y\) 轴，我们有
+由于相机 $x$ 轴平行于世界 $y$ 轴，我们有
 $$
 \hat{x}_c=
 \begin{bmatrix}
@@ -1940,7 +1944,7 @@ $$
 \end{bmatrix}.
 $$
 
-相机 \(z\) 轴从相机中心指向 \((0.4,0,0)\)，所以
+相机 $z$ 轴从相机中心指向 $(0.4,0,0)$，所以
 $$
 \hat{z}_c
 =
@@ -1985,7 +1989,7 @@ $$
 \end{bmatrix}.
 $$
 
-于是相机 \(y\) 轴为
+于是相机 $y$ 轴为
 $$
 \hat{y}_c=\hat{z}_c\times \hat{x}_c
 =
@@ -2050,7 +2054,7 @@ b=
 \end{bmatrix}.
 $$
 
-由于上表面尺寸为 \(10\text{ cm}\times 20\text{ cm}=0.1\text{ m}\times 0.2\text{ m}\)，四个角点为
+由于上表面尺寸为 $10\text{ cm}\times 20\text{ cm}=0.1\text{ m}\times 0.2\text{ m}$，四个角点为
 $$
 P_{\pm,\pm}=P_c \pm 0.05\,a \pm 0.1\,b.
 $$
@@ -2135,12 +2139,12 @@ $$
 \end{bmatrix}.
 $$
 
-对于焦距 \(f=0.5\) 的针孔相机，图像平面坐标通过透视投影得到：
+对于焦距 $f=0.5$ 的针孔相机，图像平面坐标通过透视投影得到：
 $$
 (u,v)=\left(f\frac{x_c}{z_c},\;f\frac{y_c}{z_c}\right).
 $$
 
-等价地，我们缩放每个相机坐标系中的点，使其 \(z\) 坐标变为 \(f=0.5\)，然后取对应的 \(x\) 和 \(y\) 坐标。
+等价地，我们缩放每个相机坐标系中的点，使其 $z$ 坐标变为 $f=0.5$，然后取对应的 $x$ 和 $y$ 坐标。
 
 因此，四个角点的图像坐标为
 $$
@@ -2156,7 +2160,7 @@ $$
 p_{--}\approx(0.08581,\,0.01340).
 $$
 
-由于没有给出诸如 \(f_x\)、\(f_y\) 或主点之类的像素缩放参数，所以这些是图像平面坐标而不是像素坐标。
+由于没有给出诸如 $f_x$、$f_y$ 或主点之类的像素缩放参数，所以这些是图像平面坐标而不是像素坐标。
 
 ### (6) 恢复物体在世界坐标系中的位姿
 
@@ -2175,7 +2179,7 @@ $$
 |CD|\approx 0.07231,\qquad
 |DA|\approx 0.03303.
 $$
-因此，\(AB\) 和 \(CD\) 对应较长的 \(16\text{ cm}\) 边，而 \(BC\) 和 \(DA\) 对应较短的 \(8\text{ cm}\) 边。
+因此，$AB$ 和 $CD$ 对应较长的 $16\text{ cm}$ 边，而 $BC$ 和 $DA$ 对应较短的 $8\text{ cm}$ 边。
 
 我们首先恢复相机坐标系中的 3D 角点坐标。
 
@@ -2228,7 +2232,7 @@ z_D
 \end{bmatrix}.
 $$
 
-因为上表面是一个 \(0.16\times 0.08\) 的矩形，所以角点必须满足
+因为上表面是一个 $0.16\times 0.08$ 的矩形，所以角点必须满足
 $$
 \|P_A-P_B\|=0.16,\qquad
 \|P_B-P_C\|=0.08,\qquad
@@ -2402,7 +2406,7 @@ $$
 
 ## 2. 欧拉角奇异性
 
-> 对于内禀欧拉角 \(Z_{\alpha}-Y_{\beta}-Z_{\gamma}\) 和 \(X_{\alpha}-Z_{\beta}-X_{\gamma}\)，分别给出奇异性出现时的条件（每种情况给出一个即可），并写出对应的旋转矩阵。
+> 对于内禀欧拉角 $Z_{\alpha}-Y_{\beta}-Z_{\gamma}$ 和 $X_{\alpha}-Z_{\beta}-X_{\gamma}$，分别给出奇异性出现时的条件（每种情况给出一个即可），并写出对应的旋转矩阵。
 
 ### (1) $Z_\alpha-Y_\beta-Z_\gamma$
 
@@ -2441,7 +2445,7 @@ $$
 
 ## 3. 刚体变换
 
-> 将三角形 \(\triangle v_1 v_2 v_3\)  旋转 \(-\pi/2\)，并平移 \((1, 5)\)。给出变换矩阵和变换后的三角形。
+> 将三角形 $\triangle v_1 v_2 v_3$  旋转 $-\pi/2$，并平移 $(1, 5)$。给出变换矩阵和变换后的三角形。
 >
 > <img src="/blog/robotics-related-mathmatics/image-20260428232635025.png" alt="image-20260428232635025" style="zoom:50%;" />
 
@@ -2478,13 +2482,13 @@ $$
 
 > <img src="/blog/robotics-related-mathmatics/image-20260428234552531.png" alt="image-20260428234552531" style="zoom:50%;" />
 >
-> 对于如图所示的链，令 \(|OA| = \ell_1\)，\(|AB| = \ell_2\)，并且 \(|BC| = \ell_3\)。
+> 对于如图所示的链，令 $|OA| = \ell_1$，$|AB| = \ell_2$，并且 $|BC| = \ell_3$。
 >
-> - 计算 \(A\)、\(B\)、\(C\) 在给定全局坐标系中的坐标（以变换矩阵形式表示），作为 \(\ell_1, \ell_2, \ell_3, \theta_1, \theta_2, \theta_3\) 的函数。
+> - 计算 $A$、$B$、$C$ 在给定全局坐标系中的坐标（以变换矩阵形式表示），作为 $\ell_1, \ell_2, \ell_3, \theta_1, \theta_2, \theta_3$ 的函数。
 >
-> - 给出 \(C\) 的速度，作为 \(\ell_1, \ell_2, \ell_3, \theta_1, \theta_2, \theta_3\) 的函数。
+> - 给出 $C$ 的速度，作为 $\ell_1, \ell_2, \ell_3, \theta_1, \theta_2, \theta_3$ 的函数。
 >
-> - 令 \(\ell_1 = \ell_3 = 2\)，\(\ell_2 = 1\)，\(\theta_1 = \pi/6\)，\(\theta_2 = \pi/3\)，并且 \(\theta_3 = -\pi/3\)。令 \(\dot{\theta}_1 = \dot{\theta}_2 = \dot{\theta}_3 = 1\)。给出 \(C\) 的位置和速度。
+> - 令 $\ell_1 = \ell_3 = 2$，$\ell_2 = 1$，$\theta_1 = \pi/6$，$\theta_2 = \pi/3$，并且 $\theta_3 = -\pi/3$。令 $\dot{\theta}_1 = \dot{\theta}_2 = \dot{\theta}_3 = 1$。给出 $C$ 的位置和速度。
 
 ### (1) 计算 A、B、C 的坐标
 
@@ -2591,7 +2595,7 @@ $$
 
 > <img src="/blog/robotics-related-mathmatics/image-20260428234711965.png" alt="image-20260428234711965" style="zoom:50%;" />
 >
-> 考虑图中的机器人手臂，其三个关节位于 \(x\)、\(y\)、\(z\)。在给定构型下，
+> 考虑图中的机器人手臂，其三个关节位于 $x$、$y$、$z$。在给定构型下，
 > $$
 > \alpha = \beta = \gamma = 0,
 > $$
@@ -2604,7 +2608,7 @@ $$
 > $$
 > b = (0,0,0),\quad z = (0,0,1),\quad y = (0,1,1),\quad x = (-1,1,1),\quad e = (-1,1,2).
 > $$
-> 给出 \(e\) 的位置和雅可比矩阵，作为 \(\alpha, \beta,\) 和 \(\gamma\) 的函数。给出 \(e\) 在 3D 中不具有完整运动范围时的条件。
+> 给出 $e$ 的位置和雅可比矩阵，作为 $\alpha, \beta,$ 和 $\gamma$ 的函数。给出 $e$ 在 3D 中不具有完整运动范围时的条件。
 
 我们逐个进行，始终让每个局部 x 轴在默认位姿下与下一段连杆对齐。
 $$
@@ -2973,11 +2977,11 @@ Hand-to-eye 意味着相机位于机械臂旁边，并且可以看到机械臂�
 > 2. 固定相机两者，驱动机械臂移动标定板，并从不同角度拍摄许多标定板照片。
 > 3. 让程序自动计算相机外参。
 
-对于刚性连接到末端执行器的第 \(j\) 个标定点，其在末端执行器坐标系中的坐标已知为
+对于刚性连接到末端执行器的第 $j$ 个标定点，其在末端执行器坐标系中的坐标已知为
 $$
 {}^{eef}\mathbf{\tilde P}_{j}.
 $$
-在第 \(i\) 个机器人位姿下，正运动学给出已知变换
+在第 $i$ 个机器人位姿下，正运动学给出已知变换
 $$
 {}^{World}T_{eef,i}.{}^{World}T_{eef,i}.
 $$
@@ -3029,7 +3033,7 @@ K,D,\,
 \right\|^2.
 $$
 
-求解出 \({}^{Cam}T_{World}\) 后，通过求逆得到相机在世界坐标系中的位姿：
+求解出 ${}^{Cam}T_{World}$ 后，通过求逆得到相机在世界坐标系中的位姿：
 $$
 {}^{World}T_{Cam}
 =
